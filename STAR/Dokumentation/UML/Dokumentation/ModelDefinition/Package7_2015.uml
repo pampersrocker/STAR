@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8f076d9c-cac6-4cdc-ba16-7868ed7e9f3e"
+  name="Input"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5c240407-1a29-449b-9936-61321f1f1e6b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Star.Input"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="0d2cc7e7-e8cf-4e96-95eb-104a33dc3a9f"
+        name="Inputhandler"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7ac1fac9-854c-4c74-b3b2-2a5a0485e877"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Input Type=Inputhandler"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4b609108-d850-48aa-b57e-9c2544e49681"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="28a1b756-39fd-47f0-b67f-865d0c00cf89">
+                <propertyInstance
+                  Id="21ca2c47-4ccd-4840-b41c-74e28276e5fe"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce041985-5544-4471-96fe-c4f6bfbffd03">
+                <propertyInstance
+                  Id="75468ef1-b899-454c-9eb2-6e28afccc93e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="31d3b2af-3e45-4c67-a4fb-8d15667a6a8c">
+                <propertyInstance
+                  Id="9025775c-e2a8-445e-96d3-b7c0318895b5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="86bf38e7-2682-4a26-a366-0433a8381454">
+                <propertyInstance
+                  Id="57e4d4be-41e4-4807-8bfc-b31a6edd2b8c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="246bceef-8842-46c7-9329-07e458c57a1e">
+                <propertyInstance
+                  Id="bbbc9580-b18e-4683-acfa-4d27ed79f4a6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="28c81491-b827-4685-bdf7-1102e87778d0"
+        name="RunDirection"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="7be87ad8-979c-45dc-8561-e589529a46d9"
+            handle="viewcode://./CodeSchema_Enum?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Input Type=RunDirection"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6a0332bb-66d0-4739-9c94-a3cb943d8d62"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="38cd6fa7-f975-417f-a8a7-4ef70ef7bc26">
+                <propertyInstance
+                  Id="d7ca2bb9-06ab-4be2-a983-67482b4e0507"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b90a0256-f096-4b94-85c8-2f95801b4974">
+                <propertyInstance
+                  Id="0117e6db-965b-48da-91ee-f5d7e384d761"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9692eef5-54ab-4502-87a3-2912c122fea7">
+                <propertyInstance
+                  Id="a1b6f0cf-d4a5-428a-9e70-905ff6ebb130"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="e0c345f5-b14a-4d60-96ce-ba92dc0baa70"
+        name="MenuKeys"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="b51c4359-4a03-4de8-919b-6728561d4c60"
+            handle="viewcode://./CodeSchema_Enum?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Input Type=MenuKeys"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cac317eb-861a-47d9-b0ed-84769d2acc88"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3273f4e8-b2cc-4441-b419-0f11048d70c5">
+                <propertyInstance
+                  Id="8174cd02-60a7-43ab-b685-95e81ed833e2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2bc7fd71-7061-4ea7-90ac-33c157b9c9db">
+                <propertyInstance
+                  Id="9a638899-ca10-41c6-93b6-8f45b6af7c74"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d782151-9bb9-4198-9786-f036e8ad6212">
+                <propertyInstance
+                  Id="aa4b673b-d548-4cde-a195-a3199d22442d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="b9a32970-856c-42d7-bed2-d00a1f50e6a3"
+        name="InputKeys"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="7debb7a4-25e7-4e73-88d4-40e835b31614"
+            handle="viewcode://./CodeSchema_Enum?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Input Type=InputKeys"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="35f5c2ed-3ae9-4990-8c65-8b5a363d68c5"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c61ce577-11c0-48af-a1db-7c21548b2e67">
+                <propertyInstance
+                  Id="8e1a6b4a-97db-4b62-a96a-1f9b1f3df37c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6ddae590-1fea-43b2-a985-2534b0e7de6d">
+                <propertyInstance
+                  Id="56830fcd-6eb9-48a2-9edf-8dcd4a9896dd"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b4f5ef04-8d47-4a36-b8e3-5116cb67f2cc">
+                <propertyInstance
+                  Id="f6f021e6-c037-443a-b70d-5852af702910"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

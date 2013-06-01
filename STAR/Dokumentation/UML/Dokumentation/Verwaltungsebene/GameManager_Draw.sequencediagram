@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="59fb2bd8-8558-4009-b6b7-eba5056779c6" name="GameManager_Draw" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="ccaf5270-1d5d-46ec-a1f2-ccbdc40e4253" name="GameManager_Draw" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="92f1c425-7e99-4f1a-a9cb-d55909f1bd02" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="016c2895-188e-4f1d-a0ab-07221718de55" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="89634a2f-269a-4eba-864d-705e93d81cc9" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="8d150708-ca58-48e0-aff9-c3e85b869067" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="75bf8728-458f-48a8-a00d-00578b8a30e0" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="08c8cee7-164a-43f6-8bbf-c004f447732a" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="92069572-a315-481e-9950-9645cc620350" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="a6dba5dd-53a5-4dd0-b6a9-8bdfb4c8e346" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="06f07d3f-ef1c-4990-8224-c3e2f0564743" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="8bb0e27d-6951-4e15-9bbc-fd559f79268d" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="ac2e14da-b94a-48eb-93b9-c6e6270bfba1" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="f54287d1-dd89-4383-abcb-379583f61f43" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="f6aeb084-8129-4bd2-a6f4-7c5008c5c135" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="39dcdcc7-4e91-4805-accd-5f5d749ff881" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="e6d8e7b5-49a9-4527-9d73-a55e470ce64d" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="02b0f906-bef3-4e82-bd8d-9b0138fd40e6" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="18ceb5c0-c97e-4fbb-b7d4-b456f1a09f48" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="901299f9-62f6-4c34-a290-adca5e810451" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="3b1e23a4-ec2a-41a7-8417-8b9a34d6ed00" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="ff098af2-1f3d-4490-8a7e-ebfe61cd371b" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="55456496-d9ae-4c73-90c2-0f402a4d2a71" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="682e5535-4cfb-462a-9e58-1a2cb525b8fc" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="f72a0794-d0eb-430d-be70-7702197d4f2f" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="0ca18331-26b7-4b04-a7d8-10fe30d052cb" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="0a66654f-ea2e-491f-ae90-ee19d0944e51" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="eb5b7853-ae2e-4fb8-8306-6c338aaa8529" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="06057eec-483f-47d6-bf34-159a894afbcf" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="00754b01-f60d-4276-a95a-af3b541fc5dd" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="6b9935b3-9624-4f1b-8227-964bcc366ac2" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="efcf2e1a-cd01-4394-becf-814833a53e5f" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="c139c15f-de39-428b-a2e8-9a11b5371b87" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="e5e8395f-fb32-4b8d-9a41-d2056a873f69" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="6dec7596-30b5-4567-91f6-783ef0fde312" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="89634a2f-269a-4eba-864d-705e93d81cc9" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="b0616722-b278-41cb-a9a1-d100f20821bd" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="1fe28488-8804-42b5-8936-9640b0c20df9" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="8d150708-ca58-48e0-aff9-c3e85b869067" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <combinedFragment Id="b1c9122f-77bd-40bb-9288-f8fb65d7574d" name="CombinedFragment1" interactionOperator="Opt" customInteractionOperator="If">
+            <coveredLifelines>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="4f3329ae-2337-47df-b2be-67b9812bf0fb" name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+                </coveredLifelines>
+                <fragments>
+                  <combinedFragment Id="928c2809-accc-4ced-9bd3-fa44a5dab405" name="CombinedFragment1" interactionOperator="Alt" customInteractionOperator="Switch">
+                    <coveredLifelines>
+                      <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+                    </coveredLifelines>
+                    <operands>
+                      <interactionOperand Id="9e7df184-a84a-4dbd-9902-bc1b74e076d6" name="InteractionOperand2">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint Id="c80a1fca-0c60-4a91-ad3b-ccfbb0f7a46b" guardText="case 2:" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="a6dba5dd-53a5-4dd0-b6a9-8bdfb4c8e346" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="8bb0e27d-6951-4e15-9bbc-fd559f79268d" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                      <interactionOperand Id="76897a65-5bc2-4090-8d3e-61fe12d091c7" name="InteractionOperand3">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint Id="2c79886a-0420-4322-a5c8-f70447623346" guardText="case 3:" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="ac2e14da-b94a-48eb-93b9-c6e6270bfba1" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="f6aeb084-8129-4bd2-a6f4-7c5008c5c135" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                      <interactionOperand Id="20984c8c-8d95-40fd-8bdd-6aa10ebded9e" name="InteractionOperand4">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint Id="50094b19-938c-4673-bda0-94fc55f18a72" guardText="case 1:" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="39dcdcc7-4e91-4805-accd-5f5d749ff881" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="02b0f906-bef3-4e82-bd8d-9b0138fd40e6" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                    </operands>
+                  </combinedFragment>
+                </fragments>
+                <guard>
+                  <interactionConstraint Id="1b32380a-0d6a-4b32-8785-d29ed11663e1" guardText="if (!drawnOldState)" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="75bf8728-458f-48a8-a00d-00578b8a30e0" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="18ceb5c0-c97e-4fbb-b7d4-b456f1a09f48" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="75bf8728-458f-48a8-a00d-00578b8a30e0" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="08c8cee7-164a-43f6-8bbf-c004f447732a" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="4c4d4797-1d0e-4012-ba2f-0cbec48c0b93" name="LostFoundTarget" />
+          <lostFoundTarget Id="43cb8bfe-084e-459e-99d9-0d2172789905" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="92069572-a315-481e-9950-9645cc620350" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="a6dba5dd-53a5-4dd0-b6a9-8bdfb4c8e346" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <lostFoundTarget Id="0438ba8a-fe4d-4a2c-b489-43097ccabd23" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="06f07d3f-ef1c-4990-8224-c3e2f0564743" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="8bb0e27d-6951-4e15-9bbc-fd559f79268d" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="ac2e14da-b94a-48eb-93b9-c6e6270bfba1" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f54287d1-dd89-4383-abcb-379583f61f43" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="d4321ca0-e1f4-49f9-a34a-f3e23de2cd75" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="f6aeb084-8129-4bd2-a6f4-7c5008c5c135" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="39dcdcc7-4e91-4805-accd-5f5d749ff881" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <lostFoundTarget Id="d8fe5d7c-f82a-4a64-92bd-01a58ed5d5e6" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="e6d8e7b5-49a9-4527-9d73-a55e470ce64d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="02b0f906-bef3-4e82-bd8d-9b0138fd40e6" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="18ceb5c0-c97e-4fbb-b7d4-b456f1a09f48" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="901299f9-62f6-4c34-a290-adca5e810451" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="11f312e7-1362-496a-bbfb-b7e05ec2b4ff" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="3b1e23a4-ec2a-41a7-8417-8b9a34d6ed00" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="dd631d36-2551-4744-a66e-7df8da05bfc9" name="LostFoundTarget" />
+          <combinedFragment Id="d5217691-5776-4d28-982e-0f8fc0698d2c" name="CombinedFragment2" interactionOperator="Alt" customInteractionOperator="Switch">
+            <coveredLifelines>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="bd5194f8-2694-4b88-ac98-64b35c5b2479" name="InteractionOperand2">
+                <coveredLifelines>
+                  <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="9163da72-2b3e-43b4-b029-51df307734c8" guardText="case 2:" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="ff098af2-1f3d-4490-8a7e-ebfe61cd371b" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="682e5535-4cfb-462a-9e58-1a2cb525b8fc" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand Id="e818693c-ddc8-4be9-b2cb-e80f7da96762" name="InteractionOperand3">
+                <coveredLifelines>
+                  <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="ae2ebc20-4405-4c24-b937-7a5905eeb74e" guardText="case 3:" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="f72a0794-d0eb-430d-be70-7702197d4f2f" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="0a66654f-ea2e-491f-ae90-ee19d0944e51" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand Id="ba028308-dc61-4f82-91ee-0d21699c6d1b" name="InteractionOperand4">
+                <coveredLifelines>
+                  <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="7189c001-187a-422d-bc75-01d87453853f" guardText="case 1:" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="eb5b7853-ae2e-4fb8-8306-6c338aaa8529" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="00754b01-f60d-4276-a95a-af3b541fc5dd" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="ff098af2-1f3d-4490-8a7e-ebfe61cd371b" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <lostFoundTarget Id="e56831a2-0ed1-48ac-a85f-a34f85414b25" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="55456496-d9ae-4c73-90c2-0f402a4d2a71" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="682e5535-4cfb-462a-9e58-1a2cb525b8fc" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="f72a0794-d0eb-430d-be70-7702197d4f2f" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="0ca18331-26b7-4b04-a7d8-10fe30d052cb" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="842a5124-24e7-4119-91f7-5452e935dea0" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="0a66654f-ea2e-491f-ae90-ee19d0944e51" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="eb5b7853-ae2e-4fb8-8306-6c338aaa8529" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="06057eec-483f-47d6-bf34-159a894afbcf" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="a6aa56ad-383e-4842-b8e5-9c063f03669c" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="00754b01-f60d-4276-a95a-af3b541fc5dd" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6b9935b3-9624-4f1b-8227-964bcc366ac2" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="0663a094-6634-472f-9b0b-b34e4bb1f032" name="LostFoundTarget" />
+          <lostFoundTarget Id="e5ce08d8-ba31-4e07-8819-c9514e65006d" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="efcf2e1a-cd01-4394-becf-814833a53e5f" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="4afe4264-cf86-4549-85de-3bac009d281c" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="c139c15f-de39-428b-a2e8-9a11b5371b87" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="41360891-ff4f-4d3b-8e49-062b2286238a" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="e5e8395f-fb32-4b8d-9a41-d2056a873f69" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="4fcc471c-9264-4d77-9de8-e0bf5a679c33" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="6dec7596-30b5-4567-91f6-783ef0fde312" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="016c2895-188e-4f1d-a0ab-07221718de55" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="9d51b046-618d-4153-840e-68e954b5d081" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" LastKnownName="this : GameManager" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="12a0fbe9-2191-4dac-b1f1-fb38404a1cbe" name="this : GameManager" isActor="false" lifelineDisplayName="this : GameManager" referencedInstance="(Assembly=&quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&quot; Namespace=Star.GameManagement Type=GameManager ObjectInstance=&quot;Object instance 3&quot;)" referencedType="Star.GameManagement.GameManager">
+            <referencesInternal>
+              <reference Id="ad848214-c0a7-4901-ae21-c7e84076ab82" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Star.GameManagement)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement Type=GameManager)&quot;)" tag="DGQL" />
+              <reference Id="9f3d70d4-8183-4a99-acee-3ea85ce9c22e" handle="(Assembly=&quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&quot; Namespace=Star.GameManagement Type=GameManager)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="89634a2f-269a-4eba-864d-705e93d81cc9" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="016c2895-188e-4f1d-a0ab-07221718de55" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="eb12f2bb-7ebb-4b71-93ed-d979c69faa14" name="Draw" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="0dcb7b04-495f-40dd-b358-353c086e70f3" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Star.GameManagement)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement Type=GameManager)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=Draw OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))&quot;)" tag="DGQL" />
+              <reference Id="9eaeaa65-58ce-4d29-bd5f-0d4ecd5957a1" handle="(Assembly=&quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="1fe28488-8804-42b5-8936-9640b0c20df9" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="8d150708-ca58-48e0-aff9-c3e85b869067" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="67277828-5be2-4e2e-bf85-ea26e17c500a" name="SetRenderTarget" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="3e782643-f799-42c2-bd4c-f82696278adf" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Microsoft.Xna.Framework.Graphics)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice Member=(Name=SetRenderTarget OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=RenderTarget2D)]))&quot;)" tag="DGQL" />
+              <reference Id="763184d9-16fb-4f20-a14d-6fc2f1170b0a" handle="(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice Member=(Name=SetRenderTarget OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=RenderTarget2D)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX58RLU1vn/0aT5n+V9TmS6INvi8Jp4yojtFcEC0yboHWLX/f0Fvf+5rzIZS9UIgpzb60auj3LaXcHZ6rgmiAtg39/5xH+XsT1sf0nfxM7VhTptOaMa7o+8tfY58ohrnBDJwzzqDUlPu5+2t8l0c2o7ZX/LeZr36fY+oLVBx7XHpF39XEF25OxgQLnHzzfL5fD7F5fUMQ8PPOrzH60Qz8kGcA365YP03p7af06SX/3pW2O7/G9+n/qUovZMZIKuRml2YO/9/Tn/I73vjI6+8FYTCjnx+m/f7/Ndch/X+25rzf0225IJxB2DfM/QXDvbYzeaIzKxYH85n9Gr8/fVr+GrATDcN4Tr9DV5f8xqY+0fqMPjum8VT0/2uCV7Fdw5vPfg3Y2IbbwbqeUYuGuVLm50fW9UfW9f+98v7D1O0/sq4/1zPwI+v6czvXP7Kucev6JbWFrZpSf137aXq9r7ihvxVjlDFWYU9v6LO1QoXN/vavAeu1CnoI28Fmm0gYlLrLn9zt4SGfdmNn/+3U/vZ7Uftr7udHXP//fq7f5Fu8/jXgM4BCS+b5mr2umvUkqP0jj+PD5ujnhhuG5nOP+MLYvv4cnvEbsIIFz5RwSz0A647qoB9Zv/83zfyP9MCPuOHnQg/8yCu+7fz8v5ETfna84iGOMb7rj/JN/+/JN1WE18yLh38k4V9f7n7+SHir0eJ4I//gvdtEwJ8qlpsjYF8//OzEwH7sCxkFRW9ed/5/AgAA//9UX0Uzoh4AAA==
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=(Name=Draw OverloadingParameters=[(Assembly="$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll" Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly="$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll" Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]) Statement=[1,1,2,1,1,2] ObjectInstance="Object instance 5")
+GraphicsDevice : GraphicsDevice
+graphics.GraphicsDevice.SetRenderTarget(oldStateTarget)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="08c8cee7-164a-43f6-8bbf-c004f447732a" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="4c4d4797-1d0e-4012-ba2f-0cbec48c0b93" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="4407a00d-526b-4dc3-aa1c-1abf6e1151c8" name="Clear" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="8f0ba365-d330-49fb-ab4b-a7e926bfd01e" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Microsoft.Xna.Framework.Graphics)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice Member=(Name=Clear OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=Color)]))&quot;)" tag="DGQL" />
+              <reference Id="262c79d7-1f20-4113-856f-e124877cb062" handle="(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice Member=(Name=Clear OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Color)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX58RLU1vn/0aT5n+V9TmS6INvi8Jp4yojtFcEC0yboHWLX/f0Fvf+5rzIZS9UIgpzb60auj3LaXcHZ6rgmiAtg39/5xH+XsT1sf0nfxM7VhTptOaMa7o+8tfY58ohrnBDJwzzqDUlPu5+2t8l0c2o7ZX/LeZr36fY+oLVBx7XHpF39XEF25OxgQLnHzzfL5fD7F5fUMQ8PPOrzH60Qz8kGcA365YP03p7af06SX/3pW2O7/G9+n/qUovZMZIKuRml2YO/9/Tn/I73vjI6+8FYTCjnx+m/f7/Ndch/X+25rzf0225IJxB2DfM/QXDvbYzeaIzKxYH85n9Gr8/fVr+GrATDcN4Tr9DV5f8xqY+0fqMPjum8VT0/2uCV7Fdw5vPfg3Y2IbbwbqeUYuGuVLm50fW9UfW9f+98v7D1O0/sq4/1zPwI+v6czvXP7Kucev6JbWFrZpSf137aXq9r7ihvxVjlDFWYU9v6LO1QoXN/vavAeu1CnoI28Fmm0gYlLrLn9zt4SGfdmNn/+3U/vZ7Uftr7udHXP//fq7f5FucMN3BaT/yLt53Pn525tmfVWiikj83Fqs/G9AfYrsKprnM8dR7U3TFj6zUj+T15/fM/+zM88+OvP7Iy/x/xyx+fX8R1IEPBo+s7zG6+Tae3I+yLz/Kvvz/S1J/uLG/fPej7MvP3QwMezQfkn1xWZgfZWB+PtpGyWxszp08VFw25058W/qzkz0xLeWv1zzPBfda/Bo/oL9mTCfMkaPy0a/x/wQAAP//xfz1cdwgAAA=
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=(Name=Draw OverloadingParameters=[(Assembly="$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll" Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly="$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll" Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]) Statement=[1,1,2,1,1,2] ObjectInstance="Object instance 5")
+GraphicsDevice : GraphicsDevice
+graphics.GraphicsDevice.Clear(Color.Transparent)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="92069572-a315-481e-9950-9645cc620350" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="43cb8bfe-084e-459e-99d9-0d2172789905" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="9161ecd4-5594-43d0-b5ea-ee5e11252f78" name="Draw" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="3689c85f-43a8-4d10-babf-3554606c92fb" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Star.GameManagement.Gamestates)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement.Gamestates Type=SGame)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement.Gamestates Type=SGame Member=(Name=Draw OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))&quot;)" tag="DGQL" />
+              <reference Id="c8adbace-442e-4fcd-a08b-61177aa12e64" handle="(Assembly=&quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&quot; Namespace=Star.GameManagement.Gamestates Type=SGame Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX5/Rp9LqDtHVvf2CcJnRzx9R/CaKu28bbt/yb/48vLYtQhqfaOsLwqKmzwytT5T2QhX0lP0avz99WvJYGobxnH7HDJb8RquSMraziTZn9Mkx4VjR/6/p04opjvbPWN4abgdJO6MWgv2Sx/4jSbt53n8kaT9siv+/V9K+pBag4pS+78qS6Wv317inOKGfFWOSMTZhD75sigx/m2m7CnpByzf09prbQYaNlQRF7vInd3u4yKddu+q/ndrffi9qf839/IgjvwmO7GqDLdvvZ7/GU+aFK+akS/6+JOwy4hyM64KoknELtG75e+jx733NmREaXyjElDhOWgHzLaXhHZ61gqiBtg39/5y54/cmrI/pO/mZeqMDxdaMcUXfX/4a+0QdzBLm4pxxzpULwRHf5ZHNqO0V/21mrt/nmPoC3ceed3jF0vPWo/+YYMGDvHlm36+HmJZ/QxBEx4x+NAPUPz5bsU6Z/hrQjD87M9HvKZSz1a+BqALS8YQlEVrlRzP0w5eRcI6e0qeX/HvXO7rza3yf/p9GdBsspujXgmcn9J7wqbPwP/KafmSjfiR/P7JR72c5frZm4kc26uvP0A9TRn64NuqbjfR/NOu372GzZvzZyRB0ecBE8T/KxP1seTjvn4n7kV/z/33p/ZHV/GHPwI+s5s/HWe/K3Q/Pat4uqy74/Fzn1E3LH+XSN1vxYSv+ozzFz2+98iN7/qM8xf8XZuiHKSM/Wx5X483wxJthsY4f4mf9yFL9yFL9/00Kf2SpbrYfP1sz8SNL9fVn6IcpIz8XlupHGYLbyszPFg98Pen82ckgxDnFxPvHv8aPsu8/O97Q+2fffyTTP5Lp28l0yzhgrMPSfbss4b5i+KM84f/X9c2Poq+fe030w/Qs5bsfRV//37EFP5qhH7aMhHP09Nf4pqKviw7kH2UIf2SjfiR/P7JRN9PnRzbq/wsz9MOUEZmjH5aN+lEe4f9rs/6zk0HocoeJ63+UD/zZ8n3ePx/4I4/n/3ty/SOP5+d6Bm6vWX9kT38+zvoPz57eJgO/p/j8bOfff3by6j/i19v38PX4tesTbHrzm8hC/WhGb9/DD2tGf2Rjbpvh+Nma6c25lNvP4Ddnbzb1aWzEj2K5H8Vy/3+T9x+mRpfvfhTL/dzNwG1tqonlRHohM0ZSITe7NHP4/57+lN+//yPreuNc/8i6xq3rbSK7+4rb5sjOxWtfL65LaV7xyd0eHvKpaRn+1bzHO6+Zv4pfA15D8Wv8gP6aMaXBCW4uj36N/ycAAP//hDCfd8JYAAA=
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=game ObjectInstance="Object instance 13")
+this.game : SGame
+game.Draw(gametime, spritebatch, graphics)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="06f07d3f-ef1c-4990-8224-c3e2f0564743" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="0438ba8a-fe4d-4a2c-b489-43097ccabd23" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="b0ecab69-3472-419a-8c33-51c1cdbbedf8" name="Draw" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="d28a8ea7-1b2d-4922-850a-f48917434d63" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Star.GameManagement.Gamestates)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement.Gamestates Type=SLoadingScreen)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement.Gamestates Type=SLoadingScreen Member=(Name=Draw OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))&quot;)" tag="DGQL" />
+              <reference Id="cdfed4e8-f5f4-420a-a58e-05aa5bca0db5" handle="(Assembly=&quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&quot; Namespace=Star.GameManagement.Gamestates Type=SLoadingScreen Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX58RVhV9N2N8L5gGNX0DaHeI0g7eC2o3o58/moOb5sB923D7ln/zZ+b1r/E8oPrrQaqf6PsX1L6mzwz1T3Q2hE7oO/s1fn/6tOTRNQzjOf2OWS75jValabxhxvHWGX1yTL9X9P9rglvxrADCM5ZS0O4jls8zaiEjXDJ9fiSfN/PGj+Tz534O/r8tn1/SO6D0lN7oSqDpfffXeKBYoucV45YxfmGfvkSL5H+b6b8KekHLN/T2mttB8o1FBtXu8id3e7jIp10b7r+d2t9+L2p/zf38iGt/dri2q1W2LCaf/RpPmTuumLcu+fuQA18ydtK65e9hD773NedKqH6hEFPiQWmFsWwpVe/wPBaMf0XfVAQL/PJ7E9bH9J38TC1FUqbhmjGu6PvLX2Of6IV5w+ycM8658iV45Ls8shm1veK/zVz2+xxTX5iJseebXrE8vfVmZEyw4L/ePNfv10PMWrwhCPh559cY/WgGqH98tmItM/01oD1/dmai31MoeatfAzENpOMJyyb0zI9m6IcvI+EcPaVPL/n3rpd159f4Pv0/jeg22FDRuAXPjujLC9vGSJ9YzB/5Wj+yWj+SyB9Zrfehz4+s1v8XZuiHKSM/XKv1zWYMfjTrt+9hs2b82ckrdHnARPrHv8aPcnw/Oz7P++f4fuTX/H9fen9kNX/YM/Ajq/nzcda7cvfDs5q3y7wLPj/XeXfT8v9t+fb/71jxH2UufqRpQk3zIwv/o8zF/xdm6IcpIz9bPljjzfDEm2Gxlx/ief18iEB/ZLt+vsvlj2zXzRblZ2smfmS7vv4M/TBl5OfCdv0oi3BbmfnZ4oGvJ50/O1mGOKeYnMDxr/GjDP3Pjn/0/hn6H8n0j2T6djLdMg4Y67B03y6TeKAY/iiX+P91ffOjeOz/jbrph+lrync/isf+v2MdfjRDP2wZCefo6a/xTcVjFx3IP8oi/shq/UgibyORP7JaN9uSn62Z+P+n1frhzNAPU0Z+uFbrR7mG/6/N+s9OlqHLHSb2/1HO8GfLG3r/nOGPPJ7/78n1jzyen+sZuL1m/ZE9/fk46z88e3qbLP2e4vOznaP/2cm9/4hfb9/D1+PXrk+w6c1vIi/1oxm9fQ8/rBn9kY25bYbjZ2umN+dSbj+D35y92dSnsRE/iuV+FMv9/03ef5gaXb77USz3czcDt7WpJpYT6YXMGEmF3OzSzOH/e/pTfv/+j6zrjXP9I+sat663iezuK26bIzsXr329uC6lecUnd3t4yKemZfhX8x7vvGb+Kn4NeA3Fr/ED+mvGlAYnuLk8+jX+nwAAAP//IcmS55pZAAA=
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=loadingscreen ObjectInstance="Object instance 17")
+this.loadingscreen : SLoadingScreen
+loadingscreen.Draw(gametime, spritebatch, graphics)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="f54287d1-dd89-4383-abcb-379583f61f43" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="d4321ca0-e1f4-49f9-a34a-f3e23de2cd75" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="ad0f44c0-a4b7-47b9-a3ae-98342af8421f" name="Draw" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="c487e2c5-814c-4f1b-8d92-1d73b7c203d0" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Star.GameManagement.Gamestates)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement.Gamestates Type=SMenu)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement.Gamestates Type=SMenu Member=(Name=Draw OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))&quot;)" tag="DGQL" />
+              <reference Id="a76fc554-f0dc-44dc-8fda-00dd15ab4171" handle="(Assembly=&quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&quot; Namespace=Star.GameManagement.Gamestates Type=SMenu Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX5/pm+tf4w7R1b39gnCZ0c8fUfwmirtvG27f8m/+PLxmivdpfKKtLwiLmj4ztD5R2gtV0FP2a/z+9GnJY2kYxnP6HTNY8hutSsrYzibanNEnx/RXRf+/pm8qpjjaP2N5A10+Ykk7oxaC/ZLH/iNJu3nefyRpP2yK/79X0r6kFqDilL7vypLpa4/oKDihnxVjkjE2YQ++bIoMf5tpuwp6Qcs39Paa20GGjZUERe7yJ3d7uMinXbvqv53a334van/N/fyII78Jjuxqgy3b72e/xlPmhSvmpEv+viTsMuIcjOuCqJJxC7Ru+Xvo8e99zZkRGl8oxJQ4TloB8y2l4R2etYKogbYN/f+cueP3JqyP6Tv5mdrxp0yxNWNc0feXv8Y+UQezhLk4Z5xz5UJwxHd5ZDNqe8V/m5nr9zmmvkD3secdXrH0vPXoPyZY8CBvntn36yGm5d8QBPy882uMfjQD1D8+W7FOmf4a0Iw/OzPR7ymUs9WvgagC0vGEJRFa5Ucz9MOXkXCOntKnl/x71zu682t8n/6fRnQbLKbo14JnR/TlhW1jpE/s44+8ph/ZqB/J349s1PtYjp+tmfiRjfr6M/TDlJEfro36ZiP9H8367XvYrBl/djIEXR4wUfyPMnE/Wx7O+2fifuTX/H9fen9kNX/YM/Ajq/nzcda7cvfDs5q3yar/vyWnblr+KJe+2YoPW/Ef5Sl+fuuVH9nzH+Up/r8wQz9MGfnZ8rgab4Yn3gyLdfwQP+tHlupHlur/b1L4I0t1s/342ZqJH1mqrz9DP0wZ+bmwVD/KENxWZn62eODrSefPTgYhzikm3j/+NX6Uff/Z8YbeP/v+I5n+kUzfTqZbxgFjHZbu22QJ9+g/wfBHecL/r+ubH0VfP/ea6IfpWcp3P4q+/r9jC340Qz9sGQnn6Omv8U1FXxcdyD/KEP7IRv1I/n5ko26mz49s1P8XZuiHKSMyRz8sG/WjPML/12b9ZyeD0OUOE9f/KB/4s+X7vH8+8Ecez//35PpHHs/P9QzcXrP+yJ7+fJz1H549vV0GXvD52c6//+zk1X/Er7fv4evxa9cn2PTmN5GF+tGM3r6HH9aM/sjG3DbD8bM105tzKbefwW/O3mzq09iIH8VyP4rl/v8m7z9MjS7f/SiW+7mbgdvaVBPLifRCZoykQm52aebw/z39Kb9//0fW9ca5/pF1jVvX20R29xW3zZGdi9e+XlyX0rzik7s9PORT0zL8q3mPd14zfxW/BryG4tf4Af01Y0qDE9xcHv0a/08AAAD//yC25inCWAAA
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=menu ObjectInstance="Object instance 21")
+this.menu : SMenu
+menu.Draw(gametime, spritebatch, graphics)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="e6d8e7b5-49a9-4527-9d73-a55e470ce64d" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="d8fe5d7c-f82a-4a64-92bd-01a58ed5d5e6" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="216ae7fb-46bf-4652-91f4-6967925fb967" name="SetRenderTarget" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="7f354ee9-409e-4116-99d6-5b924f8b654d" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Microsoft.Xna.Framework.Graphics)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice Member=(Name=SetRenderTarget OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=RenderTarget2D)]))&quot;)" tag="DGQL" />
+              <reference Id="4ae0ee81-db76-42bf-af49-3750e1e45708" handle="(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice Member=(Name=SetRenderTarget OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=RenderTarget2D)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX58RLU1vn/0aT5n+V9TmS6INvi8Jp4yojtFcEC0yboHWLX/f0Fvf+5rzIZS9UIgpzb60auj3LaXcHZ6rgmiAtg39/5xH+XsT1sf0nfxM7VhTptOaMa7o+8tfY58ohrnBDJwzzqDUlPu5+2t8l0c2o7ZX/LeZr36fY+oLVBx7XHpF39XEF25OxgQLnHzzfL5fD7F5fUMQ8PPOrzH60Qz8kGcA365YP03p7af06SX/3pW2O7/G9+n/qUovZMZIKuRml2YO/9/Tn/I73vjI6+8FYTCjnx+m/f7/Ndch/X+25rzf0225IJxB2DfM/QXDvbYzeaIzKxYH85n9Gr8/fVr+GrATDcN4Tr9DV5f8xqY+0fqMPjum8VT0/2uCV7Fdw5vPfg3Y2IbbwbqeUYuGuVLm50fW9UfW9f+98v7D1O0/sq4/1zPwI+v6czvXP7Kucev6JbWFrZpSf137aXq9r7ihvxVjlDFWYU9v6LO1QoXN/vavAeu1CnoI28Fmm0gYlLrLn9zt4SGfdmNn/+3U/vZ7Uftr7udHXP//fq7f5Fu8/jXgM4BCS+b5mr2umvUkqP0jj+PD5ujnhhuG5nOP+MLYvv4cnvEbsIIFz5RwSz0A647qoB9Zv/83zfyP9MCPuOHnQg/8yCu+7fz8v5ETfna84iGOMb7rj/JN/+/JN02p31pnrP2RfH+A1P38ke9WY8XxBu7BW7eJfveI+oLl5vjX1w4/OxGwH/lCQkHRm1ed/58AAAD//zfaUY+gHgAA
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=(Name=Draw OverloadingParameters=[(Assembly="$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll" Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly="$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll" Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]) Statement=[1,1,2,1,1,2] ObjectInstance="Object instance 5")
+GraphicsDevice : GraphicsDevice
+graphics.GraphicsDevice.SetRenderTarget(currentTarget)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="901299f9-62f6-4c34-a290-adca5e810451" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="11f312e7-1362-496a-bbfb-b7e05ec2b4ff" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="728a16c9-0ed5-4280-9fc6-bdd686ae039b" name="Clear" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="bd5c2081-54aa-4fca-afed-ef747ba444db" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Microsoft.Xna.Framework.Graphics)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice Member=(Name=Clear OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=Color)]))&quot;)" tag="DGQL" />
+              <reference Id="5676a1ec-5cc1-403e-a087-f8a7fd729902" handle="(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice Member=(Name=Clear OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Color)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX58RLU1vn/0aT5n+V9TmS6INvi8Jp4yojtFcEC0yboHWLX/f0Fvf+5rzIZS9UIgpzb60auj3LaXcHZ6rgmiAtg39/5xH+XsT1sf0nfxM7VhTptOaMa7o+8tfY58ohrnBDJwzzqDUlPu5+2t8l0c2o7ZX/LeZr36fY+oLVBx7XHpF39XEF25OxgQLnHzzfL5fD7F5fUMQ8PPOrzH60Qz8kGcA365YP03p7af06SX/3pW2O7/G9+n/qUovZMZIKuRml2YO/9/Tn/I73vjI6+8FYTCjnx+m/f7/Ndch/X+25rzf0225IJxB2DfM/QXDvbYzeaIzKxYH85n9Gr8/fVr+GrATDcN4Tr9DV5f8xqY+0fqMPjum8VT0/2uCV7Fdw5vPfg3Y2IbbwbqeUYuGuVLm50fW9UfW9f+98v7D1O0/sq4/1zPwI+v6czvXP7Kucev6JbWFrZpSf137aXq9r7ihvxVjlDFWYU9v6LO1QoXN/vavAeu1CnoI28Fmm0gYlLrLn9zt4SGfdmNn/+3U/vZ7Uftr7udHXP//fq7f5FucMN3BaT/yLt53Pn525tmfVWiikj83Fqs/G9AfYrsKprnM8dR7U3TFj6zUj+T15/fM/+zM88+OvP7Iy/x/xyx+fX8R1IEPBo+s7zG6+Tae3I+yLz/Kvvz/S1J/uLG/fPej7MvP3QwMezTvm325ZzMvP8q6/Hy0h/18ST9fco9oK9hszpj4FvRnJ2diWspfr3mmC+61+DV+QH/NmFKYJUfno1/j/wkAAP//aXFAUdIgAAA=
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=(Name=Draw OverloadingParameters=[(Assembly="$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll" Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly="$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll" Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]) Statement=[1,1,2,1,1,2] ObjectInstance="Object instance 5")
+GraphicsDevice : GraphicsDevice
+graphics.GraphicsDevice.Clear(Color.Black)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="3b1e23a4-ec2a-41a7-8417-8b9a34d6ed00" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="dd631d36-2551-4744-a66e-7df8da05bfc9" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="f19b0d53-0f5c-4b3d-a745-d66d4e0fa957" name="Draw" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="3ea0ec59-aced-431d-a1b9-90d394b58053" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Star.GameManagement.Gamestates)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement.Gamestates Type=SGame)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement.Gamestates Type=SGame Member=(Name=Draw OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))&quot;)" tag="DGQL" />
+              <reference Id="d45d346b-3180-4b06-a2b4-88c7c3a0746b" handle="(Assembly=&quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&quot; Namespace=Star.GameManagement.Gamestates Type=SGame Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX5/Rp9LqDtHVvf2CcJnRzx9R/CaKu28bbt/yb/48vLYtQhqfaOsLwqKmzwytT5T2QhX0lP0avz99WvJYGobxnH7HDJb8RquSMraziTZn9Mkx4VjR/6/p04opjvbPWN4abgdJO6MWgv2Sx/4jSbt53n8kaT9siv+/V9K+pBag4pS+78qS6ever7GvOKGfFWOSMTZhD75sigx/m2m7CnpByzf09prbQYaNlQRF7vInd3u4yKddu+q/ndrffi9qf839/IgjvwmO7GqDLdvvZ7/GU+aFK+akS/6+JOwy4hyM64KoknELtG75e+jx733NmREaXyjElDhOWgHzLaXhHZ61gqiBtg39/5y54/cmrI/pO/mZeqMDxdaMcUXfXxK3j3mWMBfnjHOuXAiO+C6PbEZtr/hvM3P9PsfUF+g+9rzDK5aetx79xwQLHuTNM/t+PcS0/BuCIDpm9KMZoP7x2Yp1yvTXgGb82ZmJfk+hnK1+DUQVkI4nLInQKj+aoR++jIRz9JQ+veTfu97RnV/j+/T/NKLbYDFFvxY8O6H3hE+dhf+R1/QjG/Uj+fuRjXo/y/GzNRM/slFff4Z+mDLyw7VR32yk/6NZv30PmzXjz06GoMsDJor/USbuZ8vDef9M3I/8mv/vS++PrOYPewZ+ZDV/Ps56V+5+eFbzNln1XcXn5zqnblr+KJe+2YoPW/Ef5Sl+fuuVH9nzH+Up/r8wQz9MGfnZ8rgab4Yn3gyLdfwQP+tHlupHlur/b1L4I0t1s/342ZqJH1mqrz9DP0wZ+bmwVD/KENxWZn62eODrSefPTgYhzikm3j/+NX6Uff/Z8YbeP/v+I5n+kUzfTqZbxgFjHZbu22QJ7/0a9xXDH+UJ/7+ub34Uff3ca6Ifpmcp3/0o+vr/ji340Qz9sGUknKOnv8Y3FX1ddCD/KEP4Ixv1I/n7kY26mT4/slH/X5ihH6aMyBz9sGzUj/II/1+b9Z+dDEKXO0xc/6N84M+W7/P++cAfeTz/35PrH3k8P9czcHvN+iN7+vNx1n949vQ2Gfg9xednO//+s5NX/xG/3r6Hr8evXZ9g05vfRBbqRzN6+x5+WDP6Ixtz2wzHz9ZMb86l3H4Gvzl7s6lPYyN+FMv9KJb7/5u8/zA1unz3o1ju524GbmtTTSwn0guZMZIKudmlmcP/9/Sn/P79H1nXG+f6R9Y1bl1vE9ndV9w2R3YuXvt6cV1K84pP7vbwkE9Ny/Cv5j3eec38Vfwa8BqKX+MH9NeMKQ1OcHN59Gv8PwEAAP//YU+Q18JYAAA=
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=game ObjectInstance="Object instance 34")
+this.game : SGame
+game.Draw(gametime,spritebatch, graphics)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="55456496-d9ae-4c73-90c2-0f402a4d2a71" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="e56831a2-0ed1-48ac-a85f-a34f85414b25" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="609d838b-9d3a-4ea4-adb5-fb257198d2d3" name="Draw" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="d7814ffc-23b0-4669-b6f8-7587d464cac3" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Star.GameManagement.Gamestates)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement.Gamestates Type=SLoadingScreen)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement.Gamestates Type=SLoadingScreen Member=(Name=Draw OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))&quot;)" tag="DGQL" />
+              <reference Id="ec17c98d-0816-40e8-a13a-8bcc7968d075" handle="(Assembly=&quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&quot; Namespace=Star.GameManagement.Gamestates Type=SLoadingScreen Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX58RVhV9N2N8L5gGNX0DaHeI0g7eC2o3o58/moOb5sB923D7ln/zZ+b1r/E8oPrrQaqf6PsX1L6mzwz1T3Q2hE7oO/s1fn/6tOTRNQzjOf2OWS75jValabxhxvHWGX1yTL9X9P9rglvxrADCM5ZS0O4jls8zaiEjXDJ9fiSfN/PGj+Tz534O/r8tn1/SO6D0lN7oSqDp/R5RVLBEzyvGLWP8wj59iRbJ/zbTfxX0gpZv6O01t4PkG4sMqt3lT+72cJFPuzbcfzu1v/1e1P6a+/kR1/7scG1Xq2xZTD77NZ4yd1wxb13y9yEHvmTspHXL38MefO9rzpVQ/UIhpsSD0gpj2VKq3uF5LBj/ir6pCBb45fcmrI/pO/mZWoqkTMM1Y1zR95e/xj7RC/OG2TlnnHPlS/DId3lkM2p7xX+buez3Oaa+MBNjzze9Ynl6683ImGDBf715rt+vh5i1eEMQ8PPOrzH60QxQ//hsxVpm+mtAe/7szES/p1DyVr8GYhpIxxOWTeiZH83QD19Gwjl6Sp9e8u9dL+vOr/F9+n8a0W2woaJxC54d0ZcXto2RPrGYP/K1fmS1fiSRP7Ja70OfH1mt/y/M0A9TRn64VuubzRj8aNZv38Nmzfizk1fo8oCJ9I9/jR/l+H52fJ73z/H9yK/5/770/shq/rBn4EdW8+fjrHfl7odnNW+Ted9VfH6u8+6m5f/b8u3/37HiP8pc/EjThJrmRxb+R5mL/y/M0A9TRn62fLDGm+GJN8NiLz/E8/r5EIH+yHb9fJfLH9mumy3Kz9ZM/Mh2ff0Z+mHKyM+F7fpRFuG2MvOzxQNfTzp/drIMcU4xOYHjX+NHGfqfHf/o/TP0P5LpH8n07WS6ZRww1mHpvk0m8d6v8VAx/FEu8f/r+uZH8dj/G3XTD9PXlO9+FI/9f8c6/GiGftgyEs7R01/jm4rHLjqQf5RF/JHV+pFE3kYif2S1brYlP1sz8f9Pq/XDmaEfpoz8cK3Wj3IN/1+b9Z+dLEOXO0zs/6Oc4c+WN/T+OcMfeTz/35PrH3k8P9czcHvN+iN7+vNx1n949vQ2Wfo9xednO0f/s5N7/xG/3r6Hr8evXZ9g05vfRF7qRzN6+x5+WDP6Ixtz2wzHz9ZMb86l3H4Gvzl7s6lPYyN+FMv9KJb7/5u8/zA1unz3o1ju524GbmtTTSwn0guZMZIKudmlmcP/9/Sn/P79H1nXG+f6R9Y1bl1vE9ndV9w2R3YuXvt6cV1K84pP7vbwkE9Ny/Cv5j3eec38Vfwa8BqKX+MH9NeMKQ1OcHN59Gv8PwEAAP//YAhSxppZAAA=
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=loadingscreen ObjectInstance="Object instance 38")
+this.loadingscreen : SLoadingScreen
+loadingscreen.Draw(gametime, spritebatch, graphics)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="0ca18331-26b7-4b04-a7d8-10fe30d052cb" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="842a5124-24e7-4119-91f7-5452e935dea0" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="902a4948-b3e2-4608-809e-cd67275a88f9" name="Draw" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="a254a082-2a40-4be5-a2d9-fa6fc0766082" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Star.GameManagement.Gamestates)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement.Gamestates Type=SMenu)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&amp;quot; Namespace=Star.GameManagement.Gamestates Type=SMenu Member=(Name=Draw OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))&quot;)" tag="DGQL" />
+              <reference Id="71d22f71-7804-4f33-8014-684d01bbdb76" handle="(Assembly=&quot;$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)&quot; Namespace=Star.GameManagement.Gamestates Type=SMenu Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX5/pm+tf4w7R1b39gnCZ0c8fUfwmirtvG27f8m/+PLxmivdpfKKtLwiLmj4ztD5R2gtV0FP2a/z+9GnJY2kYxnP6HTNY8hutSsrYzibanNEnx/RXRf+/pm8qpjjaP2N5A10+Ykk7oxaC/ZLH/iNJu3nefyRpP2yK/79X0r6kFqDilL7vypLpa59oKTihnxVjkjE2YQ++bIoMf5tpuwp6Qcs39Paa20GGjZUERe7yJ3d7uMinXbvqv53a334van/N/fyII78Jjuxqgy3b72e/xlPmhSvmpEv+viTsMuIcjOuCqJJxC7Ru+Xvo8e99zZkRGl8oxJQ4TloB8y2l4R2etYKogbYN/f+cueP3JqyP6Tv5mdrxp0yxNWNc0feXxO9jniXMxTnjnCsXgiO+yyObUdsr/tvMXL/PMfUFuo897/CKpeetR/8xwYIHefPMvl8PMS3/hiDg551fY/SjGaD+8dmKdcr014Bm/NmZiX5PoZytfg1EFZCOJyyJ0Co/mqEfvoyEc/SUPr3k37ve0Z1f4/v0/zSi22AxRb8WPDuiLy9sGyN9Yh9/5DX9yEb9SP5+ZKPex3L8bM3Ej2zU15+hH6aM/HBt1Dcb6f9o1m/fw2bN+LOTIejygInif5SJ+9nycN4/E/cjv+b/+9L7I6v5w56BH1nNn4+z3pW7H57VvE1WfVfx+bnOqZuWP8qlb7biw1b8R3mKn9965Uf2/Ed5iv8vzNAPU0Z+tjyuxpvhiTfDYh0/xM/6kaX6kaX6/5sU/shS3Ww/frZm4keW6uvP0A9TRn4uLNWPMgS3lZmfLR74etL5s5NBiHOKifePf40fZd9/dryh98++/0imfyTTt5PplnHAWIel+zZZwv1f455i+KM84f/X9c2Poq+fe030w/Qs5bsfRV//37EFP5qhH7aMhHP09Nf4pqKviw7kH2UIf2SjfiR/P7JRN9PnRzbq/wsz9MOUEZmjH5aN+lEe4f9rs/6zk0HocoeJ63+UD/zZ8n3ePx/4I4/n/3ty/SOP5+d6Bm6vWX9kT38+zvoPz57eJgO/p/j8bOfff3by6j/i19v38PX4tesTbHrzm8hC/WhGb9/DD2tGf2Rjbpvh+Nma6c25lNvP4Ddnbzb1aWzEj2K5H8Vy/3+T9x+mRpfvfhTL/dzNwG1tqonlRHohM0ZSITe7NHP4/57+lN+//yPreuNc/8i6xq3rbSK7+4rb5sjOxWtfL65LaV7xyd0eHvKpaRn+1bzHO6+Zv4pfA15D8Wv8gP6aMaXBCW4uj36N/ycAAP//RJyH/8JYAAA=
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=menu ObjectInstance="Object instance 42")
+this.menu : SMenu
+menu.Draw(gametime, spritebatch, graphics)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="06057eec-483f-47d6-bf34-159a894afbcf" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="a6aa56ad-383e-4842-b8e5-9c063f03669c" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="ed046091-6af4-48ee-82c9-a31f652c8d28" name="SetRenderTarget" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="afb630df-4d0c-4f84-b90a-4d31b519dd92" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Microsoft.Xna.Framework.Graphics)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice Member=(Name=SetRenderTarget OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=RenderTarget2D)]))&quot;)" tag="DGQL" />
+              <reference Id="9bfe5e67-26f5-4bd8-921d-22ef332d8512" handle="(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice Member=(Name=SetRenderTarget OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=RenderTarget2D)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX58RLU1vn/0aT5n+V9TmS6INvi8Jp4yojtFcEC0yboHWLX/f0Fvf+5rzIZS9UIgpzb60auj3LaXcHZ6rgmiAtg39/5xH+XsT1sf0nfxM7VhTptOaMa7o+8tfY58ohrnBDJwzzqDUlPu5+2t8l0c2o7ZX/LeZr36fY+oLVBx7XHpF39XEF25OxgQLnHzzfL5fD7F5fUMQ8PPOrzH60Qz8kGcA365YP03p7af06SX/3pW2O7/G9+n/qUovZMZIKuRml2YO/9/Tn/I73vjI6+8FYTCjnx+m/f7/Ndch/X+25rzf0225IJxB2DfM/QXDvbYzeaIzKxYH85n9Gr8/fVr+GrATDcN4Tr9DV5f8xqY+0fqMPjum8VT0/2uCV7Fdw5vPfg3Y2IbbwbqeUYuGuVLm50fW9UfW9f+98v7D1O0/sq4/1zPwI+v6czvXP7Kucev6JbWFrZpSf137aXq9r7ihvxVjlDFWYU9v6LO1QoXN/vavAeu1CnoI28Fmm0gYlLrLn9zt4SGfdmNn/+3U/vZ7Uftr7udHXP//fq7f5Fu8/jXgM4BCS+b5mr2umvUkqP0jj+PD5ujnhhuG5nOP+MLYvv4cnvEbsIIFz5RwSz0A647qoB9Zv/83zfyP9MCPuOHnQg/8yCu+7fz8v5ETfna84iGOMb7rj/JNP8o3/f9N1uWTny0Z/1G+6f9dMzDsa71vvum+zTX9KM8Um4EfWdSbLOptckz7RHHBbHOWybfBPzt5JtNS/kL0URON0Wvxa/yA/pox1TCrbl6Ofo3/JwAA//9yepMdBiIAAA==
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=(Name=Draw OverloadingParameters=[(Assembly="$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll" Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly="$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll" Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]) Statement=[1,1,2,1,1,2] ObjectInstance="Object instance 5")
+GraphicsDevice : GraphicsDevice
+graphics.GraphicsDevice.SetRenderTarget(null)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6b9935b3-9624-4f1b-8227-964bcc366ac2" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="0663a094-6634-472f-9b0b-b34e4bb1f032" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="84872d59-2f47-4857-bfb2-0496c49fecac" name="Clear" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="6c27e3d7-a56d-4543-8ad3-0cda009ed109" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Microsoft.Xna.Framework.Graphics)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice Member=(Name=Clear OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=Color)]))&quot;)" tag="DGQL" />
+              <reference Id="b37d8222-b1a1-4f46-ad08-b44cd33d9c73" handle="(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice Member=(Name=Clear OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Color)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX58RLU1vn/0aT5n+V9TmS6INvi8Jp4yojtFcEC0yboHWLX/f0Fvf+5rzIZS9UIgpzb60auj3LaXcHZ6rgmiAtg39/5xH+XsT1sf0nfxM7VhTptOaMa7o+8tfY58ohrnBDJwzzqDUlPu5+2t8l0c2o7ZX/LeZr36fY+oLVBx7XHpF39XEF25OxgQLnHzzfL5fD7F5fUMQ8PPOrzH60Qz8kGcA365YP03p7af06SX/3pW2O7/G9+n/qUovZMZIKuRml2YO/9/Tn/I73vjI6+8FYTCjnx+m/f7/Ndch/X+25rzf0225IJxB2DfM/QXDvbYzeaIzKxYH85n9Gr8/fVr+GrATDcN4Tr9DV5f8xqY+0fqMPjum8VT0/2uCV7Fdw5vPfg3Y2IbbwbqeUYuGuVLm50fW9UfW9f+98v7D1O0/sq4/1zPwI+v6czvXP7Kucev6JbWFrZpSf137aXq9r7ihvxVjlDFWYU9v6LO1QoXN/vavAeu1CnoI28Fmm0gYlLrLn9zt4SGfdmNn/+3U/vZ7Uftr7udHXP//fq7f5FucMN3BaT/yLt53Pn525tmfVWiikj83Fqs/G9AfYrsKprnM8dR7U3TFj6zUj+T15/fM/+zM88+OvP7Iy/x/xyx+fX8R1IEPBo+s7zG6+Tae3I+yLz/Kvvz/S1J/uLG/fPej7MvP3QwMezTvm325ZzMvP8q6/Hy0h/18ST9fco9oK9hszpj4FvRnJ2diWspfr3mmC+61+DV+QH/NmFKYJUfno1/j/wkAAP//aXFAUdIgAAA=
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=(Name=Draw OverloadingParameters=[(Assembly="$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll" Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly="$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll" Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]) Statement=[1,1,2,1,1,2] ObjectInstance="Object instance 5")
+GraphicsDevice : GraphicsDevice
+graphics.GraphicsDevice.Clear(Color.Black)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="efcf2e1a-cd01-4394-becf-814833a53e5f" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="e5ce08d8-ba31-4e07-8819-c9514e65006d" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="bbe55cec-28b3-48e1-ba02-d37eb1e3dec4" name="Begin" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="fedc82cd-8532-4483-a7b8-829f310cb5f9" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Microsoft.Xna.Framework.Graphics)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch Member=(Name=Begin OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteSortMode),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=BlendState),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SamplerState),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=DepthStencilState),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=RasterizerState),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=Effect),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=Matrix)]))&quot;)" tag="DGQL" />
+              <reference Id="ac05159e-9307-43e0-a6b1-2912e3e98134" handle="(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch Member=(Name=Begin OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteSortMode),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=BlendState),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SamplerState),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=DepthStencilState),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=RasterizerState),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=Effect),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Matrix)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>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
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=spritebatch ObjectInstance="Object instance 51")
+this.spritebatch : SpriteBatch
+spritebatch.Begin(SpriteSortMode.Immediate, BlendState.NonPremultiplied,null,null,null,null,curStateMatrix)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="c139c15f-de39-428b-a2e8-9a11b5371b87" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="4afe4264-cf86-4549-85de-3bac009d281c" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="4c630787-5545-4523-8fab-dd270fe32441" name="Draw" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="6d9ec0fd-fee9-45ed-a73f-f826bcc5970d" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Microsoft.Xna.Framework.Graphics)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch Member=(Name=Draw OverloadingParameters=[(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=Texture2D),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=Rectangle),(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&amp;quot; Namespace=Microsoft.Xna.Framework Type=Color)]))&quot;)" tag="DGQL" />
+              <reference Id="80ad88d4-8dd2-4bde-ae10-3022f38f27ee" handle="(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=Texture2D),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Rectangle),(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Color)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX59xH5gPjG1CrVoe/R2isoP1gjCb0c8Po79Q8kLnOKXZllYN/b6llLrDc1MQDmjb0P/PeVS/N+FwTN/Jz9SOLWW6rAmvgtrepRndJwphLkDxcx4jKDPlfu7+Gt/leZlR2yv+28xPv88x9QWqjT2uvKLvauIDzAE+WzGHTumdMcEEB988jx/akz/Dr725ezIwdyf8eU50B8RrO4cnOqfC7ZjJ7Nf4/enTknm0YRjP6XfwSclvtCqP4wGewRtn9N0xjaai/18TzIrlCm8/YxkHz3zE0n1GLRrmaZmdH0n3j6T7R9L9/27p/pL+hqxM6bOu/Jqe75O0CIbodcV4ZYxb2J+vD0RvfPvXgAStgl7Q8g29veZ20BvGGwCt7vInd3u4yKdd/8F/O7W//V7U/pr7+RHf/7+Z77uabcvi8dmv8ZShXTGHXvL3JfWUMf2WNDcvmQOldcvfwyZ970cz/v+SGYeueMfjxyj3aD7v/BqjH83Oz9Jc+JQH/tCz0JwXTKcfUf6HQ3lY6JI/v/NrfJ/+n0a0FGyqeH4F01w0H75z0nJH7eePfLf/N2m0H9mwn28z/iMb9nOlSX9kw36uKP/N2rAf5SNuq3d+tub2/TXcz1Yuwu/J5Ad+lFf8f09eccpzU+v7b7gPtGx/JMvvKWE/N7L8iseGmamD2fvZlWqTYRzmHrx1myzjHlFfsPy5zjKalj/KLr4vP/7ccP6PIrOfyxn/uZjxmN/yo/jgZ0v6fhSZ/b+B8l8/MpsxDi2PNOOf8LljMykW9Ud+3Y+s249m/Oduxn9k3X6udOyPrNvPFeV/WNbtR1mMn7s5vmlO3i8vASohvgfEfmbitlxhcgg/ykT+vy0TKdAxvh/J8vvJ3P/fZLmbZdzEGXj7NtnGT0k+BN8fZRv/v8LV/+/wzn8Uj/18m3HoiB/FY/9vsTI/ovwPg/JfPx6bem+KzfyRV/b/Jm32I/v1823Gf2S/fq606I/s188V5b85+/WjLMPmWfxhzeLPVnbBzbeJ8H+UC/x/Ty7wR37INyGppv8fhuY1fb0hCPj5I4v3w5+B0Bd8Sp9e8u9daTO20WVUjaRCbnZp5g7o//fo/7vc8kf28OebPbxdLn1Psfl/Uy4dVgwzXXCvxa/xA/prxpTCLDk6H/0a/08AAAD//7WsNdvCSAAA
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=spritebatch ObjectInstance="Object instance 51")
+this.spritebatch : SpriteBatch
+spritebatch.Draw(currentTarget, curStateRectangle, Color.White)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="e5e8395f-fb32-4b8d-9a41-d2056a873f69" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="41360891-ff4f-4d3b-8e49-062b2286238a" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="0065bcc3-8caa-432c-ae56-37d4e30d7f72" name="End" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="fe716eb4-9b21-4ef7-b478-a5b06c26d6ea" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Microsoft.Xna.Framework.Graphics)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&amp;quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch Member=End)&quot;)" tag="DGQL" />
+              <reference Id="0d4b768b-9a38-4bfc-9191-85816864a536" handle="(Assembly=&quot;$(ProgramFilesUri)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=SpriteBatch Member=End)" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jS+on/rXuKR2S/rrDf21ps+n1ONdwhA/1wzh7q/xktpVv8ZP0+9vCXbO37+h/l8RPj9Jv6e/xt6vsfNr7NL/3Td3CSuB/O7XOPg1PqWfr+hNwMsYB9dyTH+9o//72Ke/xgulQvNrrOi3Kf32Gb3RMs7jX+Nz/RZjWNL/L5gOOf0OGr0haqz4jVi7mlp8oXTDX59xH5gPjG1CrVoe/R2isoP1gjCb0c8Po79Q8kLnOKXZllYN/b6llLrDc1MQDmjb0P/PeVS/N+FwTN/Jz9SOLWW6rAmvgtrepRndJwphLkDxcx4jKDPlfu7+Gt/leZlR2yv+28xPv88x9QWqjT2uvKLvauIDzAE+WzGHTumdMcEEB988jx/akz/Dr725ezIwdyf8eU50B8RrO4cnOqfC7ZjJ7Nf4/enTknm0YRjP6XfwSclvtCqP4wGewRtn9N0xjaai/18TzIrlCm8/YxkHz3zE0n1GLRrmaZmdH0n3j6T7R9L9/27p/pL+hqxM6bOu/Jqe75O0CIbodcV4ZYxb2J+vD0RvfPvXgAStgl7Q8g29veZ20BvGGwCt7vInd3u4yKdd/0E+va3/8f8EAAD///q0AwmqCAAA
+(Assembly="$(997f5954-086f-4e2e-8c3a-b688913f5dd5.OutputPathUri)" Namespace=Star.GameManagement Type=GameManager Member=spritebatch ObjectInstance="Object instance 51")
+this.spritebatch : SpriteBatch
+spritebatch.End()</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6dec7596-30b5-4567-91f6-783ef0fde312" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="4fcc471c-9264-4d77-9de8-e0bf5a679c33" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="b0616722-b278-41cb-a9a1-d100f20821bd" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="9d51b046-618d-4153-840e-68e954b5d081" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

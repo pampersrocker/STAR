@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StarEdit.StarEditWindows" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FsAUAAsEBCkQAEwgDGGQEEFCDAAgIQoYAhBEASABAAE=</HashCode>
+      <FileName>Editor\StarEditWindows.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.Program" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.Editor.ToolForm" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGCEAAEACCBAERIIAHiAgAACAIAQAAHAAAAAAAQBAAA=</HashCode>
+      <FileName>Editor\ToolForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.Editor.NewMapForm" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAABAAKAAApAAACCAAAACAAAAAAAIACBgDAAAAAA=</HashCode>
+      <FileName>LevelEditor\NewMapForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.Editor.StyleChangeForm" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKQABIgAECAIAJIAAACEAIACAAAgABAABCAACAAEIAA=</HashCode>
+      <FileName>LevelEditor\StyleChangeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.EnemyEditor.AddRectangleForm" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cAAwAAEBIKIAgBAiHICBBAiCDkAIAEAAACAAQCAAAAA=</HashCode>
+      <FileName>EnemyEditor\AddRectangleForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.EnemyEditor.EnemyControl" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAengkAANEAAAwAJhJoAgDBAAAAIgAAAIkAIAIkKAAI=</HashCode>
+      <FileName>EnemyEditor\EnemyControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.EnemyEditor.EnemyEditor" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>TRTwkAC2TCgAgBU4GIChDAjSTEAKENABouAKDQGDSCA=</HashCode>
+      <FileName>EnemyEditor\EnemyEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.EnemyEditor.LinearInterpolationForm" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wIyAgACCCIBAHAyGLCBJAwCTEACEsAAAGQAAAAFADA=</HashCode>
+      <FileName>EnemyEditor\LinearInterpolationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.EnemyEditor.NewEnemyForm" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAKAAAAACAAAAACAACACAALBAABEAAAECAAAAAAAAA=</HashCode>
+      <FileName>EnemyEditor\NewEnemyForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.EnemyEditor.OffsetForm" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABIAIACAAABAAAACAAAACAAAEIAAIABIAIAEAAAA=</HashCode>
+      <FileName>EnemyEditor\OffsetForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.EnemyEditor.ParentForm" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAAABQQAACQAAACAAAAIAAIAAAAIAEAEAA=</HashCode>
+      <FileName>EnemyEditor\ParentForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.EnemyEditor.PlayControl" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HBaCCAAAEBAABwQ4UAAAIGICoAEgAAAEAAggABE4IAA=</HashCode>
+      <FileName>EnemyEditor\PlayControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.EnemyEditor.PlayControlClickEvent" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyEditor\PlayControlClickEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.EnemyEditor.SingleEnemyManager" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQGAAAAAEAAEgAgAAAAAIBAAAAAAAAAAQAAAAAAAAI=</HashCode>
+      <FileName>EnemyEditor\SingleEnemyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.LevelEditor.LevelControl" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Wl0oADAsqqgAywaJhRPJYCJcgEMQAoGHJ1AERk5jIEQ=</HashCode>
+      <FileName>LevelEditor\LevelControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.LevelEditor.LevelMDIChild" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>PgUyMloFADUoEFZqG6XcqNWXGMW6UMqHSWCFAWRECUE=</HashCode>
+      <FileName>LevelEditor\LevelMDIChild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.LevelEditor.LevelWorker" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQQRCgQAAEAAACAAAACAAFAEAAIECCAAAAAAAA=</HashCode>
+      <FileName>LevelEditor\LevelWorker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.LevelEditor.MapBoundsForm" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAABCAQABAAAASAAAATAAAAAAIASEAQAAAAAAA=</HashCode>
+      <FileName>LevelEditor\MapBoundsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.LevelEditor.ToolManager" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAAAIAIBAEggCQIQAgAAIA0ACARIAABAAIAACA=</HashCode>
+      <FileName>LevelEditor\ToolManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.Properties.Resources" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAgAAEAAAAAAAAAAABEDAAAQAAAAAAAAAAAAAIAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarEdit.Properties.Settings" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinFormsContentLoading.ContentBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAABACQAAAAAEAAAAAAMEAgFgAAAkIAAAEBAQAA=</HashCode>
+      <FileName>WinFormsContentLoading\ContentBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WinFormsContentLoading.ErrorLogger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAQAAAAMAAQAAAAACAAAAAAAAAAKAAAA=</HashCode>
+      <FileName>WinFormsContentLoading\ErrorLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WinFormsGraphicsDevice.GraphicsDeviceControl" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQSAoAAAADAAMyBAEAApQAAAAACAAAIAAABEAIAQBAI=</HashCode>
+      <FileName>WinFormsGraphicsDevice\GraphicsDeviceControlMarvinPohl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinFormsGraphicsDevice.GraphicsDeviceService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAgAAABAAAAAAQAIAAAACAABQgAAAEABCAAAA=</HashCode>
+      <FileName>WinFormsGraphicsDevice\GraphicsDeviceService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WinFormsGraphicsDevice.ServiceContainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAEA=</HashCode>
+      <FileName>WinFormsGraphicsDevice\ServiceContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="StarEdit.EnemyEditor.RectangleDifference" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAIACAAAAARAEAAQAAAgACAAEBAAAAAAA=</HashCode>
+      <FileName>EnemyEditor\LinearInterpolationForm.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="StarEdit.EnemyEditor.PlayControls" Collapsed="true">
+    <Position X="8.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAAAACAAGAAAAAAAAAAAAAAAAAAAiAAAAEAABAA=</HashCode>
+      <FileName>EnemyEditor\PlayControl.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StarEdit.EnemyEditor.EditMode" Collapsed="true">
+    <Position X="5.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyEditor\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StarEdit.EnemyEditor.LiveEdit" Collapsed="true">
+    <Position X="7" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>EnemyEditor\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StarEdit.LevelEditor.Tool" Collapsed="true">
+    <Position X="12.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAAAAACAAAAA=</HashCode>
+      <FileName>LevelEditor\ToolManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StarEdit.LevelEditor.TileToolType" Collapsed="true">
+    <Position X="10.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelEditor\ToolManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="StarEdit.EnemyEditor.RectangleTransformedEventHandler" Collapsed="true">
+    <Position X="10.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyEditor\EnemyEditor.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="StarEdit.LevelEditor.DecoTextureChangedEventHandler" Collapsed="true">
+    <Position X="7" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelEditor\LevelControl.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="StarEdit.LevelEditor.DecoChangedEventHandler" Collapsed="true">
+    <Position X="12.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>LevelEditor\LevelControl.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="StarEdit.LevelEditor.RotationScaleChangedEventHandler" Collapsed="true">
+    <Position X="12.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelEditor\LevelControl.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="StarEdit.LevelEditor.LayerFXDataChangedEventHandler" Collapsed="true">
+    <Position X="8.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelEditor\LevelMDIChild.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="StarEdit.LevelEditor.DecoObjectDataChangedEventHandler" Collapsed="true">
+    <Position X="5.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAIBCAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelEditor\LevelMDIChild.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="StarEdit.LevelEditor.CurrentTileToolTypeChangedEventHandler" Collapsed="true">
+    <Position X="8.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelEditor\ToolManager.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="StarEdit.LevelEditor.CurrentTileTypeChangedEventHandler" Collapsed="true">
+    <Position X="10.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelEditor\ToolManager.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="StarEdit.LevelEditor.CurrentDecorationChangedEventHandler" Collapsed="true">
+    <Position X="5.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelEditor\ToolManager.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="StarEdit.LevelEditor.CurrentDecorationLayerChangedEventHandler" Collapsed="true">
+    <Position X="7" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelEditor\ToolManager.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="01c7929d-b061-4773-934f-5c2934e1faa3"
+  name="XNAParticleSystem"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1b0092da-55bf-4322-abf8-612b7f1770b4"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=XNAParticleSystem"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="c2abd60a-ac24-4138-b4ad-ff295581ca91"
+        name="ParticleManager"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b1734eec-3d64-4a79-80e3-b801679701fe"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/XNAParticleSystem.exe&quot; Namespace=XNAParticleSystem Type=ParticleManager"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="18c3a60a-da12-4301-aba2-3d72ca6fc9d3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fc9f877c-0c90-4f30-801d-f0b77684d696">
+                <propertyInstance
+                  Id="f8aa3e3d-8f27-4270-8c27-8d26a00382b7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f2a5bb22-e428-4249-8ccd-0150e62eac10">
+                <propertyInstance
+                  Id="36b70624-a3a2-4253-86b7-206b247355bf"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="52978a8a-8ca9-4d8a-806b-3dca47457c5f">
+                <propertyInstance
+                  Id="76535fbe-9df1-4879-9bc5-d683d47e71c6"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="da5aa460-04ef-4d8c-8d2e-f20dda7030f9">
+                <propertyInstance
+                  Id="c3c19958-2aa6-4c90-8c5c-54fc67413736"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f008cfea-3178-4a53-8360-fd2e186754b7">
+                <propertyInstance
+                  Id="fcd58e71-1aa4-4bce-bec9-9fd597dd9d2c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

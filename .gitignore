@@ -11,3 +11,17 @@
 *.lai
 *.la
 *.a
+STAR/AStar/Content/obj/
+STAR/AStar/obj/
+*/obj/*
+STAR/cudaParticleEngine3_2/cudaParticleEngine3_2/Release/
+STAR/STAR/bin/
+*.suo
+*.ipch
+*.opensdf
+*.sdf
+*/obj/*
+STAR/StarEdit/Properties/obj/
+STAR/STAR/obj/
+STAR/StarEdit/obj/
+STAR/XNAParticleSystem/obj/

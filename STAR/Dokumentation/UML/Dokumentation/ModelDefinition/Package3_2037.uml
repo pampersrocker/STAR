@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d6523326-c980-43cb-a942-590d51a9ecdb"
+  name="Graphics"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="376ccefe-b37e-417a-9095-7d6803fa3da5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Star.Graphics"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="75745d7c-1b15-46f4-a204-66eb3bb5313e"
+        LastKnownName="Effects"
+        LastKnownLocation="Package4_2037.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="259383fe-8683-4ac0-b9a8-359276e64bef"
+        name="IGraphicsChange"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="305b7efc-6b24-455d-8693-e51a3bec4b7f"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Graphics Type=IGraphicsChange"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2d661344-110b-4f42-9e8b-5e1b05ef2f25"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c0f84dc8-41e6-431b-8078-1c16ea99094b">
+                <propertyInstance
+                  Id="6878a720-61ee-4bf8-84d4-c016bdd8333f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2162e013-46af-434d-9ef1-f9953aaef60c">
+                <propertyInstance
+                  Id="db61d393-c735-4309-b03d-2bfcb7fe088d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="24eb8f2d-17de-4af7-a103-2075fe9246da">
+                <propertyInstance
+                  Id="08fbc268-5888-4c81-9319-0bca7ae058a1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b70c0443-baa0-4fd0-920b-04fa953c3f0b">
+                <propertyInstance
+                  Id="adf1ad0b-933b-4a34-9ea9-5a7b5712f0a6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="cf0df1d2-28e7-4764-8b7c-ec728c2e1976"
+            name="GraphicsChanged"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="154befc3-ffe3-4c07-be12-13ed19d564f2"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Graphics Type=IGraphicsChange Member=(Name=GraphicsChanged OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Options)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fb072322-6a3a-499c-8f52-f61b2888cfb1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="baf26c09-d73e-4f9b-adb0-a752a035cd0e">
+                    <propertyInstance
+                      Id="b8410e06-93a4-4c7d-9165-781f0f2cff25"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd23f347-4829-48c0-bcf1-07cb307b70c1">
+                    <propertyInstance
+                      Id="6b9f6a62-15db-484d-8631-369378232408"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17bad06e-594c-40e0-a844-dc08af08afe4">
+                    <propertyInstance
+                      Id="46f6969c-66a2-49bf-a495-26e0bc608744"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd0c12a2-d97b-4728-9872-ed2532f90060">
+                    <propertyInstance
+                      Id="2ced32b8-dbed-4b2f-9022-21b72e5ce79a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4130e11-c090-411d-8693-51909bc5ef11">
+                    <propertyInstance
+                      Id="49b559ba-81df-410d-8dc4-fe25530618f8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d1171e70-6696-4257-9e91-e226bac7914e"
+                  name="device"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="689e4576-f67a-412c-aa61-470eed0afd8a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Graphics Type=IGraphicsChange Member=(Name=GraphicsChanged OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Options)]) ParameterIdentifier=device"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9a5c2b2a-426d-4cca-956e-974ecf9944ae"
+                      LastKnownName="GraphicsDevice"
+                      LastKnownLocation="Package6_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fd9ffc31-71f6-4030-b93a-41d856afecd8"
+                  name="options"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="883ce00b-f6ad-4ce8-bbef-0d3a8432b946"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Graphics Type=IGraphicsChange Member=(Name=GraphicsChanged OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Options)]) ParameterIdentifier=options"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4f805d21-38b2-4465-8e40-b615c6a884e0"
+                      LastKnownName="Options"
+                      LastKnownLocation="Package1_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3b3d0f85-0c9e-4113-9434-721e6cb318f1"
+            name="UnloadGraphicsChanged"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="53c7bc0a-4eb2-4c31-97ca-1176481bd168"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Graphics Type=IGraphicsChange Member=UnloadGraphicsChanged"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="627c5b42-4409-4fa9-817c-434fa4d78fbc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fe0d9d4-4a68-4186-abf4-74dba033ebf9">
+                    <propertyInstance
+                      Id="471246c2-7b52-410b-85fc-52c8d9d5ec4d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aaf8babc-6184-4fb5-920a-b17d043ea42f">
+                    <propertyInstance
+                      Id="8e9c0a68-ceb6-4646-9c45-1a83f3cf27b4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="831860bc-d0f1-4a69-bd76-61f999001e4c">
+                    <propertyInstance
+                      Id="40a8664e-f6fa-4fd4-8cdc-5bb074a4d9f9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9859bec-edec-4827-9672-f9f32d7078a0">
+                    <propertyInstance
+                      Id="7f367480-4e63-4b34-be42-0f3ca8af20ab"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d360beb9-feef-443a-9c12-976588765abe">
+                    <propertyInstance
+                      Id="9ec2194f-1cfc-4f52-8736-0e7ce921f26b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

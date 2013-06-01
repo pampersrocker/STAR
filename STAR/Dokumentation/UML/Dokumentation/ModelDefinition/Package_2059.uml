@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="dc3788a9-aae4-4425-b170-92c516965f21"
+  name="AStarPathFinding"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1480a0bf-0741-46b2-b60b-12141517f9da"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=AStarPathFinding"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="803e19cf-2dde-47fe-9657-eac2079ded68"
+        name="AStarMap"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1fd478eb-2065-47eb-aa1a-4b007d3bd64f"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/AStar.exe&quot; Namespace=AStarPathFinding Type=AStarMap"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="533a4dc9-f551-44ae-ab67-f58f9a93ee47"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7a706a87-e308-4612-8541-c24b23670ebb">
+                <propertyInstance
+                  Id="364a1633-f64b-4ef6-8d92-3021e5401c3a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ad75e390-0e0b-4e96-9bc9-40da0b810d05">
+                <propertyInstance
+                  Id="d055dd7b-98b1-48ee-a298-6660cf3ec35f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1b82a419-ad2b-4d3c-ab30-9758ec29fe52">
+                <propertyInstance
+                  Id="b13a33b4-5ea7-4e48-87e2-3da8986af012"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7a5ecd7f-f391-4b5e-9a74-611ef480a147">
+                <propertyInstance
+                  Id="bebe8a48-8965-492e-a3c8-26f87a36fc53"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f5fadd3e-f8d2-4e0e-aaa8-f7d0469f0abe">
+                <propertyInstance
+                  Id="2f89a588-8c27-4f57-a094-ea0fabd8e862"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3f04550b-880c-482d-b955-45022e9ad528"
+        name="Path"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c0ecbb14-9580-4f8b-98d8-9e3c001417e1"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/AStar.exe&quot; Namespace=AStarPathFinding Type=Path"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1a4e0d24-5203-427f-af49-0567f85d99d9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c9e1cce7-542c-448c-8039-839a640cf36a">
+                <propertyInstance
+                  Id="efa8aa78-a425-4e23-9ec8-72bf5385c548"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bfb232cc-fcb6-4c62-a83f-a3e76f01eff3">
+                <propertyInstance
+                  Id="e256c903-375f-4e17-b736-f5e372073bc3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a0a939fe-8483-4121-b780-8260a1d5fff5">
+                <propertyInstance
+                  Id="1a3b115e-ced9-40ce-a486-117361de6e73"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c2dd3c76-85a0-4568-b907-d4a0e0ab94bb">
+                <propertyInstance
+                  Id="ef1437d4-2b07-4759-ae9c-666ae4e0c45b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0d01da68-31df-43cf-aad8-0e3575b8bde4">
+                <propertyInstance
+                  Id="af6c5099-cdd4-4cba-8cd5-8f5c92eeccad"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3919ca85-9782-4e29-bb6a-047dc2ff09c0"
+        name="AStar"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e8a28121-a883-450d-b4c0-df0f43491be7"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/AStar.exe&quot; Namespace=AStarPathFinding Type=AStar"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3d60818e-b8c4-4c9e-b58b-d109a1781646"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="122b57d2-5140-4a11-899b-e2994f1fa74e">
+                <propertyInstance
+                  Id="fffcfcc1-5bae-4913-b5bb-53aea0e4fb86"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="07524ebd-7f19-4cf1-a819-f69328a207b4">
+                <propertyInstance
+                  Id="5ed5fac7-8d7c-41bf-bc74-6f16ccb44fef"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="08398858-e069-48fe-bbdb-9f226faf9870">
+                <propertyInstance
+                  Id="ddb3474b-23a1-413d-873b-16d0ecf1db10"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6e58579d-2b6a-47aa-b42d-ca35d60385b0">
+                <propertyInstance
+                  Id="64e6c85c-52bc-4c0c-ad49-49fa223ecb4a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9f55e843-79d0-4790-8133-978a7b3a4082">
+                <propertyInstance
+                  Id="01798dc7-fa15-419c-a553-f1687ccf49c2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="f5327677-32ba-4016-9672-68a07508a8db">
+            <interfaceMoniker
+              Id="50a79a89-c99b-457f-a6eb-c09922a9a6ac"
+              LastKnownName="IDisposable"
+              LastKnownLocation="Package2_2015.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9166c2cf-aa21-4b94-a035-8e9d7076de18"
+        name="Node"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8d348f67-5e99-41c6-a265-b455d63a1eee"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/AStar.exe&quot; Namespace=AStarPathFinding Type=Node"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="75dd7472-02e3-47ae-ac74-c2d4665c1f1e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="39871b0f-d083-46d6-9d7d-5d8861a85d07">
+                <propertyInstance
+                  Id="aa86e4b5-9856-40d7-8cf8-bb165f98f3e0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c96191a-91bf-4f0c-9870-f2b248b50fc9">
+                <propertyInstance
+                  Id="65f65131-a541-4434-a64f-e078b2483a1d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="83988a9d-38a0-4d95-bfc0-6816ffca5c80">
+                <propertyInstance
+                  Id="c241e539-490c-451e-9274-7a5bafc3ce24"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6ce26f45-1163-40aa-849f-a601822a878f">
+                <propertyInstance
+                  Id="82e506fd-c0ea-4a79-9ea4-837cb5b3f2bc"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb028ab4-e047-47dd-9d34-8f8ec522aaa6">
+                <propertyInstance
+                  Id="4a27b64f-4d59-4de8-a701-228943885bd9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="e029f88a-c1ba-4711-ab2f-c1d11e7c58c2" name="Camera" linkedPackageId="e1ee7cfd-44c0-46cf-a6ef-0bd71f8771fa" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="9d4250e3-fe8f-4a93-9ea7-3b688428d255">
+      <profileInstance Id="7bdc277e-f2aa-49ca-8330-3257909f1436" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="81432187-5e72-46c7-a3a7-9a03fb3987cd">
+      <profileInstance Id="53c92e98-d590-4c13-ad33-1b95aa486e3b" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="bb878071-3f8b-48c2-8282-af735e407ee8">
+      <profileInstance Id="5ff84a43-1e8a-4cfe-99e9-6946797ecef4" name="CSharpProfile">
+        <elementDefinition Id="997b4bc5-1b11-46b7-98e2-301ba813118d" />
+      </profileInstance>
+      <elementDefinition Id="bf75e6c6-5c57-4deb-b7ef-406e92e4bd52" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4e5843a5-0ae0-43cb-a36f-252e25f7a8bf" name="Camera" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="00845933-679a-405c-bb43-4779553d44b8" handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera" tag="ViewCode">
+            <elementDefinition Id="b7c312f0-9ee9-4bcf-bdc0-607afcaa8061" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="bc13a4fc-89ce-4cb9-9f69-5272590e73b7" name="class" profile="CSharpProfile">
+            <elementDefinition Id="213e8147-64ee-468c-9c90-5f4eac0769d1" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="6a1213b1-d79d-48ec-82e4-878f683c6628">
+                <propertyInstance Id="1e3d5953-5d4e-4bd2-bf2c-cc5d072dbfdc" name="ClrAttributes">
+                  <elementDefinition Id="2e066a14-662c-43e5-8d4d-b31022a3ed69" />
+                </propertyInstance>
+                <elementDefinition Id="39bf8e35-f830-4f05-9d57-783cb046df3d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="7c9b3732-1573-4533-83e9-e1e20ed4796c">
+                <propertyInstance Id="5edff0b7-3412-4f1b-82d5-bc6fb82690c3" name="IsPartial" value="false">
+                  <elementDefinition Id="2d200e8f-2e83-4672-ad18-757dcb582ef0" />
+                </propertyInstance>
+                <elementDefinition Id="4ad8c6b5-d942-4f01-ab40-2f1a61c6e558" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="abdb6808-99b5-4e54-825a-7aa6c6b581db">
+                <propertyInstance Id="723e0833-e678-4bbd-a164-7e61eeddc87e" name="IsStatic" value="False">
+                  <elementDefinition Id="886f7037-27be-4b6f-a284-7561e4d0617a" />
+                </propertyInstance>
+                <elementDefinition Id="b48a345a-45a1-416b-ab3f-cc1c2870da04" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="563c2f60-ebec-4327-b135-b4aa2049dc79">
+                <propertyInstance Id="a282fe1e-ee63-4f89-8e8c-56541f9610fd" name="IsUnsafe" value="false">
+                  <elementDefinition Id="3fc72084-de01-4127-ba93-3f86d3f80fb8" />
+                </propertyInstance>
+                <elementDefinition Id="feec7383-bf03-4603-8fcc-174effacf9c7" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="3e78a52d-9e25-4a29-8578-065e9075dbd4">
+                <propertyInstance Id="1ea6d5ad-58ff-4477-9b76-51de1f865ecb" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="5415cafb-ee97-4de2-9f60-b6a7ee556305" />
+                </propertyInstance>
+                <elementDefinition Id="bbfe2f2b-6731-4c09-b01f-b60ab5dbc1f7" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="828cccbe-9606-4ec8-83c8-6cfbce68a86a" />
+        <ownedAttributesInternal>
+          <property Id="7f06ef1f-9635-412b-8189-c1a1d18fe01f" name="Rotation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="7ccffb8f-c19b-4a24-97c3-324bcccee66b" handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=Rotation" tag="ViewCode">
+                <elementDefinition Id="bd2f4b83-1a21-4eed-804e-ee6e3cd73f63" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="3f9d02e0-60a9-4fbb-a7b3-64c2b77750f1" name="property" profile="CSharpProfile">
+                <elementDefinition Id="46332ced-2a2c-4746-8611-9ec5c9b5bfc6" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="743e93b8-93d5-4c6b-97d6-976061153654">
+                    <propertyInstance Id="aea56e4a-74a5-4bd7-a7cf-ac3ac5055b81" name="ClrAttributes">
+                      <elementDefinition Id="cbec16b8-64f6-427d-9904-239b2ee09ef9" />
+                    </propertyInstance>
+                    <elementDefinition Id="e7e1db5e-102a-4129-8d84-196e2689f540" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="434a6409-bef1-4fa5-ba22-f9165fee602e">
+                    <propertyInstance Id="d4a0f441-1379-4a43-969c-857e56301489" name="Get" value="public">
+                      <elementDefinition Id="40b8aad8-6236-4f00-9582-8723bf66a22f" />
+                    </propertyInstance>
+                    <elementDefinition Id="9f3182e4-d881-4f12-9194-9e19407ab0b2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c30ddbea-22ea-4232-8899-66610e4b9684">
+                    <propertyInstance Id="1a4765c3-0a66-4142-9af9-c527aca73734" name="HasBody" value="false">
+                      <elementDefinition Id="9c3ce7ce-0716-4c4f-b300-e9773da0c904" />
+                    </propertyInstance>
+                    <elementDefinition Id="d28d4a08-9970-444e-9d87-a46c0426ba9c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a4c7af0b-ebbd-401a-8589-b92a13dd893e">
+                    <propertyInstance Id="7133b16f-00e5-4a50-a119-71559de9c5c3" name="IsUnsafe" value="false">
+                      <elementDefinition Id="5dcf0dc1-4253-4e99-8aa3-ab880b4bb87a" />
+                    </propertyInstance>
+                    <elementDefinition Id="bd4185bf-c01f-46a8-a760-1dbb36839d24" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="adb6dfec-f854-4648-8e07-8ec161bdc4a8">
+                    <propertyInstance Id="6b10d7d3-4947-4f53-b9e8-b37cfa5543ca" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="31398fc9-c6b5-4ab8-8c35-b2ffa2bc1b3d" />
+                    </propertyInstance>
+                    <elementDefinition Id="7a9ea9b0-db34-4518-ad28-d912948234b5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ad7463c8-c747-4907-a6ac-711c62eaa885">
+                    <propertyInstance Id="8a00e45b-d9d6-4370-967a-d0c24b4809d2" name="Set" value="public">
+                      <elementDefinition Id="80cbcf43-ea56-41dd-ad1a-c0104dffcc6e" />
+                    </propertyInstance>
+                    <elementDefinition Id="eaa41aa9-a4ff-4a08-8f9b-59aa7d9471c4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="0f38f7a0-e870-4c05-aac7-bd6c40f20f60" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f1976d50-5789-47dc-8e94-ea1e8d81e548" LastKnownName="Single" />
+            </type_NamedElement>
+          </property>
+          <property Id="03d50a7f-0415-4d01-a18e-235db7deb970" name="Scale" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="65dae899-8ecf-4cd9-90b9-847eb96437c5" handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=Scale" tag="ViewCode">
+                <elementDefinition Id="014e7317-e357-402f-bbb7-b2ff2f177e5d" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="07f746c7-138c-4bb4-8d97-b72051a1e552" name="property" profile="CSharpProfile">
+                <elementDefinition Id="6a2d288e-4755-44cd-8145-290dbd8446e0" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1c07ff83-1a33-4866-886e-08898cab891f">
+                    <propertyInstance Id="197e51d6-1c07-4854-bd5a-64d0ce8385f4" name="ClrAttributes">
+                      <elementDefinition Id="83ff6cc8-65d0-4650-b0ab-8258db6e3009" />
+                    </propertyInstance>
+                    <elementDefinition Id="8cb58622-a1bb-4d44-abef-6ebfee8c335b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3692e43f-faef-4e57-90be-3bd6d2921834">
+                    <propertyInstance Id="46878e5b-581a-4b54-b660-8cfd505e0afa" name="Get" value="public">
+                      <elementDefinition Id="19340514-a768-495d-806d-9fcdc4fd2969" />
+                    </propertyInstance>
+                    <elementDefinition Id="bf5eecc7-cf29-4fe1-9812-62845712dd35" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2ac70e8a-dd23-4add-9650-f4413840c76b">
+                    <propertyInstance Id="19ceec02-a1c5-49ba-926e-c6a5d826464e" name="HasBody" value="false">
+                      <elementDefinition Id="724ec59a-3fd8-428c-bbdc-15ebe64b1f63" />
+                    </propertyInstance>
+                    <elementDefinition Id="e4ab5b86-6f44-4fd6-817a-5e64ceff9cce" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="607bba09-d412-461e-a93a-75afe21fa5e7">
+                    <propertyInstance Id="41a9f51e-4e6b-4653-9141-bda0115dfc33" name="IsUnsafe" value="false">
+                      <elementDefinition Id="5f8e03f5-574e-4c24-81ba-ee8c9ecdc096" />
+                    </propertyInstance>
+                    <elementDefinition Id="d088b19b-7b66-4a1f-affa-23a5de885c21" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2881fe76-2931-4195-a08b-383aa35be1e7">
+                    <propertyInstance Id="0ace24c8-e6f5-4c54-a2d5-f075fd203188" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="4e9b522c-6eb1-4b3b-b138-57909ef61021" />
+                    </propertyInstance>
+                    <elementDefinition Id="85b1d92e-d40a-4044-9409-3187e65f179b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ac9420d2-d141-4f02-953e-53ae01f466c1">
+                    <propertyInstance Id="c16f9b90-c2a0-42e0-9d52-4ebaeeb646ef" name="Set" value="public">
+                      <elementDefinition Id="5e953e2d-ed37-4f38-aeea-d68502325a0a" />
+                    </propertyInstance>
+                    <elementDefinition Id="071c7ff1-0342-412a-9ea4-fbef6ccba67a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="0e91803b-fe98-4ea7-9ef5-dd1d22ec73ee" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f1976d50-5789-47dc-8e94-ea1e8d81e548" LastKnownName="Single" />
+            </type_NamedElement>
+          </property>
+          <property Id="f651994e-a322-4096-82a9-a5ddace7b49d" name="Offset" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="6f86e9c3-71ec-43a5-b848-47af059994c2" handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=Offset" tag="ViewCode">
+                <elementDefinition Id="b83145c4-6e94-425d-a3f0-faf0f391a95b" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="e0730a57-0357-4c79-ba9f-2626173d5757" name="property" profile="CSharpProfile">
+                <elementDefinition Id="bfcd45fc-2a86-4ca9-aecf-43a06f5eeecc" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="71085263-2010-4a65-a200-337999890f68">
+                    <propertyInstance Id="ab6f8288-3f97-46d6-b948-84d83803b041" name="ClrAttributes">
+                      <elementDefinition Id="f739870f-cb04-4d2d-8760-4f99e4d79fa2" />
+                    </propertyInstance>
+                    <elementDefinition Id="bbc0b278-1cea-45c1-9e57-e4df60ae38e4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="322cbb34-bdcf-4dc2-a311-25bd66b6023b">
+                    <propertyInstance Id="c0efccae-a9c1-4281-91c2-c5f65a6b4a44" name="Get" value="public">
+                      <elementDefinition Id="6850632f-dcfd-4f7f-9920-b8738f9c82e6" />
+                    </propertyInstance>
+                    <elementDefinition Id="4943a7ec-96fa-4512-97da-ab52715f3353" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7830eeb4-eda8-478e-8c84-d04c0b79bcaa">
+                    <propertyInstance Id="1df2ffff-b4cb-4497-9f41-36f542d796c6" name="HasBody" value="false">
+                      <elementDefinition Id="e09517fd-b547-446d-94ae-9ffdf4511e34" />
+                    </propertyInstance>
+                    <elementDefinition Id="b16978df-5218-457f-a0e0-c513b1baf3e1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7aab0253-22da-4c59-8612-c04426bca16e">
+                    <propertyInstance Id="befffcd8-eeb3-456c-b2b0-fce9b758db20" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7ccfd16f-e0cc-4e4f-9ffa-e778a87c9c28" />
+                    </propertyInstance>
+                    <elementDefinition Id="45dbd9a6-c880-43b9-a8b7-a360ddb99261" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a4213e8d-ccc7-4fec-974c-fab46787574c">
+                    <propertyInstance Id="ce9ef743-55d1-40fa-9935-28022c85aca0" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="4c675f4b-5f4a-41f1-8196-bfac4238bfd0" />
+                    </propertyInstance>
+                    <elementDefinition Id="e234b589-e3c3-4f96-ba1e-62ee03d9ffdb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ed4dc18c-795a-4697-9884-2d85ff557fb1">
+                    <propertyInstance Id="28f09908-5bb1-480e-8b3f-ce86c6fa81e1" name="Set" value="public">
+                      <elementDefinition Id="bfb79eb0-5d8e-4959-90cc-351ae9691fce" />
+                    </propertyInstance>
+                    <elementDefinition Id="a873985a-b1ce-4935-a02a-70afeba397af" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="ac6d12c7-4fc3-4be9-9580-4731ebb5d0f3" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+          <property Id="9031e2e4-222f-4f2a-9669-3f77b3cf6564" name="Position" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="095e3a15-3978-41f5-aa86-8150321bbbd6" handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=Position" tag="ViewCode">
+                <elementDefinition Id="3c501695-48a5-4ec8-bc6d-e81c203a41d4" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="d24c52b8-2bb7-49c0-b783-f1d62a70e43e" name="property" profile="CSharpProfile">
+                <elementDefinition Id="3b82ee05-d66c-41d0-b4ce-ccc89630ea96" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="282fc401-fb9e-47c9-9f92-ad6acfa738b8">
+                    <propertyInstance Id="b384a14f-5755-49a4-9c36-d446e71be835" name="ClrAttributes">
+                      <elementDefinition Id="352c74e1-7ac5-4cee-b8ab-8368eb84f820" />
+                    </propertyInstance>
+                    <elementDefinition Id="8b9b2a8c-e38d-402d-bdc3-8423a01ae41f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bb6d7fe1-0a06-40c9-a961-7833bdffd930">
+                    <propertyInstance Id="3bdf37ce-3ccf-477b-aeb6-39849ca17c1e" name="Get" value="public">
+                      <elementDefinition Id="d0a39c76-a46a-4c62-8d2a-a9bcc3402825" />
+                    </propertyInstance>
+                    <elementDefinition Id="07544d6d-149f-4599-90e8-bc27b09b49a6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cfb4e888-f6ef-4d27-94ea-f8619461b0c5">
+                    <propertyInstance Id="7036e1d8-4faf-4603-8591-44aa610fab97" name="HasBody" value="false">
+                      <elementDefinition Id="23cdbc6a-9c11-4e44-afb3-81e757e2a1fa" />
+                    </propertyInstance>
+                    <elementDefinition Id="b22dd99a-b0ef-4239-8362-e10e15fb3ac3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9e9203b3-70c6-4002-aa0d-c391ca654e98">
+                    <propertyInstance Id="68bd82ce-0699-47e4-bde5-59125d7d0a2f" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b9586034-1f9b-44d5-8f95-cae40a85fb3e" />
+                    </propertyInstance>
+                    <elementDefinition Id="78db92d3-a31e-4015-b368-dae945348175" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ab6eda2b-3613-4dfe-bca4-4fae830285da">
+                    <propertyInstance Id="38959ad0-0120-44da-a735-e07cdf19203a" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="efa05579-b5f6-4ba5-8604-661fbf8358c7" />
+                    </propertyInstance>
+                    <elementDefinition Id="c9433dcf-2f9b-4721-9df8-1fb5fb20729b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e0da052c-30b5-47a9-be44-d6846c362794">
+                    <propertyInstance Id="6dacc8d1-3243-42e7-9a4a-62faf21424ae" name="Set" value="public">
+                      <elementDefinition Id="3b9b4821-752b-47f5-b2ac-325111af4587" />
+                    </propertyInstance>
+                    <elementDefinition Id="d276f376-909b-4d89-934c-f715d78cd748" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="70d3f69f-f6a6-4193-bc73-890ab22ca168" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+          <property Id="124dfa0b-16ba-4219-840d-eb3fe06bd4da" name="CamOffset" isLeaf="false" isStatic="false" isReadOnly="true" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="eb9f7c90-bd05-46a4-877c-e6c50f6cfb8c" handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=CamOffset" tag="ViewCode">
+                <elementDefinition Id="ab38534f-3388-4793-85fe-5ebbdd4b0c5e" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="b5881b09-ceac-4b34-95c3-43f538ada599" name="property" profile="CSharpProfile">
+                <elementDefinition Id="0700239f-b217-4428-bca6-4a8e2cb4e118" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e8de7dab-0b39-44a1-8b56-77bee03d4a05">
+                    <propertyInstance Id="b9caef4c-5e4d-4ad0-93e6-83e62312f6a5" name="ClrAttributes">
+                      <elementDefinition Id="c67d9f47-473a-4832-aa1e-a5aee6333c70" />
+                    </propertyInstance>
+                    <elementDefinition Id="cc1a9f9a-137c-4570-a8dc-2e9f2a1ef7b5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9f800c91-947a-4cc0-8b23-d679d05a4251">
+                    <propertyInstance Id="585fc69f-a5de-41f4-a6bd-45dedefcfb00" name="Get" value="public">
+                      <elementDefinition Id="ec386d6f-08c9-4f12-8a96-6cd689ab5366" />
+                    </propertyInstance>
+                    <elementDefinition Id="dbd73d83-1b7a-4641-81e0-6e8a19f8077b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="45f46931-b8aa-4407-a27d-bbbbc7ffe97f">
+                    <propertyInstance Id="43b71245-4b23-47fc-a962-7eccbfcdd5e5" name="HasBody" value="false">
+                      <elementDefinition Id="82eb762b-3523-4949-957c-6d034ec34830" />
+                    </propertyInstance>
+                    <elementDefinition Id="338f8f92-ffcb-4ded-8950-121f6ad5d830" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1f2ae36f-c20e-4701-90ad-f7988de8072a">
+                    <propertyInstance Id="22262081-ca48-4158-a3ee-dc90f5c2911e" name="IsUnsafe" value="false">
+                      <elementDefinition Id="26cf24bf-fd46-45ea-bb0a-3eee593ea074" />
+                    </propertyInstance>
+                    <elementDefinition Id="8751f332-a7a7-4914-b94a-807be4e647d8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bb81425a-492f-4f7c-96dd-ed60fbfd5a11">
+                    <propertyInstance Id="a483ce36-d8fe-4332-bf85-7b125c831af3" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="42be798b-60a0-408c-8cac-0645041c2716" />
+                    </propertyInstance>
+                    <elementDefinition Id="cb72fc8e-fb1a-4a0d-9736-93a33faf326d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="288bb658-3f2d-43fa-8119-85df7ce6f0de">
+                    <propertyInstance Id="40a4c8ce-b665-4a9b-86da-009872d5e71b" name="Set" value="none">
+                      <elementDefinition Id="29c02673-134d-4cf9-8f02-3e3972220282" />
+                    </propertyInstance>
+                    <elementDefinition Id="9b85528d-468c-4f04-8832-ac8c2be0a3df" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="b37453d8-e063-4be7-823f-adf1c4c68fb0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+          <property Id="1d696539-5571-426e-914b-1178bf1eb238" name="CamDifference" isLeaf="false" isStatic="false" isReadOnly="true" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="31742a6f-f133-411d-bcd8-468b6499acfa" handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=CamDifference" tag="ViewCode">
+                <elementDefinition Id="a54df776-5161-446c-b634-5ca0d37d273a" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="98b27eb4-b736-47f1-a912-69ac756401c7" name="property" profile="CSharpProfile">
+                <elementDefinition Id="2cc9dfb3-827a-4921-a89b-591a1f444f9c" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7caf2bee-54a8-4c60-827d-2d1a4d843822">
+                    <propertyInstance Id="74f972aa-4126-4506-bf57-d044364e5afd" name="ClrAttributes">
+                      <elementDefinition Id="a1c04842-e2f7-4952-a700-7f3c4a492d51" />
+                    </propertyInstance>
+                    <elementDefinition Id="49718c1b-964b-4a86-a9ca-b45a57fe7bbc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="30f0bf0c-da4a-4c45-9355-514450562906">
+                    <propertyInstance Id="52e36df2-12a4-4626-85e7-bfb372e57ad7" name="Get" value="public">
+                      <elementDefinition Id="be3ba0a4-061f-4e30-845a-d322744d3849" />
+                    </propertyInstance>
+                    <elementDefinition Id="e68a035d-f70d-4483-aeb0-89b483bcd29d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="afec098f-7a11-4b9b-9152-237f284ab75f">
+                    <propertyInstance Id="f0f4f587-bdfc-4fd0-9ce0-923abe594d19" name="HasBody" value="false">
+                      <elementDefinition Id="4eb5f9e6-2428-46bf-ad7e-ab626c6c34b3" />
+                    </propertyInstance>
+                    <elementDefinition Id="d146f596-228c-457e-84d4-5fe647d92563" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b8903a6d-92ed-4039-ab67-34c31f880fcc">
+                    <propertyInstance Id="57da1a88-5b7c-46d7-8375-12afd3f9b61f" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b277d0de-85cf-40d5-8b13-f9c3ff728512" />
+                    </propertyInstance>
+                    <elementDefinition Id="a960b9c8-b412-49ff-84e3-687d172337f4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7f0825b4-8cab-4d45-95bd-a2c4fe585782">
+                    <propertyInstance Id="606392a8-2974-4f01-81dd-9f91209497be" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="19e515f3-8c8c-449a-86d4-41971feba8fa" />
+                    </propertyInstance>
+                    <elementDefinition Id="60283f50-6a63-41c8-be61-4a30f7be8d6a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ef20ef5a-9cd6-49b4-b060-c2eb31ed1adb">
+                    <propertyInstance Id="99d5ed09-6e95-480f-87eb-6511d32e435e" name="Set" value="none">
+                      <elementDefinition Id="b6e17710-4abb-4817-8255-f8176ed53443" />
+                    </propertyInstance>
+                    <elementDefinition Id="ac040d8a-a77a-429f-91bd-83eb594c6e5a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="361a9321-28f7-4a9d-9ee0-2bece5593602" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+          <property Id="b24efaf5-d52c-4922-b4b4-ad8efa48f6b9" name="getMatrix" isLeaf="false" isStatic="false" isReadOnly="true" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="bd5ad219-2193-4c0e-be0d-2ee4fe5e41ed" handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=getMatrix" tag="ViewCode">
+                <elementDefinition Id="d93cd0c4-bb42-4580-acd3-0dc30be3e0ad" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="af38364c-0d4a-4293-9f0d-355d24b6055c" name="property" profile="CSharpProfile">
+                <elementDefinition Id="45cd7e50-f8db-4483-893d-f3175db858ac" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6450c0d1-e8da-48ca-921e-10a1f7437d8a">
+                    <propertyInstance Id="970398e9-b0ff-4827-ae87-14617fbd58a1" name="ClrAttributes">
+                      <elementDefinition Id="6c5db4b8-87a8-458e-8659-ebde37030b3e" />
+                    </propertyInstance>
+                    <elementDefinition Id="5945114d-d70c-4e3c-b774-503b3858e59c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2d2e04d3-15a1-46ff-b9b3-1968437dee09">
+                    <propertyInstance Id="6bdd3f98-fc5e-4f03-bcd7-15d5d32c1f96" name="Get" value="public">
+                      <elementDefinition Id="76a0379d-ffed-419c-af11-31b4578155b3" />
+                    </propertyInstance>
+                    <elementDefinition Id="6859af6d-b780-4250-8150-97f0d28e0baa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="32588882-b5c1-4263-9e03-9bd7aa4bd782">
+                    <propertyInstance Id="c633d8e4-6865-4815-8b05-5615f9e124e8" name="HasBody" value="false">
+                      <elementDefinition Id="ab693a21-737f-4b29-afbd-bfd2f3c2deab" />
+                    </propertyInstance>
+                    <elementDefinition Id="1b46465f-1333-443f-851f-ac2c829560fa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1a25c26b-24fb-42d6-966d-1a54c8b23afd">
+                    <propertyInstance Id="8784465a-bb5d-4c45-af6b-831687bfe440" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7691cb45-8605-4b67-a76f-190ea82776b9" />
+                    </propertyInstance>
+                    <elementDefinition Id="b627d1b3-aa52-486e-8037-f70a96991424" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a74d97f4-8398-4ace-8730-497aceef54fd">
+                    <propertyInstance Id="e53bd0f0-7548-4acf-939f-ce4c757cc128" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="8ac38af1-8d85-453f-8090-c0404be38aca" />
+                    </propertyInstance>
+                    <elementDefinition Id="d7e6e0a3-cb76-4c88-bb33-1aad9d07f9de" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a916cecd-40bc-4ccf-8290-ac17136094b5">
+                    <propertyInstance Id="89a984f5-5a5f-4ec1-bf47-021648bfbc69" name="Set" value="none">
+                      <elementDefinition Id="2b0df9f9-c886-44bf-95cc-7feeb3182da5" />
+                    </propertyInstance>
+                    <elementDefinition Id="df2af232-42c4-4e23-a065-1692e414a126" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="30d9fbf5-5e5e-4f74-a830-b797e1acc742" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8be15503-2b3d-4b0c-ac4d-8bff856789bc" LastKnownName="Matrix" />
+            </type_NamedElement>
+          </property>
+          <property Id="73fcc28f-15fa-46bc-aa56-923d6426157c" name="getScaleMatrix" isLeaf="false" isStatic="false" isReadOnly="true" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="d9a43427-78a8-4da2-9763-87802d09ddd2" handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=getScaleMatrix" tag="ViewCode">
+                <elementDefinition Id="32c4fc98-fd0d-4a11-a434-1585a8294cb1" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="98929692-af10-4a32-ba15-3cc3f874670f" name="property" profile="CSharpProfile">
+                <elementDefinition Id="2aad7862-12e3-4a4a-8df9-bb0dc4bdfa34" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="48800a95-9a52-444f-911e-73f3748dc631">
+                    <propertyInstance Id="02cb7738-9c04-44e7-b327-b75037505090" name="ClrAttributes">
+                      <elementDefinition Id="ae275bd2-a9be-42ec-8a71-c9ed81da1ae1" />
+                    </propertyInstance>
+                    <elementDefinition Id="046ec905-08bf-48bc-a59e-a682326b470a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5a59ee2a-28fa-416a-908b-377080eaf074">
+                    <propertyInstance Id="5616d83e-c3b0-4ca9-b663-f7d2eaad5646" name="Get" value="public">
+                      <elementDefinition Id="89a93029-9b15-4fb5-8c6e-23dfa1c2f545" />
+                    </propertyInstance>
+                    <elementDefinition Id="19f32733-b553-4dfc-a1d0-ad94807a803f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1fe2bbe9-66d6-4f8f-89d9-d9b5f73add7e">
+                    <propertyInstance Id="2611426a-5e4a-4c3d-8283-9048fb4ee954" name="HasBody" value="false">
+                      <elementDefinition Id="ba448bbd-9cc4-46e1-8bc3-4e25acd64135" />
+                    </propertyInstance>
+                    <elementDefinition Id="b90486ec-5d18-4dc3-b1fe-4a9263b911ca" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="273a3981-14b9-4092-b589-708b33236e51">
+                    <propertyInstance Id="3042c46d-2c08-432d-b856-763724e9cf4a" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b3eb7ee7-0a44-4684-b44a-b73160f5520e" />
+                    </propertyInstance>
+                    <elementDefinition Id="8a0e9d9a-082f-43b4-8681-c6ac42d328de" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cbbf4079-6cff-46e3-a3d3-c9c95a217be3">
+                    <propertyInstance Id="230a776e-c151-4900-a787-811a42a0730c" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="1e9ed6f3-5f71-45ee-bd96-ef224983decf" />
+                    </propertyInstance>
+                    <elementDefinition Id="ef9e0139-1869-4637-a512-45614385fae9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="37b5c33e-0cf9-4c29-bf2b-b9ace9f8c08e">
+                    <propertyInstance Id="d94ea4d8-5fa5-46e0-8d0c-191de10da61d" name="Set" value="none">
+                      <elementDefinition Id="39394c97-99ec-45ab-a1b2-725087f10a1e" />
+                    </propertyInstance>
+                    <elementDefinition Id="fbb761e7-54d4-4413-a2a7-a76b22891f08" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="1b8af698-af5c-43c9-9d0d-cc4f6489215b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8be15503-2b3d-4b0c-ac4d-8bff856789bc" LastKnownName="Matrix" />
+            </type_NamedElement>
+          </property>
+          <property Id="311bbe15-b1c2-4427-9095-5c82204a828b" name="scale" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="bf33dab5-70c8-432a-8afb-8c7f9deb8964" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=scale" tag="ViewCode">
+                <elementDefinition Id="3573f90e-b798-4615-8992-a35b84f60aa3" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="cbbeba9d-d0e6-4ad4-a5e9-8378bf6a8361" name="field" profile="CSharpProfile">
+                <elementDefinition Id="3775f742-2c1f-4f2c-b73c-cabb7e0e11c3" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="80f1b26d-347b-4612-b074-40636f96ac62">
+                    <propertyInstance Id="6434e32a-602d-43f9-911a-99913c79f02c" name="ClrAttributes">
+                      <elementDefinition Id="25e13e7e-a83d-46b0-a5e1-de8533a43b7f" />
+                    </propertyInstance>
+                    <elementDefinition Id="8d53017a-3941-47e9-bdb6-9cbde885fdab" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fd975d27-689e-4db4-9571-d1e9162fe4c5">
+                    <propertyInstance Id="68e364e0-e334-45be-b492-7d85c19c7053" name="IsConst" value="false">
+                      <elementDefinition Id="d4af2f72-fbf1-41cb-ac4f-cb1f31396423" />
+                    </propertyInstance>
+                    <elementDefinition Id="524ea863-127d-471b-9aa9-a9ea9e5bdcc8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1e67343b-79fb-451b-b478-ecfb3bae45c6">
+                    <propertyInstance Id="6a0283c4-b8c5-46cb-804b-d61db5bd131e" name="IsNullable" value="false">
+                      <elementDefinition Id="be2205e5-59a1-43f2-831f-d0124eed9b53" />
+                    </propertyInstance>
+                    <elementDefinition Id="8d0f4a4c-309c-475b-9bb4-12737233117f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="02f1c0d0-4856-43ed-b451-d98db521a63b">
+                    <propertyInstance Id="a6f0ed9d-ace6-4503-8782-848fed03a490" name="IsVolatile" value="false">
+                      <elementDefinition Id="cbcda59b-bd71-48c7-9d15-e16b9a192776" />
+                    </propertyInstance>
+                    <elementDefinition Id="525be84b-b848-44a9-8e32-a5379394cdfb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="23eca4db-31a8-4dd2-b377-4b7f23c2d644">
+                    <propertyInstance Id="b9336277-a571-413d-a2a3-9f770e574389" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="5b3beb5b-bed8-4ced-8108-dae4ce8b4df6" />
+                    </propertyInstance>
+                    <elementDefinition Id="d4f564ae-40c9-47bc-a5eb-48748eb0c7bd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="d9382ab9-931a-468c-878d-df59c2acfbc4" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f1976d50-5789-47dc-8e94-ea1e8d81e548" LastKnownName="Single" />
+            </type_NamedElement>
+          </property>
+          <property Id="b175131f-03ef-4516-b2d2-da34ad49d7b5" name="rotation" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="584ec316-0354-44e8-b69a-cfd44b7e7ccf" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=rotation" tag="ViewCode">
+                <elementDefinition Id="58bd9329-3bd6-4429-aa35-24692dd33b59" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="18a69a66-4642-4c7d-ba8f-95fa12a4fc6a" name="field" profile="CSharpProfile">
+                <elementDefinition Id="872188ca-40e8-4951-a4a4-1bd3767120e4" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="acbf91e7-661e-4b40-a672-4c7113b771cf">
+                    <propertyInstance Id="a66dea15-5d3e-42c0-a997-cfa2c131cb19" name="ClrAttributes">
+                      <elementDefinition Id="5f7a4657-df38-4b2f-9528-efc0c0b2eee8" />
+                    </propertyInstance>
+                    <elementDefinition Id="7fc035b6-e040-4e66-9172-3ce60c62bed6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="97612890-f2d7-4a39-9207-b51ba6c8339c">
+                    <propertyInstance Id="d4303e85-43be-4d6f-817b-eaf30fd69ff4" name="IsConst" value="false">
+                      <elementDefinition Id="780ee918-456c-406e-be95-ef1edccb3428" />
+                    </propertyInstance>
+                    <elementDefinition Id="6ab926aa-30ce-49f6-b007-ed14f1b2c5d0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d80e642b-c628-4638-8921-a472816c3a4d">
+                    <propertyInstance Id="d7bd038c-3351-46bc-9f26-26ea41e63eb3" name="IsNullable" value="false">
+                      <elementDefinition Id="1c2da507-fa14-47fa-9c89-e0372270d736" />
+                    </propertyInstance>
+                    <elementDefinition Id="055629af-a7cf-430f-b6c6-a0cf82a60be3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ad0fe02e-4614-4ecf-9599-1051043ddf11">
+                    <propertyInstance Id="f06378c0-5bd9-434b-b00d-66cbff8ea0bc" name="IsVolatile" value="false">
+                      <elementDefinition Id="1bc6a8e6-2669-45ad-9024-3bf2f17162ba" />
+                    </propertyInstance>
+                    <elementDefinition Id="73c1b40c-e84b-4111-8d25-fb90120b416e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="79c59925-d8c2-4a97-ae7c-dc2dbb10f1fa">
+                    <propertyInstance Id="d570a408-b470-41c6-a066-7ff46445e588" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="a3ac4ba2-42d8-4130-9985-9f6e3f3ba0b4" />
+                    </propertyInstance>
+                    <elementDefinition Id="e1bc6cb2-c5e3-445b-9a0b-5f521831d85f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="cbd260de-2ba4-44ab-925b-046eafb8f8c1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f1976d50-5789-47dc-8e94-ea1e8d81e548" LastKnownName="Single" />
+            </type_NamedElement>
+          </property>
+          <property Id="bd43118b-6273-4df2-8904-bc16c0d823ae" name="offsetmulti" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="95936880-8596-4e4a-8e12-e3df701419e8" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=offsetmulti" tag="ViewCode">
+                <elementDefinition Id="7fd1bd68-0f7b-464a-9fd2-ed6f7ad50542" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="d23a4f92-1d9e-4011-9f75-4a1b676d3771" name="field" profile="CSharpProfile">
+                <elementDefinition Id="6aaeda15-047e-40ab-abf9-3089112c94f6" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="125dc874-c764-42ef-b039-a1bffac64926">
+                    <propertyInstance Id="f2cb46c7-9074-4bda-a39a-6f594f7423b1" name="ClrAttributes">
+                      <elementDefinition Id="d736b29e-f111-4068-b207-54f4aaa95d70" />
+                    </propertyInstance>
+                    <elementDefinition Id="a452cc0a-6b6f-4f90-85fd-a5ac3a9a6861" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6d0b77fd-cc0e-46c5-87b0-ccfe68037d85">
+                    <propertyInstance Id="aab77df8-449f-4f91-9b23-3a10841e084a" name="IsConst" value="false">
+                      <elementDefinition Id="dfbe7b9a-1673-49a0-a088-e753b96df084" />
+                    </propertyInstance>
+                    <elementDefinition Id="68670192-950a-4c18-aa2a-fe0b7c99c380" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="36523c32-13dc-4d8c-b071-d7a8a91afa05">
+                    <propertyInstance Id="d39dc6bc-3b07-4e2f-ad89-b46be8c000f4" name="IsNullable" value="false">
+                      <elementDefinition Id="60690ae4-7cab-49e7-baef-c7abe9fa3d08" />
+                    </propertyInstance>
+                    <elementDefinition Id="8078ee5a-27ab-49ea-816d-e1cedb90403d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="31503bdb-095b-4960-ba81-a849a420fc5b">
+                    <propertyInstance Id="5aa7f047-903d-4f91-9c0b-0434525d11f8" name="IsVolatile" value="false">
+                      <elementDefinition Id="f43a4fe3-4161-46ef-a135-0237d356bfdd" />
+                    </propertyInstance>
+                    <elementDefinition Id="017ebabb-6e7d-429e-95ac-5fa3824352a9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f2681ee0-19bd-4e6f-9141-ad107e8bab38">
+                    <propertyInstance Id="01fed87f-98ae-492f-a7e3-4f1c26c31013" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="534ae994-c907-437e-a78a-73dbd50a519b" />
+                    </propertyInstance>
+                    <elementDefinition Id="5b55d2a8-16aa-47e5-8558-3a06a18e3d12" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="1f62913b-7ca7-45d5-a6d0-c995ba9a92bd" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f1976d50-5789-47dc-8e94-ea1e8d81e548" LastKnownName="Single" />
+            </type_NamedElement>
+          </property>
+          <property Id="6a55d6ce-eabd-42dd-8d0d-fe2f4babe2d4" name="screen_width" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="19021171-1de2-4041-9ab4-908317d63005" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=screen_width" tag="ViewCode">
+                <elementDefinition Id="e5f76319-c61c-430d-837e-5f590d039861" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="86039860-daab-48e7-a491-f8e136109bd5" name="field" profile="CSharpProfile">
+                <elementDefinition Id="83056cfb-213c-4d51-b760-dee4103bb9e8" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9fced29f-cbec-446d-813c-80037ab36409">
+                    <propertyInstance Id="de2f26bc-bcd5-4004-be47-e5a0bd7852c9" name="ClrAttributes">
+                      <elementDefinition Id="a3f3baeb-d096-4020-bf78-c959c5757402" />
+                    </propertyInstance>
+                    <elementDefinition Id="1dc76d1a-8d6f-4ab6-9cc9-11f6ac2de82a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8e7a7b65-83e9-42ee-b620-8694310ab5f4">
+                    <propertyInstance Id="51fcb39a-637f-4349-aa50-1169170c4356" name="IsConst" value="false">
+                      <elementDefinition Id="532d2d49-51c4-4f21-a4cc-40ff5b3f4827" />
+                    </propertyInstance>
+                    <elementDefinition Id="16fad5df-8df3-4994-ba4d-342d0f43d640" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e6e77bd2-5528-4253-b25f-e575abfeac8a">
+                    <propertyInstance Id="f06fbbb1-0770-444c-b26e-7c1217e78ef6" name="IsNullable" value="false">
+                      <elementDefinition Id="61bbf7f0-6505-433f-b097-16db7a973120" />
+                    </propertyInstance>
+                    <elementDefinition Id="4af8184f-0416-4f8a-aeab-ca553cee5072" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="205478d5-02e0-4e91-b847-b043ef0e6c35">
+                    <propertyInstance Id="d4b2ad35-4e56-4878-bae4-ed5db1da6329" name="IsVolatile" value="false">
+                      <elementDefinition Id="d59636a0-6667-4028-927f-aefb9783a6cc" />
+                    </propertyInstance>
+                    <elementDefinition Id="b9866657-2149-4a52-bfd4-a172c4324429" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d59c070c-a91e-44ba-9870-d654c2199ba4">
+                    <propertyInstance Id="3aeac496-8b69-4ca4-bc2d-36ce9a5da395" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="218c0bf4-7ce6-41c6-8e19-3a1bd65a613a" />
+                    </propertyInstance>
+                    <elementDefinition Id="a6c7d261-903c-4108-b843-9c6f74ed5ffb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="fad921ee-52e9-4a4a-ab2f-43bce5577297" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="2868e6fe-4087-4afc-95ac-8ae79317e792" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="c6a70cfb-c171-47f8-8be8-dc029fe4d4e0" name="screen_height" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="f8cdfd38-5a31-40f5-b69f-ac77ba190942" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=screen_height" tag="ViewCode">
+                <elementDefinition Id="229fcff9-4f0e-488b-a23c-f503fbf3d910" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="7599882e-b3e3-47b3-9cce-5205b10adbbb" name="field" profile="CSharpProfile">
+                <elementDefinition Id="68cbd05b-8b7f-463b-9a9f-8fbae2321d12" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cddf828f-e2fe-44d6-95ed-96a88e82719e">
+                    <propertyInstance Id="799b142d-5dbf-4976-ab24-eb7074779dd2" name="ClrAttributes">
+                      <elementDefinition Id="55dc2d10-3d9d-4f7d-ab85-27db1b08877b" />
+                    </propertyInstance>
+                    <elementDefinition Id="617505dd-553d-4e86-9412-f1502ccd586c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4814d17f-3f9a-40e2-9b76-6c1d91b1131b">
+                    <propertyInstance Id="1bdc1f79-57ff-4d21-a1e1-0fa911080365" name="IsConst" value="false">
+                      <elementDefinition Id="b3fdffe3-64d9-4a47-807d-ea2f118c61ad" />
+                    </propertyInstance>
+                    <elementDefinition Id="469ee466-886d-40fa-94f4-676dad7f6f82" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0bb71ebb-3acd-4ac6-b40e-4231e1af050c">
+                    <propertyInstance Id="b553096d-298c-4085-983d-996a1c389560" name="IsNullable" value="false">
+                      <elementDefinition Id="32e4571f-b89a-47bf-91b7-7af6fb3246a1" />
+                    </propertyInstance>
+                    <elementDefinition Id="17883df7-a31d-47b0-8468-ef750d209b38" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="886e9ceb-278f-48df-939c-e7e3191403e2">
+                    <propertyInstance Id="93767ede-99a9-4813-a4ac-630eb0a7e707" name="IsVolatile" value="false">
+                      <elementDefinition Id="dfa3c2ae-d3d7-452f-8e99-fd400ecec3a7" />
+                    </propertyInstance>
+                    <elementDefinition Id="add3b65d-8fe2-4f1b-8739-663d4844a836" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ddbba248-dc15-4bdf-9717-aaa8d38cda1f">
+                    <propertyInstance Id="7020d128-5794-4f93-8a59-476c50ef093a" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="a088fa66-71b1-41e9-85bb-e3dfcdad89b3" />
+                    </propertyInstance>
+                    <elementDefinition Id="5e4a6c57-2f5d-4bad-9f93-f951b6568086" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="6542e7e8-40c1-471e-89c9-8620504c5fc3" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="2868e6fe-4087-4afc-95ac-8ae79317e792" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="e32bf1b7-f585-4985-902c-3a9fe7583733" name="offset" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="418fceeb-a656-4503-b8e9-d1928e38667b" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=offset" tag="ViewCode">
+                <elementDefinition Id="abd58948-576c-448a-b14d-f415e1842395" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="1853d672-5db4-4a9e-8f25-5cbfcb5304f7" name="field" profile="CSharpProfile">
+                <elementDefinition Id="8d6af317-c76d-42f8-854f-dca61b0162fa" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="25776a01-54aa-444a-9fd1-5480e51bdfa6">
+                    <propertyInstance Id="75b0fc88-1c12-4dde-acf2-3b45174c21b0" name="ClrAttributes">
+                      <elementDefinition Id="b1b1151e-568f-4717-a5e9-ed12f817239c" />
+                    </propertyInstance>
+                    <elementDefinition Id="268f65ce-4b00-4cdb-99e2-9b23ad6d8ab6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8be02aa4-faba-433e-aa0d-fc15efc50126">
+                    <propertyInstance Id="d1dcc23d-4c83-4280-8f4d-3e2a4f9f909c" name="IsConst" value="false">
+                      <elementDefinition Id="56f0bb01-8df1-4af0-86a6-fedc3b3b8e0d" />
+                    </propertyInstance>
+                    <elementDefinition Id="f793fba8-f5be-4f46-9d8c-aaf0f8d26fc6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c954767b-9cff-4b6c-a804-d3ff7859ffab">
+                    <propertyInstance Id="1f52332f-5e47-4965-904f-1bc40a8704fb" name="IsNullable" value="false">
+                      <elementDefinition Id="ccc5ce13-0a72-48be-9b21-19e8f8cd5356" />
+                    </propertyInstance>
+                    <elementDefinition Id="0b2af517-e6b6-49e4-b314-1731374bb3b0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="aa1ef00e-f191-4f8f-968f-37fa8bb4264f">
+                    <propertyInstance Id="c06a3178-7afc-4703-8fcf-78bef06314c0" name="IsVolatile" value="false">
+                      <elementDefinition Id="a9901e55-6055-4bd1-b96f-e5921f9256af" />
+                    </propertyInstance>
+                    <elementDefinition Id="0d302454-d2d3-4168-af67-8c0b0bdd6d03" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2faeea05-86bd-452f-bf3f-b546d097422e">
+                    <propertyInstance Id="f14562ff-413d-4b5c-9d17-49213088ec45" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="715a8d5d-23be-49b9-8c7a-0674a1198734" />
+                    </propertyInstance>
+                    <elementDefinition Id="db94f592-f97e-459e-b976-85aa4d8707d1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="65c813d0-11c0-45f7-b62f-47f7f5e8211e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+          <property Id="57df4555-bdf4-488a-b755-b2072987fb49" name="matrix" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="565aaf88-02eb-469d-bb91-dbf9d0151704" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=matrix" tag="ViewCode">
+                <elementDefinition Id="bd812c51-0839-4d35-ac5c-121bf25a3f22" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0778a630-d0a1-43a7-83fd-9b9a98ccf9bb" name="field" profile="CSharpProfile">
+                <elementDefinition Id="469c8b0d-be0a-49d5-976e-924154a48053" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="16e66991-95ca-4faf-9300-64bdfd5762a3">
+                    <propertyInstance Id="92670356-ffac-4ef4-bf41-31a617c6fcfa" name="ClrAttributes">
+                      <elementDefinition Id="90729b78-37d9-4b45-9d5a-3bdfa4e050c3" />
+                    </propertyInstance>
+                    <elementDefinition Id="eeb76b0d-d14c-42e1-9d6f-e2cc012ab585" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1f66274d-2645-4746-b7e9-719ce8431dea">
+                    <propertyInstance Id="948d7a61-25ae-4872-b1b0-1f06918c5d1d" name="IsConst" value="false">
+                      <elementDefinition Id="a4143ef2-c19f-4cc2-ad1f-e31ceacfd135" />
+                    </propertyInstance>
+                    <elementDefinition Id="43e8104e-cf3d-4cd6-864b-84edfed09178" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4f8e080c-7a6a-4011-87a1-8af63cf53aa4">
+                    <propertyInstance Id="3204dbca-0c3e-4592-942b-a705d901f894" name="IsNullable" value="false">
+                      <elementDefinition Id="0a9a62aa-1c92-4481-aae5-8c0ad90673c2" />
+                    </propertyInstance>
+                    <elementDefinition Id="4c1815a6-5cbe-44b0-8a09-8c32a923cbfd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9d288391-ee44-4a0c-a114-3c0ef1757fcd">
+                    <propertyInstance Id="8f5fb9c8-3452-4ce4-b004-a1a3a1e91ad1" name="IsVolatile" value="false">
+                      <elementDefinition Id="1485096d-d1d4-44c5-94ef-357420fcf6fc" />
+                    </propertyInstance>
+                    <elementDefinition Id="ae37ff2a-cc8b-4cde-9f30-5a7a028032ad" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d5c69dcd-7d00-4151-8a6f-d5996ee48923">
+                    <propertyInstance Id="1bbb26cb-fe04-419e-adb1-8cd7815dd2e7" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="250e2857-7aaa-4df4-b8b3-89f810d3d9f6" />
+                    </propertyInstance>
+                    <elementDefinition Id="656212f3-3b2a-4468-bac5-567a3364f08a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a37fef0b-dd1f-4bc9-86dc-8a6dfc009614" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8be15503-2b3d-4b0c-ac4d-8bff856789bc" LastKnownName="Matrix" />
+            </type_NamedElement>
+          </property>
+          <property Id="e3e5d19d-ae0c-47cd-9b44-5bb4b3dcabd9" name="camoffset" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="5836e808-90ff-494f-a9bd-3c5b640bcd79" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=camoffset" tag="ViewCode">
+                <elementDefinition Id="86253f10-7ff0-454b-a849-1b3226285dc7" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="56b3a71f-0960-4316-8761-de2e307036de" name="field" profile="CSharpProfile">
+                <elementDefinition Id="c23cca19-7bd0-467d-afb5-12b4822fc38e" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f40f7b68-d967-44c8-bef8-80fe3e4f4c4e">
+                    <propertyInstance Id="2ac96604-f06b-4520-8ebf-a439533e6e76" name="ClrAttributes">
+                      <elementDefinition Id="9e23a06a-8b40-45d8-b277-de6b4d203501" />
+                    </propertyInstance>
+                    <elementDefinition Id="b06473d7-e8f8-4173-a0b2-78eb4bd7b38d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ec723d81-8c9a-4900-87c1-45d98c618b79">
+                    <propertyInstance Id="fe39cb05-2117-4012-8434-f2644ef1aedb" name="IsConst" value="false">
+                      <elementDefinition Id="6b5bf5ff-e5ac-4a44-9d4f-15097be03e93" />
+                    </propertyInstance>
+                    <elementDefinition Id="4d334ab5-fd48-40f7-a1cf-9ca8bcd975be" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b38f2899-fcbf-429f-b5b3-489d89951377">
+                    <propertyInstance Id="41672fac-1e56-4efa-96af-cd8381f8b2aa" name="IsNullable" value="false">
+                      <elementDefinition Id="333c9924-e8a0-4ae9-9548-6c3931deea8d" />
+                    </propertyInstance>
+                    <elementDefinition Id="45321238-ebbf-4840-94fa-d08fc1247923" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="12429c5e-b463-402f-a216-a5814c0c06ce">
+                    <propertyInstance Id="9f042b89-86e1-40c3-aea1-dbac4b5f0976" name="IsVolatile" value="false">
+                      <elementDefinition Id="61af52cb-2c06-425e-b273-01cc1db2c9ca" />
+                    </propertyInstance>
+                    <elementDefinition Id="9bc13f8f-3e45-4bb2-8e5a-ee60d9d5a149" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1ec479ee-7e2b-43c5-9fd0-c301abb4c2fc">
+                    <propertyInstance Id="5f31cb85-1e61-4329-9eba-c94f0475b7f7" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="fb01b94d-4f7e-458d-a3e6-19fd9585b966" />
+                    </propertyInstance>
+                    <elementDefinition Id="b02b27bd-81d9-4a01-9f68-73e482adb628" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="b58b2403-ccad-443d-9f37-10a6569802ac" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+          <property Id="d2dad310-5931-46df-9c82-73b1dffee297" name="camdifference" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="c505526a-752b-4134-bb7d-108496cc8b8c" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=camdifference" tag="ViewCode">
+                <elementDefinition Id="520e9fe6-01ca-42e0-b0d7-1af8ac1c3d56" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="1f918bca-77f1-4697-b7a7-fdac1e390c61" name="field" profile="CSharpProfile">
+                <elementDefinition Id="47bd642c-b285-44b2-b28c-8dd1661c7381" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2f7d2e41-2963-43c6-bed9-ab12558b81c7">
+                    <propertyInstance Id="91a50ddb-a88f-49ff-bf18-bef06a2517e4" name="ClrAttributes">
+                      <elementDefinition Id="d2ffc0a1-0e1b-443f-a98b-414a78a98fa1" />
+                    </propertyInstance>
+                    <elementDefinition Id="1dd1d9e7-83d2-4ad6-8ce1-d4e24eeff986" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="341aecbb-4e62-46f2-9a83-b04c3aa91d9e">
+                    <propertyInstance Id="8d335192-448a-416c-b697-328636deafc0" name="IsConst" value="false">
+                      <elementDefinition Id="36899a3a-6371-4fe1-9fba-23848fcc3299" />
+                    </propertyInstance>
+                    <elementDefinition Id="b6cefe03-0ee6-4e1d-a171-d9047d251f1a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="031c87ad-523c-4fac-a439-2399c98339f0">
+                    <propertyInstance Id="ecd312b9-13ae-4957-9597-52816ae931df" name="IsNullable" value="false">
+                      <elementDefinition Id="debb4feb-652b-45d1-92d6-7915d2d20ea3" />
+                    </propertyInstance>
+                    <elementDefinition Id="8553d288-9370-47dc-a598-bf283dae0941" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="550c0335-7d8a-4136-b717-5139f875e903">
+                    <propertyInstance Id="bb50d86e-fc8e-4bd4-9663-dd18e1b92b66" name="IsVolatile" value="false">
+                      <elementDefinition Id="aa574ecd-1369-4b2a-b5d9-5d70934c3292" />
+                    </propertyInstance>
+                    <elementDefinition Id="c9a53d0a-6e8a-430e-aa96-ca8560f8c39b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a7a30ab8-c1ca-4984-8e4d-d03b4b6f916b">
+                    <propertyInstance Id="747d9f09-fba3-4b24-9669-fe7e9a3fb6ef" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="fa159a4e-eec2-4c19-92ff-601a73ac3b17" />
+                    </propertyInstance>
+                    <elementDefinition Id="c4c7387e-12dd-4a5f-94da-77d0ce23b4c6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="2b1d68fe-66f7-489f-ba81-f96d0cb59946" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+          <property Id="62ebb91c-f20b-4271-b963-7019bdc85ba7" name="position" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="d7a16aa3-cc7e-49d1-a1d6-0d1830bc916c" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=position" tag="ViewCode">
+                <elementDefinition Id="2c746e66-735b-4900-9b0d-36985d02cc71" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="5e6e8c4c-083c-48e7-8a06-f439925c3647" name="field" profile="CSharpProfile">
+                <elementDefinition Id="e4ce21e1-66b9-4ca2-b6c2-e8a516798157" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="eb43ad1b-2912-40a6-91a2-20e1799db490">
+                    <propertyInstance Id="84223ef3-60a4-4102-b66f-986e80b4f871" name="ClrAttributes">
+                      <elementDefinition Id="d7035f03-efaf-4146-9a7a-a51fef9af124" />
+                    </propertyInstance>
+                    <elementDefinition Id="3321db3c-51db-40d1-9d1e-1aa851478f5c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="060cd315-6dea-4b1d-bb70-fc881047cc6b">
+                    <propertyInstance Id="fcadff42-be47-45ec-8e95-7c1378d3e13a" name="IsConst" value="false">
+                      <elementDefinition Id="a6ed20ae-385c-4b16-89c2-b1a65c108359" />
+                    </propertyInstance>
+                    <elementDefinition Id="4efe60d7-964a-40d4-860b-31e37107f4c6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6acc32ef-eead-4ee6-82db-b0ff1b496c3b">
+                    <propertyInstance Id="54f57cca-bccc-4255-9e2f-c3f6e69a07be" name="IsNullable" value="false">
+                      <elementDefinition Id="faab3f63-076f-4c30-8d63-1ce912bc03b3" />
+                    </propertyInstance>
+                    <elementDefinition Id="dbaf8862-6f97-4b66-a5bf-b273727750cb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c564eafb-a064-4f62-9016-b16e49aa3636">
+                    <propertyInstance Id="208648b6-06cf-4ac7-94db-fe7853ef7f93" name="IsVolatile" value="false">
+                      <elementDefinition Id="44af05eb-6ef8-43d7-98f3-049105e5b9e2" />
+                    </propertyInstance>
+                    <elementDefinition Id="47579ae8-d2f6-4c80-9830-e7da5f8ecb9c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a689671d-cc2e-4fa1-8750-bd424b030f5e">
+                    <propertyInstance Id="c3d6c3d3-9863-4ec9-86e2-8ff404dc6215" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="53d13072-c679-4da7-96f7-f95308c17cd7" />
+                    </propertyInstance>
+                    <elementDefinition Id="05a4cf7a-1880-450a-96ff-2d6358a17d96" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="2d726fd2-6d0d-4605-b564-d8af1ccdce54" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="ba0ca706-01e6-4318-8156-51051c9b9496" name="Camera" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="172b7029-1168-4086-a374-7f86f317a4c0" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32)])" tag="ViewCode">
+                <elementDefinition Id="a65c9688-90ec-43fb-b8b8-113bbf396dcf" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="a684e1aa-4aaa-47c2-81b5-c6500b7c3bd1" name="method" profile="CSharpProfile">
+                <elementDefinition Id="7fa387c4-4602-4018-a66c-195317a7bee4" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="94a8262a-925f-41b2-942c-e4a97fe88d45">
+                    <propertyInstance Id="8f3c6da7-98a5-4594-88c2-4458fc12c522" name="ClrAttributes">
+                      <elementDefinition Id="e53d7037-1e4d-4b1d-8455-172fd14bf161" />
+                    </propertyInstance>
+                    <elementDefinition Id="2bac796d-d273-4b02-8cf1-92c042fbd178" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9d41f619-e415-4983-b869-7e9ac067ee9c">
+                    <propertyInstance Id="ea4dd93d-75c9-43bd-9853-30c821294c37" name="IsPartial" value="false">
+                      <elementDefinition Id="560e2aed-34cc-4266-8f9f-2d5bb3d49858" />
+                    </propertyInstance>
+                    <elementDefinition Id="b980f35d-d702-492c-8596-b8c9a3558f2f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="baad9d64-37b0-4d34-972e-bc64491473e2">
+                    <propertyInstance Id="7d84e20c-84bb-4a64-b4db-be2198d01939" name="IsUnsafe" value="false">
+                      <elementDefinition Id="8c55d529-5e13-4ad5-9ec1-d06eb9f8590d" />
+                    </propertyInstance>
+                    <elementDefinition Id="d1740953-41ec-4b16-9385-62a0f3872b94" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="516d43f4-95c9-483b-8170-efb654a7bbbf">
+                    <propertyInstance Id="6fe1d04a-98fc-42ae-bace-5687de543aa0" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="32251034-02f0-4669-ab3f-0809020e3d04" />
+                    </propertyInstance>
+                    <elementDefinition Id="191d629a-eb90-42a1-b946-b8cefec3d19d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a0c2df0b-c90f-4e2b-bf01-6b526b6cbc7d">
+                    <propertyInstance Id="926fe99b-3a71-4d38-be33-5f028b41d269" name="params" value="false">
+                      <elementDefinition Id="c380ec56-9d0b-4e22-8b47-ede7f4920a6d" />
+                    </propertyInstance>
+                    <elementDefinition Id="f3de4881-4647-477e-8c3e-42294a620b26" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="059c7b49-6256-4be3-9c38-bad95a4fd676" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1b2ca9c4-bdbe-4ed6-b40c-db3bab02d992" name="screenwidth" direction="In">
+                  <referencesInternal>
+                    <reference Id="d3fa179e-2f22-4366-bf6f-d83d2a76c6d5" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32)]) ParameterIdentifier=screenwidth" tag="ViewCode">
+                      <elementDefinition Id="00fe4531-8bfa-49bf-b321-b00b10f503f1" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f0912caf-6b25-430c-8956-e5c8ec2d2d95" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2868e6fe-4087-4afc-95ac-8ae79317e792" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9bc90ac3-048c-44a8-a0d3-f28f1f401b2c" name="screenheight" direction="In">
+                  <referencesInternal>
+                    <reference Id="221cf16b-17b9-4bbb-8b37-7014a0a0b528" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32)]) ParameterIdentifier=screenheight" tag="ViewCode">
+                      <elementDefinition Id="27a744c0-5104-439f-850d-c4819868ef67" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="b2da1e04-bd2a-4ee0-93df-d2a4912c2aee" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2868e6fe-4087-4afc-95ac-8ae79317e792" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="0d787516-a483-4457-8b0d-b48e8c8b525b" name="Camera" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="c913f3f1-21ad-4613-853d-3e174f3ebce9" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2)])" tag="ViewCode">
+                <elementDefinition Id="de3a9f72-8f49-4faa-bc8e-ce1293e08b6c" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="9730c6eb-932a-426f-a166-d7f9a920d60c" name="method" profile="CSharpProfile">
+                <elementDefinition Id="da279bfd-cdbe-4e7f-a6d2-d8ebf95f42ae" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e2d3acb8-2cd7-422b-a02b-2620e09529d9">
+                    <propertyInstance Id="a9391a6b-ad11-4b48-9a0c-0a9c4ac30456" name="ClrAttributes">
+                      <elementDefinition Id="29fedde1-58d7-4d21-b9b7-173982ac4b59" />
+                    </propertyInstance>
+                    <elementDefinition Id="31947033-8075-4c9b-8a08-4d442fbaf694" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="77a4dcda-9c67-43e7-be08-f122add75972">
+                    <propertyInstance Id="a57dfd15-f0ae-43f7-a9ab-164d3cd6e36f" name="IsPartial" value="false">
+                      <elementDefinition Id="2be976a7-bf49-456a-9c71-588078aa4841" />
+                    </propertyInstance>
+                    <elementDefinition Id="659b5c56-1552-48a2-a319-fdf1aaf76c1a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2f232b2b-96b1-4647-8393-7e36bbdfe3b7">
+                    <propertyInstance Id="e5ee5f4e-0677-46f7-9eb1-8e3afdaf3ed9" name="IsUnsafe" value="false">
+                      <elementDefinition Id="a61f7b65-5a0d-4826-8c67-1e7257951c24" />
+                    </propertyInstance>
+                    <elementDefinition Id="075c04b0-125f-40b5-85b1-c9362310e8aa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a253ea68-9cde-4606-affe-eca269ae9c9f">
+                    <propertyInstance Id="1b2af15f-6cc3-4e4a-b272-0df6215269d6" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="c4187885-ec38-4bd8-ad53-66ac7f0ee0a4" />
+                    </propertyInstance>
+                    <elementDefinition Id="ccb9a449-e09b-49ad-911d-0a0873580945" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9048da7a-73c8-4ee8-abcd-484db6c771c0">
+                    <propertyInstance Id="4513a523-d2fb-4973-9563-7e2852841c92" name="params" value="false">
+                      <elementDefinition Id="f31106ef-2695-4fc9-9521-384ba7255659" />
+                    </propertyInstance>
+                    <elementDefinition Id="9790f95b-7a51-4d1c-82bd-0cea94de8970" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="785c410c-49a7-47d8-b6cf-eed6c89f5c92" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="11d709ff-a906-434f-aa49-1633661eb8bb" name="screenwidth" direction="In">
+                  <referencesInternal>
+                    <reference Id="5f07c7ab-d41c-46cf-a183-8c397f39e9a8" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2)]) ParameterIdentifier=screenwidth" tag="ViewCode">
+                      <elementDefinition Id="11460b1d-3755-47f1-bc8e-6e4abb8299de" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="b8fe732c-bf3c-4a52-a4c8-f6a733e1e805" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2868e6fe-4087-4afc-95ac-8ae79317e792" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2a191c46-fbf7-4915-b41a-9794fe90d2c2" name="screenheight" direction="In">
+                  <referencesInternal>
+                    <reference Id="290a1d44-eb76-4990-9eb8-0d6961183d6d" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2)]) ParameterIdentifier=screenheight" tag="ViewCode">
+                      <elementDefinition Id="2f089734-05cc-4053-a63f-c3036fc21815" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="cec27f3e-0bc7-4539-9b24-62595c718eb0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2868e6fe-4087-4afc-95ac-8ae79317e792" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="17a0d406-7df4-4e80-844b-acbbbfda0f21" name="startpos" direction="In">
+                  <referencesInternal>
+                    <reference Id="3b3b06c9-0b24-4ee6-ac56-24a4fe4cd6e2" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2)]) ParameterIdentifier=startpos" tag="ViewCode">
+                      <elementDefinition Id="dfd65693-1608-44bb-a929-29708b0d7d28" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="ab293593-7664-4d8d-8c76-05035e7196d2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="fbdd74e1-2a4a-41d7-8efe-3c6d95532589" name="Camera" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="1fc8f235-3771-4e77-b8b6-5198e9df0ad7" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single)])" tag="ViewCode">
+                <elementDefinition Id="f8976ff1-e404-4983-a2dc-738d5708e4c9" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="8dcbc6ff-1c54-4a79-90a8-3b27fea67778" name="method" profile="CSharpProfile">
+                <elementDefinition Id="1016ce9c-5f33-4fad-ac90-5c1e4edecdfd" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="08127241-6ce5-46ca-8317-27df1d0fc699">
+                    <propertyInstance Id="0e5767ed-238e-48c2-9206-2c774f3ca58e" name="ClrAttributes">
+                      <elementDefinition Id="253a3155-dc98-4405-b8e0-02cc38914806" />
+                    </propertyInstance>
+                    <elementDefinition Id="0099297d-73a6-48ae-a91b-235f0ce83c33" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fb4a3555-8628-4734-aecd-3145f0c5b27f">
+                    <propertyInstance Id="3f543d45-bbd3-413e-b202-ab0fdcacfa0c" name="IsPartial" value="false">
+                      <elementDefinition Id="2a957496-e5bd-4890-a877-076f692cd7c8" />
+                    </propertyInstance>
+                    <elementDefinition Id="1e4221d3-364f-4942-92d4-1bda3145091b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="475a8cf3-1f34-4368-aca7-3037c02857bd">
+                    <propertyInstance Id="1ad33539-9d66-431b-8f90-6eddc15e954e" name="IsUnsafe" value="false">
+                      <elementDefinition Id="ba09f082-46f5-4dd7-ba32-5d4696c3775e" />
+                    </propertyInstance>
+                    <elementDefinition Id="2d03aae6-b6a9-43d8-87c1-8e83b27396bb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ef7d2b89-9648-42f4-ac34-6b6d31456a15">
+                    <propertyInstance Id="73e0e668-68ca-4a84-b486-7404afdac57d" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="56100e25-8edd-41cf-b807-c978a8195fab" />
+                    </propertyInstance>
+                    <elementDefinition Id="0ee7653c-523d-44de-a23f-95fda77d7230" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b3e52147-7987-4e86-9377-a0af6b0bea70">
+                    <propertyInstance Id="5afa2568-4ad0-4d4b-91b2-3e6b1febc1e0" name="params" value="false">
+                      <elementDefinition Id="cdc0b3c8-4c9f-42e1-bbde-3f464a7f22f7" />
+                    </propertyInstance>
+                    <elementDefinition Id="0968e616-360f-4fc9-83c8-5ac267a0a675" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="0bfa2d6b-a364-4d01-95ec-50b48ca64152" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c1502716-e47e-4cac-ae7c-76517ebc080a" name="screenwidth" direction="In">
+                  <referencesInternal>
+                    <reference Id="81060e72-1448-48d0-ad76-419cbf722618" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single)]) ParameterIdentifier=screenwidth" tag="ViewCode">
+                      <elementDefinition Id="f503ff63-1345-44aa-b509-547e5944600c" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="ceb61206-67e7-467d-9f87-2fb8e3b686cc" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2868e6fe-4087-4afc-95ac-8ae79317e792" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="740626b9-9506-4c29-9d59-961724740aeb" name="screenheight" direction="In">
+                  <referencesInternal>
+                    <reference Id="d3135932-1217-4f7e-9121-4824d7a0ffc0" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single)]) ParameterIdentifier=screenheight" tag="ViewCode">
+                      <elementDefinition Id="54cc82e3-cf0d-4fa3-b2ed-3924490cd8b0" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="e0e9b776-fa84-496c-8575-73ff4aa88e29" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2868e6fe-4087-4afc-95ac-8ae79317e792" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1b14dde9-bace-44f2-99ce-81c30733d122" name="startpos" direction="In">
+                  <referencesInternal>
+                    <reference Id="9096ce2e-4c7c-49ca-8d6a-3db506623990" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single)]) ParameterIdentifier=startpos" tag="ViewCode">
+                      <elementDefinition Id="4da9da23-752d-45ae-9f56-29705ea5317a" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f9f3d949-ac33-42e3-a459-3d065693c67e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="418d2e72-0c27-4592-a14c-6439dec0601f" name="new_scale" direction="In">
+                  <referencesInternal>
+                    <reference Id="fcc2142b-246d-46f5-9614-6e7bab828501" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single)]) ParameterIdentifier=new_scale" tag="ViewCode">
+                      <elementDefinition Id="a87c5ad0-26a5-449a-943f-dcbe432d15d0" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="df6e67ee-b46b-4234-904e-e3272740d4ca" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f1976d50-5789-47dc-8e94-ea1e8d81e548" LastKnownName="Single" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="5abd90d6-ae08-46f8-9b9f-62768e1cb01e" name="Camera" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="cfa347ce-e1cb-406f-b239-81ae865597ef" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single)])" tag="ViewCode">
+                <elementDefinition Id="51d0cd34-616a-40e7-a991-d5fba219d8eb" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="3ca2ce5a-6cd6-4c33-aec0-9bfbcca50e9d" name="method" profile="CSharpProfile">
+                <elementDefinition Id="89148b61-e4df-4b9b-b549-0b47fb3099d0" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="21ec5b68-1927-478a-8b7f-64f9dbd1fbd2">
+                    <propertyInstance Id="3315bab5-1eb9-4497-99c4-d0b9ee9a21dc" name="ClrAttributes">
+                      <elementDefinition Id="b10e828d-a051-49ff-b098-4919d39a677e" />
+                    </propertyInstance>
+                    <elementDefinition Id="06767fb8-c2ac-4f4e-8cd2-847afb69d78f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b2619931-7b6c-4b98-973e-b5bded0d0f29">
+                    <propertyInstance Id="97f753b5-ab9d-4fdd-80cb-18ddddba6e0c" name="IsPartial" value="false">
+                      <elementDefinition Id="46c203fa-c925-48e9-a983-c2c6a014680e" />
+                    </propertyInstance>
+                    <elementDefinition Id="69c3a5b2-55ff-448a-a453-90b5df41918f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a2696305-ba6a-45f5-88b3-ae09ac35035d">
+                    <propertyInstance Id="48f0aec9-c38d-40f5-9c56-2e71a2783fdc" name="IsUnsafe" value="false">
+                      <elementDefinition Id="89c5917e-8d0c-44f5-9378-361b4e8a39b7" />
+                    </propertyInstance>
+                    <elementDefinition Id="1b158025-a550-4487-b3ea-576972f44fd3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="89252027-3a4c-4317-a49a-86ea809497a5">
+                    <propertyInstance Id="09d92f43-18d5-4077-b184-f6c45407fdf2" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="0ce5f88a-3ebc-4783-a0a1-6cfb2b1fb278" />
+                    </propertyInstance>
+                    <elementDefinition Id="5ff7b082-86d6-420d-b6af-762aa475d277" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="99bc99a3-7c55-47a4-8b41-4db8ce25c26c">
+                    <propertyInstance Id="b080bdba-647f-4b90-a6ce-59a54f379023" name="params" value="false">
+                      <elementDefinition Id="d2e9e34b-fa10-4cd4-8a10-86d0eb7cbd9f" />
+                    </propertyInstance>
+                    <elementDefinition Id="27a244aa-79f5-48c0-9de6-2d5a185d58a0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="f83afede-84ea-4c4a-bfff-70ae4c68f60e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9da0ea6c-c2aa-40d8-a7b5-91c05c1cb97e" name="screenwidth" direction="In">
+                  <referencesInternal>
+                    <reference Id="5fce359f-a6b3-4a05-8c32-6a703137d795" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single)]) ParameterIdentifier=screenwidth" tag="ViewCode">
+                      <elementDefinition Id="2cbe3c85-fe67-42bd-9a7e-cf6109a0b240" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="2b1a4d29-3526-4435-a552-9b8629b9ac19" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2868e6fe-4087-4afc-95ac-8ae79317e792" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9739f736-49cd-440d-a6be-ee74a8953808" name="screenheight" direction="In">
+                  <referencesInternal>
+                    <reference Id="a8e68810-f323-4ef6-a07e-b61688e887ad" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single)]) ParameterIdentifier=screenheight" tag="ViewCode">
+                      <elementDefinition Id="dc53ed0a-463d-4bcb-b0e7-6881a5cf6b4f" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="59846dec-da5c-4b5b-906d-ef060bd520d5" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2868e6fe-4087-4afc-95ac-8ae79317e792" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d24059b4-c68c-491d-9fd4-6813088bac46" name="startpos" direction="In">
+                  <referencesInternal>
+                    <reference Id="e1b2e0de-0658-44c6-90fa-e6d6ce1bfc21" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single)]) ParameterIdentifier=startpos" tag="ViewCode">
+                      <elementDefinition Id="37c57b09-3675-4449-b157-e0d1fe9699cc" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="bc79de18-2474-4703-b606-a0270118b33d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6435ba37-f2f9-4ee9-8b45-c7ecbde70e1c" name="new_scale" direction="In">
+                  <referencesInternal>
+                    <reference Id="ec57dfa2-b7b7-4e14-b175-461a3d230561" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single)]) ParameterIdentifier=new_scale" tag="ViewCode">
+                      <elementDefinition Id="6c64bb61-00c1-4028-931a-1063d5cb69be" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="a1a8498d-c0d5-46dc-982f-d9a084765cd3" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f1976d50-5789-47dc-8e94-ea1e8d81e548" LastKnownName="Single" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e21b67d1-1857-4d85-b723-ebc44b695a5f" name="new_rotation" direction="In">
+                  <referencesInternal>
+                    <reference Id="f3bcc539-e0fe-4deb-8adf-45535d7be188" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Single)]) ParameterIdentifier=new_rotation" tag="ViewCode">
+                      <elementDefinition Id="c716537d-42b2-4bc2-8c89-17142a2b5396" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="6ecc43d6-3fb7-404c-a5e4-d685d6de2265" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f1976d50-5789-47dc-8e94-ea1e8d81e548" LastKnownName="Single" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="6f2ab065-aa67-4e45-8bc6-f12b9d6b58ba" name="CreateMatrix" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="fc1dbfd7-9251-4b83-b968-f8dac58637a4" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=CreateMatrix" tag="ViewCode">
+                <elementDefinition Id="e475fe22-5a8e-405a-89c2-73fd9b4f27bd" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="2d0f378f-c563-4109-8d35-4d299bcf3e26" name="method" profile="CSharpProfile">
+                <elementDefinition Id="5274fd59-8397-4f4c-8945-b7582a18c3ac" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9ed63695-a482-4be3-8a95-b46fbe394da9">
+                    <propertyInstance Id="84495ef8-9f9f-418e-ab88-57a34f13cdb7" name="ClrAttributes">
+                      <elementDefinition Id="a6dfeb9c-6012-4378-9aa3-4901f176a703" />
+                    </propertyInstance>
+                    <elementDefinition Id="5f8b0514-69be-4e97-811f-8d8ffe5bf866" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="858e4ccc-92de-4503-bcb4-ae4a9c49c4f2">
+                    <propertyInstance Id="c0fe1590-28a8-4cb9-9ca4-4190aa1083bd" name="IsPartial" value="false">
+                      <elementDefinition Id="ee36d93e-b633-4ee6-abee-178af56ca12c" />
+                    </propertyInstance>
+                    <elementDefinition Id="95704e8d-d375-4982-b6d8-5a6fe93b0361" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1c820219-b2ab-49cd-b36e-2109e35603a8">
+                    <propertyInstance Id="c7f89e1b-a2db-4eaa-a36e-670c66bbefd4" name="IsUnsafe" value="false">
+                      <elementDefinition Id="1cbe3a2d-b1fa-4895-b2fa-58560b334033" />
+                    </propertyInstance>
+                    <elementDefinition Id="2d5a22a3-f0bd-4450-9347-3831dc5d348c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2a3a3ef0-4ff5-41df-a96d-d83511c270c5">
+                    <propertyInstance Id="629ca5fe-5458-4d94-a2b6-bf7a00a2e128" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="274b037b-bfce-4396-af99-544ce5056f51" />
+                    </propertyInstance>
+                    <elementDefinition Id="8247cdef-84fb-4a55-87cc-f81fcfc95390" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="abf14b89-7331-4048-aea0-b65cc4c06e96">
+                    <propertyInstance Id="8c4242e2-f3a4-4230-9764-7e1d34420fee" name="params" value="false">
+                      <elementDefinition Id="46eee214-6816-40a8-9aa3-42bf8c7b2885" />
+                    </propertyInstance>
+                    <elementDefinition Id="63af6481-de00-41da-9874-6d6c476a28d4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="858f7115-a07e-4243-b731-6bdb40db23e2" />
+          </operation>
+          <operation Id="94b8b0d5-12d8-4a8f-af77-c7f846ab5a1d" name="update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="2b3e3251-f7e7-45d9-899b-c5e21909334c" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=update OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Boolean)])" tag="ViewCode">
+                <elementDefinition Id="cfcdea83-2c9a-47a7-98b9-d8218f2d2373" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="71586c77-7e4b-49d5-a6af-de6dc550b9a8" name="method" profile="CSharpProfile">
+                <elementDefinition Id="0c9292ea-7d0f-4177-ba5e-4fd97a89b7b1" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3cdab34c-7c22-409b-a65a-c706ea78b318">
+                    <propertyInstance Id="cc6e5230-1557-431a-bd53-fde8e14741af" name="ClrAttributes">
+                      <elementDefinition Id="7b288e1c-6d8e-4956-bcc3-da6dfaaac2b0" />
+                    </propertyInstance>
+                    <elementDefinition Id="440982b2-01c3-4f87-8be2-f26df0e9fe22" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="59b7180b-5976-4d42-8669-bf420440597e">
+                    <propertyInstance Id="60d3d561-8629-4600-a613-f694c390b4a7" name="IsPartial" value="false">
+                      <elementDefinition Id="8ca8bfb6-5e58-4d6a-bb4c-ab5eb5b359b7" />
+                    </propertyInstance>
+                    <elementDefinition Id="18b25286-3f11-4488-bc8b-577b4ff4f761" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1b33e8f9-c20f-47d9-ae9f-144a32e41d18">
+                    <propertyInstance Id="e95eb4ec-9807-4702-8bbc-8c1eeb8af061" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b7ec329b-a76f-4298-baf6-bd50bbcdf5d1" />
+                    </propertyInstance>
+                    <elementDefinition Id="6aa6e82e-7f5f-4f6b-aa4f-8fa473676ccb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ef520d11-c32f-4940-9bee-3bada1f6b09a">
+                    <propertyInstance Id="76e3a99a-6519-453c-8ece-4bd484ddf5ce" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ba7632c0-7566-4471-9413-d267e45f6428" />
+                    </propertyInstance>
+                    <elementDefinition Id="2e32c595-f78c-4cbe-9946-5520d3a2eedb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="56546e14-2380-45d5-a7f3-27ec532d2fca">
+                    <propertyInstance Id="263d141b-9340-42ef-9c78-f80110c658cd" name="params" value="false">
+                      <elementDefinition Id="6c950527-5381-4cd8-8531-6c28a9231176" />
+                    </propertyInstance>
+                    <elementDefinition Id="94e1439f-1d01-47db-ab55-e7c96ff6e8aa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5367ee0e-ad86-44b9-830b-7a3b8e6cb3f4" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="55d18fca-67dc-4d4e-958e-67e5294ed438" name="gametime" direction="In">
+                  <referencesInternal>
+                    <reference Id="f18887fe-eb2b-4961-8551-20f6b6605008" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=update OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Boolean)]) ParameterIdentifier=gametime" tag="ViewCode">
+                      <elementDefinition Id="787367b0-61d3-433b-9659-d996a1b3023e" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="a46c343d-8775-4997-82a8-751e5cf95498" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="130ba128-2b1c-4c21-874c-43f20530e565" LastKnownName="GameTime" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9c46de3c-31be-489c-8f5f-dfbba78e137e" name="new_point" direction="In">
+                  <referencesInternal>
+                    <reference Id="e350a215-b131-43aa-8db0-464430528438" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=update OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Boolean)]) ParameterIdentifier=new_point" tag="ViewCode">
+                      <elementDefinition Id="6db069d7-b95a-4ec8-8ad0-a2962d0ce5c8" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="9d0ca3d1-7668-48cc-ac89-8095b540b7ed" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c88ae13a-9e25-4242-9257-b34442045041" name="player_pos" direction="In">
+                  <referencesInternal>
+                    <reference Id="c6dcd2ed-831d-4e1f-b9eb-cdbdfd555083" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=update OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Boolean)]) ParameterIdentifier=player_pos" tag="ViewCode">
+                      <elementDefinition Id="540fe050-43ad-44ff-9d8a-1144732f7331" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="a8fd16d2-2e6c-4970-af41-5fcc98c7f26f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0c02e8ef-36cf-40d3-8f1e-7565e78e611f" name="direct" direction="In">
+                  <referencesInternal>
+                    <reference Id="f96996d5-8843-48a3-8c68-7830fbfc489c" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=update OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Boolean)]) ParameterIdentifier=direct" tag="ViewCode">
+                      <elementDefinition Id="e5c54e58-705e-4623-8b51-023fb3c23382" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="33f5e536-bfa7-41b3-a140-7b1d15ef1666" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b305e186-3619-4f4f-8c23-dbd48f94b75b" LastKnownName="Boolean" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="34506d6c-f6fa-4c96-992b-62912ee81c32" name="indirectmoving" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="a6e3d1d4-1dd8-4d35-9245-3a0b633b8f80" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=indirectmoving OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2)])" tag="ViewCode">
+                <elementDefinition Id="f1650331-d4bf-4188-ae0b-bb5e23af4e70" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="e6095feb-9cb1-4003-b7b9-883525ea6e91" name="method" profile="CSharpProfile">
+                <elementDefinition Id="be6c2dc7-2254-4ccf-b6cf-03a41361d81c" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="dab3514e-50f9-4418-83d6-8a000f024b62">
+                    <propertyInstance Id="ef1bd857-0409-4aa8-8092-c27d6b76d59f" name="ClrAttributes">
+                      <elementDefinition Id="d6138783-458f-4829-bd42-2dce9d9a9031" />
+                    </propertyInstance>
+                    <elementDefinition Id="c6c21976-3155-48bf-bdc7-43928be6ff82" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="831577ed-a51b-4c76-b6cc-a14b739c2a91">
+                    <propertyInstance Id="a406d2b0-2d31-460e-a2d8-50004115ed59" name="IsPartial" value="false">
+                      <elementDefinition Id="92ef8825-9960-4d3e-b8d9-47a1a9d0a03c" />
+                    </propertyInstance>
+                    <elementDefinition Id="255610fb-5431-4ae4-9bd0-a81547d31026" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bdceeeab-355e-4f8b-aa20-93259bd37179">
+                    <propertyInstance Id="7f4dd4c8-05d3-495c-bcd0-c5312d574d67" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7b4bc3c0-c627-4512-a0c4-5d0e68f11776" />
+                    </propertyInstance>
+                    <elementDefinition Id="83549747-67d0-44e3-a4e9-6283e646836b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d98436c4-778c-4d38-8380-89b77bb4a2ee">
+                    <propertyInstance Id="097f9a95-c293-4f6d-b400-e04a70517db6" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="d11d9a24-8c2e-4da9-9be3-b10f5bc234e1" />
+                    </propertyInstance>
+                    <elementDefinition Id="d69c5c99-cf4d-4121-81cf-0d8c589ce3da" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8bda1c31-1642-49bd-91fc-86b2dcde1503">
+                    <propertyInstance Id="ce3ba618-c267-4a69-b342-4cf5471c35fa" name="params" value="false">
+                      <elementDefinition Id="fbcb58b6-3f71-4871-ac3c-b167a447c182" />
+                    </propertyInstance>
+                    <elementDefinition Id="7f92d58e-65e4-4d42-b80f-93de7fa68e60" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="70ebbcab-d1c8-4a50-aed9-fc7b878d59da" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8eadf16c-2ff4-4692-9bbb-e848ce16a9c4" name="gameTime" direction="In">
+                  <referencesInternal>
+                    <reference Id="e17b4597-e6bd-42cc-9d86-26c40c142de7" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=indirectmoving OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2)]) ParameterIdentifier=gameTime" tag="ViewCode">
+                      <elementDefinition Id="bffa08d7-f5ca-44fb-8abb-fafae4a39c0b" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="c197172b-e9d4-4845-a9ff-97e3cf6c79a2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="130ba128-2b1c-4c21-874c-43f20530e565" LastKnownName="GameTime" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="de84cd33-a10e-4b6f-b339-229e80e59a1d" name="player_pos" direction="In">
+                  <referencesInternal>
+                    <reference Id="d150d79f-7757-4922-89b4-db10abc5c10b" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Game Type=Camera Member=(Name=indirectmoving OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.dll&quot; Namespace=Microsoft.Xna.Framework Type=Vector2)]) ParameterIdentifier=player_pos" tag="ViewCode">
+                      <elementDefinition Id="78a5f360-d1cb-4621-9876-74a69fd13864" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="ba36f01e-2c4f-4b77-829b-aaad0ac3c4d5" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" LastKnownName="Vector2" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="f1976d50-5789-47dc-8e94-ea1e8d81e548" name="Single" isAbstract="false" isLeaf="false" cachedFullName="Dokumentation::System::Single">
+        <elementDefinition Id="672ccffa-e51e-4a70-a994-9b78276f4271" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f9ac8aa5-b582-411e-98c8-dd7073bb63d0" name="Vector2" isAbstract="false" isLeaf="false" cachedFullName="Dokumentation::Microsoft::Xna::Framework::Vector2">
+        <elementDefinition Id="cb178bab-c90d-45e9-9fab-ef2f888584a8" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8be15503-2b3d-4b0c-ac4d-8bff856789bc" name="Matrix" isAbstract="false" isLeaf="false" cachedFullName="Dokumentation::Microsoft::Xna::Framework::Matrix">
+        <elementDefinition Id="15529835-e507-4b82-995f-c8dbbb9fa39c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2868e6fe-4087-4afc-95ac-8ae79317e792" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="130ba128-2b1c-4c21-874c-43f20530e565" name="GameTime" isAbstract="false" isLeaf="false" cachedFullName="Dokumentation::Microsoft::Xna::Framework::GameTime">
+        <elementDefinition Id="16d6f0b3-e8b9-4cb0-8404-8a12fc5a1ae1" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b305e186-3619-4f4f-8c23-dbd48f94b75b" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="e1ee7cfd-44c0-46cf-a6ef-0bd71f8771fa" name="Dokumentation">
+    <elementDefinition Id="ab6aa54f-fd89-44c2-8062-03ad7ab48efb" />
+  </package>
+</logicalClassDesignerModel>

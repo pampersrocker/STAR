@@ -1,0 +1,1345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="13e776bd-fd2b-41e4-a8a1-a701ebc13c3d"
+  name="GameManagement"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0324e301-bc7f-48ec-a753-c359fbe208e6"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Star.GameManagement"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="3b2ed7ea-2df7-4bce-8391-8f7d7335e153"
+        name="GameManager"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="bcb68e3e-3276-40c8-bc69-095a873a7007"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d76a691c-aa45-4a53-8917-a8d3c761cd0b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2ded01e4-036c-450a-85d9-9289704f5bb6">
+                <propertyInstance
+                  Id="a3594843-a538-43ce-ab00-69337d9e4bce"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d7dbd525-3207-4e68-a8ea-dcf45fde1d5b">
+                <propertyInstance
+                  Id="a3e68f56-c14c-4c8a-b9c6-ec6231c95d20"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b0d0053-b9e4-45fb-b9d1-c889967792c4">
+                <propertyInstance
+                  Id="9965645e-56f0-4cc9-bfd6-2a84b58f27f9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e229a896-b382-4afe-a594-625d44f6c1b6">
+                <propertyInstance
+                  Id="534463d6-3534-4155-856b-5900f65a16e0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9fc8343c-36db-47c3-be4f-eda91d96ec75">
+                <propertyInstance
+                  Id="532d5259-a1f6-4a78-8425-d6ed0e71daf8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="f2c3b149-7da0-4ef5-a60e-7575a66d1688"
+            isDerived="false"
+            sourceEndRoleName="GameManager"
+            targetEndRoleName="SGame"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="ec047229-70e4-48e5-81fe-0f95eddbd96a"
+              LastKnownName="SGame"
+              LastKnownLocation="Package9_2015.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2f0e01ce-c4d3-4e19-9947-28def270ae95"
+                  name="GameManager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="225a56b0-99b0-4673-9bba-c48b5acc91d3"
+                  name="SGame"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1f3a3e6d-eded-45bc-97e9-ed0a3bb32e9c"
+            isDerived="false"
+            sourceEndRoleName="GameManager"
+            targetEndRoleName="SMenu"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f258cbaa-bf4e-4f21-a76c-dfe109c9c51b"
+              LastKnownName="SMenu"
+              LastKnownLocation="Package9_2015.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cca9e46b-41bc-41ec-86a8-8e10f5cc93d5"
+                  name="GameManager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f3db4295-b25e-434f-9b7a-06d6d50544c2"
+                  name="SMenu"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="46bc603a-1024-4c1c-96d0-51ed190a056e"
+            isDerived="false"
+            sourceEndRoleName="GameManager"
+            targetEndRoleName="SLoadingScreen"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="fea8f4d6-487d-4e51-831d-74a48573f62a"
+              LastKnownName="SLoadingScreen"
+              LastKnownLocation="Package9_2015.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="57bd87fc-dbe9-4b9d-8d54-1969daa347c8"
+                  name="GameManager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d84c31ec-40da-4016-b53e-68941a16d768"
+                  name="SLoadingScreen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="3b6416ad-1bcb-4343-8765-25f175ac0965"
+            name="spritebatch"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ae1e576e-53b3-42d8-a739-e12818d32feb"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=spritebatch"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="eec49b72-bbdf-4f5e-ad68-fdb8cfc16dea"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b2435e9-41bd-4300-93aa-4d28d20e5375">
+                    <propertyInstance
+                      Id="7b05c6f1-142f-4f25-ae72-2152c4350dd9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0486ffad-d430-4b20-bed1-907e3ed4fead">
+                    <propertyInstance
+                      Id="1df15161-b3d0-4766-bbbd-27109de4ec77"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3597eaa2-ca94-4245-b294-be758725421a">
+                    <propertyInstance
+                      Id="6eaebe73-415d-457a-80c2-be555d8e172f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dca418d9-29dc-4356-8d43-d93e2c30e95c">
+                    <propertyInstance
+                      Id="698a3760-db47-4f43-8578-87f17c54ed57"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d70b940c-5098-4e6e-a73e-36382edb4c8f">
+                    <propertyInstance
+                      Id="8693cbd3-229b-402e-b16b-586d1157f835"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6315cbd9-d671-40a3-ae49-20c0f8ee795d"
+                LastKnownName="SpriteBatch"
+                LastKnownLocation="Package6_2015.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1889ae0a-80a6-4206-890f-15c9f87b6fe4"
+            name="inputhandler"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="02a1c271-59f1-44af-8998-bd33f8a03d49"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=inputhandler"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f5552530-f08a-4da9-8aac-107cef12b2bc"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59991475-adc1-4b9b-ab6a-190aa3f6ea29">
+                    <propertyInstance
+                      Id="a8dfadfa-44cc-4cda-a21a-8bc63ef80189"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da876570-f5ba-493f-84d4-21708a09440a">
+                    <propertyInstance
+                      Id="7c4a0f80-daa6-4e6b-8b64-434432278852"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e993dc3-33cc-4b60-9a09-33fa20f53e59">
+                    <propertyInstance
+                      Id="97ae8261-9d99-4c8b-917e-518302b94d9d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2aefa59-730c-42ed-a615-83ff308d59b5">
+                    <propertyInstance
+                      Id="5b9677dd-b825-433b-9b97-9be1613eefa1"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9f20358-a804-42fa-ac43-de34b39b0b83">
+                    <propertyInstance
+                      Id="3a213a60-be88-4584-be94-74a5f80c6004"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0d2cc7e7-e8cf-4e96-95eb-104a33dc3a9f"
+                LastKnownName="Inputhandler"
+                LastKnownLocation="Package7_2015.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a820b856-9a15-4ce4-963c-c4028f835a88"
+            name="options"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="426f8fce-7334-42ba-bd60-7997c9237c79"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=options"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0418109d-cce7-48c9-8eb0-3cfbb7581e4e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2f03af8-3917-4975-9b5c-4827c9942f86">
+                    <propertyInstance
+                      Id="f44e83f0-b747-42d8-b835-cbcec601bd6d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59163d3b-454b-447d-aee7-8b265b02c4df">
+                    <propertyInstance
+                      Id="924d292a-ffcc-499d-8b6d-36eebd7d2453"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="452f980e-3654-4492-9a33-1e074fc613a5">
+                    <propertyInstance
+                      Id="d3d9a02e-56ac-4689-90b2-39a320940cb8"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f30dd4a8-784c-41d4-a4d9-4c0ce203622e">
+                    <propertyInstance
+                      Id="d5e86443-4ce3-43ae-b417-4997d43a76fe"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78f1213f-2bd4-4e4a-b42c-a5af13ad4273">
+                    <propertyInstance
+                      Id="fab83272-68bb-4678-87ac-dc5a3608a21e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4f805d21-38b2-4465-8e40-b615c6a884e0"
+                LastKnownName="Options"
+                LastKnownLocation="Package1_2015.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b2707fc7-1dd9-426b-8b72-fb3d474a303a"
+            name="game"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f738bedf-425e-43ba-aa46-24934cd621a7"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=game"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7541cf44-0174-4132-b840-9c1dddb3340d"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="082195c3-1ced-4f33-9789-d5a6383fce9f">
+                    <propertyInstance
+                      Id="f9b614cf-2836-42f2-9b61-bd591dcd8271"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27f64d82-155f-46d7-a3f2-5cc6c6cfd0d8">
+                    <propertyInstance
+                      Id="12211e32-b6c1-4d2b-b764-3b291c3ba121"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72189336-90df-4f7d-b2df-5a4941f386d8">
+                    <propertyInstance
+                      Id="09b17936-bc09-4a5f-a3d7-785b45ead520"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f5a41a8-cd54-4c7d-9b62-ca7821f6b3f8">
+                    <propertyInstance
+                      Id="1bfa1158-e0d4-4435-8d92-776b1b9c65c3"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00993872-7312-4e4c-8c1c-58c90ca2377b">
+                    <propertyInstance
+                      Id="ea52b7bb-b7e7-4df2-8374-f1b0c9b1f797"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ec047229-70e4-48e5-81fe-0f95eddbd96a"
+                LastKnownName="SGame"
+                LastKnownLocation="Package9_2015.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4847b142-f752-48a2-8236-68dec3764e6e"
+            name="menu"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4dfd1f74-a1f3-4052-b543-3b357d404af3"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=menu"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5fae4969-7066-45a7-8ab6-1eb210a6ff23"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfefe7e7-9622-47bd-a702-7ace2dcc2ae2">
+                    <propertyInstance
+                      Id="76d37563-549c-458c-b1aa-d7055909403d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40c6c1a7-8dbb-45eb-adf2-90312a8918c7">
+                    <propertyInstance
+                      Id="40e465b3-6308-484e-83a6-0bb02a45f96e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1824831-4d47-42f9-8e51-188dee5ed397">
+                    <propertyInstance
+                      Id="69a99e23-ed3c-4c78-b399-d9b19923379f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b272b07e-98fc-441c-a9a3-78852312e199">
+                    <propertyInstance
+                      Id="1a4bb489-a25b-47df-8ac4-1abd428477c3"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eeda02e7-7588-4cdb-889b-4eca0fd73ec2">
+                    <propertyInstance
+                      Id="ceb4a65d-108a-4076-bc88-f433020b684f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f258cbaa-bf4e-4f21-a76c-dfe109c9c51b"
+                LastKnownName="SMenu"
+                LastKnownLocation="Package9_2015.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1abebc4b-26cf-412d-8f51-b74b61b9efa6"
+            name="loadingscreen"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6dac1bec-408f-46fe-9210-74cf15b49dc9"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=loadingscreen"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="28dce83b-2646-4b51-bd10-0940a6a8100e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c5a7f3a-3532-411a-ba5a-e5a2a1432acd">
+                    <propertyInstance
+                      Id="89f8f52a-bcaa-4390-b33b-59f4714ea102"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="938a85ff-e2f4-4a0e-9666-a6ca5b7a4054">
+                    <propertyInstance
+                      Id="dfbb9cf8-a8f4-42eb-acf2-0243e119b48a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="986a7555-66f4-491d-8c36-555664f01ffa">
+                    <propertyInstance
+                      Id="2ce19f55-0763-4e9d-ab95-173d173eba85"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a935fa18-8d91-4398-865f-060464bd4a5c">
+                    <propertyInstance
+                      Id="25980313-7921-4a11-882c-c5d042ec8576"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a27f67f4-ae1c-4f84-9e0a-f6e28cee3f1a">
+                    <propertyInstance
+                      Id="596ee2e9-55d0-455e-a491-4f91f34a7518"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="fea8f4d6-487d-4e51-831d-74a48573f62a"
+                LastKnownName="SLoadingScreen"
+                LastKnownLocation="Package9_2015.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5fda9692-5a00-4c48-9167-77321f114778"
+            name="GameManager"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a3d679a7-af94-47dc-92d5-b97030a07db2"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star Type=EGameState),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=IServiceProvider)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="edc60590-2cf1-4d7a-9ea0-eb0e5be1b30f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f00cde9-a332-453d-b911-ab1a5a1c615f">
+                    <propertyInstance
+                      Id="5defdc23-49c8-45e3-bc41-401ff460d598"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60e833c7-b0a3-4d4a-a025-01d0a7518e94">
+                    <propertyInstance
+                      Id="c5308ffe-4fd5-4d3a-a541-02f1228205fc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1df8428-1596-4720-9791-65b247ec9a91">
+                    <propertyInstance
+                      Id="0abc9b1f-8c87-4012-b326-1f4a10b54c46"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc2c40ac-864f-4efd-96a2-4a042d75153c">
+                    <propertyInstance
+                      Id="c0666168-9bfe-4b27-92f2-3d653cf19ce5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52d7a7ab-16d5-4e18-9dd0-68d7f8ba9785">
+                    <propertyInstance
+                      Id="be5425b8-ab4e-4238-8c0a-6ffea9210d31"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9af544a7-a34e-4389-b723-83035fb485be"
+                  name="state"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="30a67b30-efe9-4620-a00e-ca2c49cc90ab"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star Type=EGameState),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=IServiceProvider)]) ParameterIdentifier=state"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="2765ff85-d1e6-49e7-a4e4-a27dbbe373d6"
+                      LastKnownName="EGameState"
+                      LastKnownLocation="Package_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="18b986f8-764b-41bf-bee0-8b65c01a316d"
+                  name="ServiceProvider"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="02e3f1ea-1ea6-49a3-b578-715b03358576"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star Type=EGameState),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=IServiceProvider)]) ParameterIdentifier=ServiceProvider"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="14e565a5-3004-4e3e-b3ff-60030e8e624e"
+                      LastKnownName="IServiceProvider"
+                      LastKnownLocation="Package2_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ba30c078-52d8-4d3d-94b6-ac83a9c82f70"
+            name="Initialize"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bec1d01e-7474-4178-ac9b-2c4c02bc9189"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=Initialize OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="84279551-9731-4903-a3c9-16a695c513a2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c87dc457-fa77-4d2f-80fd-66eb4bdbbca7">
+                    <propertyInstance
+                      Id="13806c1e-5027-405c-8acf-5a5335fad17c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac5b3842-4b17-4151-8c03-1a050569cfaf">
+                    <propertyInstance
+                      Id="2e44b030-abae-4547-815d-ef7830ac4b55"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d80c87cb-353e-4d31-9d13-b6c4e02f2556">
+                    <propertyInstance
+                      Id="fd230dc1-280a-4a19-badf-37256db08173"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e551bfbe-50ea-45d0-a35e-a07053b3dd41">
+                    <propertyInstance
+                      Id="807e02c7-f05e-4ec3-9f55-154765c21c54"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc1eb9a3-5229-4dc1-b4ed-d594a052c031">
+                    <propertyInstance
+                      Id="612429fd-84c9-4232-b124-1eff6ba105d5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="05106605-bbc5-479a-81d6-039090c94921"
+                  name="graphics"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c45bace3-14ae-4568-8b75-7ffa95d20e73"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=Initialize OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]) ParameterIdentifier=graphics"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="fb95d98a-316b-4888-9ab4-ec47f743795f"
+                      LastKnownName="GraphicsDeviceManager"
+                      LastKnownLocation="Package5_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f1b911f6-4abc-47d9-885d-8b8636f3e609"
+            name="Update"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="543f3e82-93b0-4e6e-9cea-1667048498cf"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=Update OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d8617b26-f522-4011-8df6-97f804f7e550"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc27ab9f-8b1b-4a83-a45d-5fc9e93a879f">
+                    <propertyInstance
+                      Id="14fe5975-1055-4e49-8705-d3cbd225dae3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="117e4189-93a0-41e7-8d6a-06b0ac046e3b">
+                    <propertyInstance
+                      Id="decdb39e-e729-4778-9d4e-2c9bef876d05"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c1874e2-fcab-4cd7-90ac-e985466053c1">
+                    <propertyInstance
+                      Id="69944524-a739-4e66-bd85-2ac3282a202c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa849ce3-c207-43c0-b248-295747425e73">
+                    <propertyInstance
+                      Id="1f53d12a-6e0f-4efc-9fbc-7a8a2b1d54b6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9211542-0235-421f-a810-64b95ee8658c">
+                    <propertyInstance
+                      Id="a0e27935-c2f8-4dc9-8bde-2d89b3648c37"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ae127f51-e998-4ead-b8f8-5d7f47e89838"
+                  direction="Return">
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="62f62ef9-6f17-4ad5-800c-27be0e033a51"
+                      LastKnownName="GameAction"
+                      LastKnownLocation="Package1_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e3563202-6019-4e0a-b778-da81c67012dc"
+                  name="gametime"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d131fd9b-d703-48db-bfc4-bab27727c7bc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=Update OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice)]) ParameterIdentifier=gametime"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="16d6f0b3-e8b9-4cb0-8404-8a12fc5a1ae1"
+                      LastKnownName="GameTime"
+                      LastKnownLocation="Package5_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c852d805-40b2-42b7-adaf-b72798e6e326"
+                  name="device"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9dafd101-ef10-4740-bfef-0a65a1929d99"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=Update OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Graphics.dll&quot; Namespace=Microsoft.Xna.Framework.Graphics Type=GraphicsDevice)]) ParameterIdentifier=device"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9a5c2b2a-426d-4cca-956e-974ecf9944ae"
+                      LastKnownName="GraphicsDevice"
+                      LastKnownLocation="Package6_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5985d105-9ae8-4467-8cb8-12927dd4ec29"
+            name="Draw"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="afc7b9ad-4b19-4d21-ba8b-b93ca17accec"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="415bca07-40db-4e58-9d93-17b131f87cba"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="311c56bc-7ff0-4259-8bf1-94183a592335">
+                    <propertyInstance
+                      Id="0a9a2a39-49b9-4db3-a8c0-779094cfeecb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33ab589e-0d95-4989-938a-840d8c962d38">
+                    <propertyInstance
+                      Id="83597296-9abf-47e8-b381-caeebbf4cc92"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce97f2b5-7bc9-4cdd-9bf3-8b4e562a52fe">
+                    <propertyInstance
+                      Id="29609f66-1f9c-45e8-885c-3f0769dffb4f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0be99462-9222-4557-9aa1-a0d1f7c886c0">
+                    <propertyInstance
+                      Id="8883e886-08cb-40c3-bb65-41feb404bf65"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53c3fb74-0cb9-4e5d-88f1-2e930293a57f">
+                    <propertyInstance
+                      Id="5a873d7b-54ca-4d25-ac97-30e263cac8a1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="36fa0ad6-737a-4c57-a912-2c98d21dea6a"
+                  name="gametime"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="30001a4c-56c8-4e1e-813f-cf635ea8a3be"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]) ParameterIdentifier=gametime"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="16d6f0b3-e8b9-4cb0-8404-8a12fc5a1ae1"
+                      LastKnownName="GameTime"
+                      LastKnownLocation="Package5_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7c36cc4b-b2ce-4686-99a8-125f589b8b62"
+                  name="graphics"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8e6c1c5c-f414-467b-94d7-db537de3e58b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GraphicsDeviceManager)]) ParameterIdentifier=graphics"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="fb95d98a-316b-4888-9ab4-ec47f743795f"
+                      LastKnownName="GraphicsDeviceManager"
+                      LastKnownLocation="Package5_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="20d3d56d-cefc-40fc-bdd7-96f599e61c9a"
+            name="Unload"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0ed50fea-832d-4a80-8653-d2d1f62d4064"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=Unload"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0f09dea0-d80e-49f3-b352-b7e4efc3f2dd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49b2dfd8-c3b4-4c7a-89de-3d46343986ef">
+                    <propertyInstance
+                      Id="651f4622-b5f1-49ce-b252-b4b832487f42"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d0bb046-2946-4b84-a2e9-e8964851c5ab">
+                    <propertyInstance
+                      Id="a5b612d4-5c59-4bce-aaff-ca87543519fa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b24b39ed-aeba-4606-943b-d1f18ddb0653">
+                    <propertyInstance
+                      Id="a1b89f45-783c-4eec-9ac6-5662b8764648"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69dd66e4-92e4-4a8c-bf5d-464685251466">
+                    <propertyInstance
+                      Id="3ed0243d-e68f-4dc9-8f5c-e5215b740497"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d424dbe-5148-4c4a-85cc-3ad7de46432d">
+                    <propertyInstance
+                      Id="ee9997d7-1645-4b7c-bcee-1b7f7b387ab6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="dbc999c1-d3e3-4706-aca4-98fdd6afa324"
+            name="GraphicsChanged"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2becf32f-4b63-4bf8-b9b0-24e06faa4473"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameManager Member=GraphicsChanged"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5aef2fa6-6660-4775-8a0d-d35682502ffd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f838f98a-10c3-426a-bd7f-1a4a7cd7500e">
+                    <propertyInstance
+                      Id="d79838ff-ca83-4d4b-bd19-fd9cb251dfd1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3dfbe49e-e4a0-468e-8e0a-e916816439d3">
+                    <propertyInstance
+                      Id="17b570c5-cd4f-48a6-8261-7aab25b94d7d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdb41299-505f-49eb-951b-b86476ba2c38">
+                    <propertyInstance
+                      Id="f214cf67-121a-467a-b86f-4c0942e3588f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="520e32da-f7c0-4557-9d15-10c44385f2f7">
+                    <propertyInstance
+                      Id="2499833d-627c-4994-9e0c-3aae24cb4014"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0bd102cf-acb7-4faf-b695-6e27245f579c">
+                    <propertyInstance
+                      Id="8af72e51-dd1e-429c-aafd-76bc3324fa91"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4f805d21-38b2-4465-8e40-b615c6a884e0"
+        name="Options"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6c601f51-1a46-4200-acdc-cb957d021223"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Options"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ffef6151-5faa-4150-88ab-6ee73d5325bf"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="51396483-7c5f-4619-a73a-280788faab24">
+                <propertyInstance
+                  Id="ff315196-0dc0-4724-88a7-8ea6c202faa6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c51e2ac8-9442-4a1a-b6de-eef72c7c2bb5">
+                <propertyInstance
+                  Id="b8dc5471-21f7-4497-856b-a01b769df470"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e13b018a-91c5-4272-9546-821d76e7b8a1">
+                <propertyInstance
+                  Id="698818f3-7b21-4639-9c64-c336e93b90e1"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41a8d8ec-c757-42a1-a939-b77f4eb3af3d">
+                <propertyInstance
+                  Id="62094503-83d2-429e-b6f7-25fb7455730d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1833f216-a3a1-44e1-9bed-ff3ee7a3bd89">
+                <propertyInstance
+                  Id="ed335e6d-a4ee-4961-9890-0fd68ab91b1c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3566fa76-1015-49da-b02c-d5fe60488162"
+        name="Resolution"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="df783cc9-0846-4e05-a6f4-8f2144bb98ec"
+            handle="viewcode://./CodeSchema_Struct?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Resolution"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b3acf901-3ba5-4e58-8555-447d627f36e5"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6fb31a2b-6509-46b4-a3f9-87ec9a426465">
+                <propertyInstance
+                  Id="dad55933-4f82-4476-9518-68c6947c9ce5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="802af988-16de-4abc-a7dd-7fb7dad3fe79">
+                <propertyInstance
+                  Id="b9f689d9-4e5e-4dc4-8815-9338ddc3a38b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="adc8fee8-01c7-410a-aa19-e68ff93604ca">
+                <propertyInstance
+                  Id="38becfd6-59f1-4b76-807e-d928c7732b18"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5dd6a9fa-e524-4f75-a609-c0f0b66f791f">
+                <propertyInstance
+                  Id="ebc52581-204d-4024-9cbe-cef973fa1bec"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="bf658303-bcd4-475f-9cdb-b8266210a653"
+        name="DisplayMode"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="733fac08-5173-4cdb-b520-c28d1c417acb"
+            handle="viewcode://./CodeSchema_Enum?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=DisplayMode"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5987717e-2366-4788-abd6-034f59bf6ed6"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3435b26a-d649-4954-b818-983308f097ad">
+                <propertyInstance
+                  Id="2aa862c4-da3d-4628-ab25-afc97edd86f5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="417f78a9-4d7c-43e9-947a-5f2b34fdc077">
+                <propertyInstance
+                  Id="3fee2fd3-e78d-41ea-aadf-83f1d15cc3e3"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ef7c1394-3bed-4dfd-81d8-f4d1018b89e5">
+                <propertyInstance
+                  Id="d4054cd2-3e84-473f-b459-f3c0df5c237c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="62f62ef9-6f17-4ad5-800c-27be0e033a51"
+        name="GameAction"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="c1ec5b45-96f6-42ee-8812-968253a21995"
+            handle="viewcode://./CodeSchema_Enum?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=GameAction"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="61a9b8f3-e825-4042-a573-90fe92549f8a"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="917fb794-50da-47fa-95c1-ce51d62be789">
+                <propertyInstance
+                  Id="cbd67810-4c29-458c-b750-679ceb9f313c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="607b5f23-7fae-4819-a4da-d09f5db8e99c">
+                <propertyInstance
+                  Id="6b513f46-e370-426f-b9b7-4d535a581fe4"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3b97324e-5bb8-4369-a2dc-98f0be982cf4">
+                <propertyInstance
+                  Id="bd424387-03e7-4974-bcbc-12fe9e930036"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e998a257-4a88-4236-a8bb-acfc14429a28"
+        LastKnownName="Gamestates"
+        LastKnownLocation="Package9_2015.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="d6811d0b-b272-4e91-8cab-fb847ff9c40d"
+        name="OptionsID"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="c351a57f-58f1-4bb7-b37d-89d09db05a99"
+            handle="viewcode://./CodeSchema_Enum?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=OptionsID"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b2312339-f332-46dd-8bdd-4113827f501e"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3dea45a7-4060-4d62-bc8f-950dbe5a7f03">
+                <propertyInstance
+                  Id="431a73fe-a335-4f95-bb0e-3fd8ffbe64dc"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41cbec43-f49b-483c-9704-11f25d3f5312">
+                <propertyInstance
+                  Id="434c3411-a056-409a-847f-e2d3d1dbf989"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="46b2d843-dad5-41cb-9803-c2fa2ce545fb">
+                <propertyInstance
+                  Id="9ea9909d-6321-4bac-9027-f328454e6423"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

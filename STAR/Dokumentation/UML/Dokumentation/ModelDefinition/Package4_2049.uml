@@ -1,0 +1,1135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d50f31c1-199c-4f13-acda-e469828c4e9a"
+  name="OptionsMenu"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="632d9a35-5317-4a28-8c91-cd8a6b20f920"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Star.Menu.OptionsMenu"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="bd7c0ce3-3e32-4af2-ab7c-db62ffd9446d"
+        name="OptionsMenu"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f08b704a-bb28-4c5a-bb59-23c3b9158161"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="586cba29-f301-4ab3-877c-918a12e320f8"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f1fce366-f92c-4e68-922e-dbc5e985d359">
+                <propertyInstance
+                  Id="8567d350-2c60-44bf-b7fb-593fb71e00df"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea5d2800-60b7-46bc-898a-c40d8e2367ce">
+                <propertyInstance
+                  Id="d4e138ed-60d8-40b2-b691-dce37d9fc508"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9b77e1b9-22b3-4106-ad61-c39bea077a0a">
+                <propertyInstance
+                  Id="10eaec99-7d64-49d6-a779-de92c557c3e4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bec08120-a90e-4193-b246-5b6f48d54141">
+                <propertyInstance
+                  Id="0fbfe32f-992e-4c85-8de3-2d88bd2504fa"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6e397d69-cc8d-4411-9339-35bade93dd91">
+                <propertyInstance
+                  Id="bfcb062b-33e1-4e17-9de1-2d235b37816e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="d9ec2a5e-2afd-4b4b-a69a-0545bebd89f6"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fe9629d9-ea10-4dca-b8ea-d8ddfcb0e1a9"
+              LastKnownName="Menu"
+              LastKnownLocation="Package_2037.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="c6008cac-2572-4409-844b-040581bf03e2"
+            isDerived="false"
+            sourceEndRoleName="OptionsMenu"
+            targetEndRoleName="Options"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4f805d21-38b2-4465-8e40-b615c6a884e0"
+              LastKnownName="Options"
+              LastKnownLocation="Package1_2015.uml" />
+            <description>Property Options references type Options.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7db1a2ee-d19a-4aa3-8389-970ea0350096"
+                  name="OptionsMenu"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7e56d04c-b98a-44ce-bd58-f650153ab435"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="53ad3272-14b1-4712-912c-0486f60c88ac"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ce01c26c-fd54-447c-bc27-f664346aaced"
+                  name="Options"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b12126c9-ddcf-49e6-824a-ec2efeeb3f8a"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4613306e-d19f-478f-a505-03423170fddd"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="93fc068b-126a-4e04-943a-d4560b0668e2"
+            name="Options"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8e77b235-caac-4c0c-831d-1e3b4e0be264"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=Options"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6a0040cc-1372-4ef6-9bd6-4c1e3d1d8f4e"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abb4738c-4c79-4ecf-abac-45c24ec52d2a">
+                    <propertyInstance
+                      Id="2b43e6fd-74f9-4e71-ad1e-a5b6b898cf05"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4dfcb160-7032-4eef-9f89-c5c3c1d173c9">
+                    <propertyInstance
+                      Id="e51b910d-e26b-4e5f-bb94-5ae3a31b96ef"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88a3afc3-6eff-418f-8a2d-8715793c7f20">
+                    <propertyInstance
+                      Id="1f6b7a4c-7f52-4b86-b58b-aff8c762b008"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ce36927-1673-4255-897d-191dfbf6ec20">
+                    <propertyInstance
+                      Id="cdaee3b6-2a54-4fb6-8815-ede5895f43b1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1dd7449-e400-417e-a3d7-1a6c68beeb87">
+                    <propertyInstance
+                      Id="6557c1ec-5315-47c9-bb78-8d679469a3e9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5758014-5668-4d7b-bbdc-1a88b754d8fa">
+                    <propertyInstance
+                      Id="9c04d63b-45d4-4e67-8a5e-81871c578569"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4f805d21-38b2-4465-8e40-b615c6a884e0"
+                LastKnownName="Options"
+                LastKnownLocation="Package1_2015.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f0b48b87-78b9-4bf1-b7b7-820d92c93305"
+            name="currentResPos"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="55cd96d4-cb4c-4635-b944-f30491c4fa6a"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=currentResPos"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="729df079-8044-4988-a3d1-fdc18eee4dbf"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8893afcf-bc7b-47fc-b4f6-a81fd1e27504">
+                    <propertyInstance
+                      Id="80fbc92b-b3e3-488a-a057-e1420171b29b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6fdbdaa-0062-491c-be77-64f35567e91d">
+                    <propertyInstance
+                      Id="70fc0bf3-d897-4f26-83d0-75884d354da4"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a3262cc-7cc4-452a-8a07-e859ab8fa465">
+                    <propertyInstance
+                      Id="aff16ee1-903e-47c4-b58a-c4dd3f68f90d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c7f6c9b-471f-4905-83b6-f0d6525b08ef">
+                    <propertyInstance
+                      Id="4d93ffae-483b-47f0-bd8b-eb31ed757e83"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8b19dad-ae6e-48a1-85d8-10cf7d9cf131">
+                    <propertyInstance
+                      Id="1150f166-c9dc-4cd0-8e23-4bb81ce28ff7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="Dokumentation.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="563b5218-c00e-4205-a49f-7452af7c4e55"
+            name="options"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="900f8ff1-aa81-4e7d-a92b-175ac40cc7f6"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=options"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="527c509a-080d-4ed0-a287-8119a91c8d32"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fd37824-aa7a-45fe-b44c-5bb2b341b851">
+                    <propertyInstance
+                      Id="499fb4bb-34a8-4a35-8d74-469437def2d9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c68f2bb-d05a-4d98-99a9-a35e020319fe">
+                    <propertyInstance
+                      Id="69b61d0e-e0f7-4e94-9d1a-7db2ee3a7caf"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="584aa970-c114-4b9e-81fe-dbacd7d3168e">
+                    <propertyInstance
+                      Id="9b5f9a0a-269d-479a-bb2c-dfbb848fd25f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c50ce61b-ba54-4fcd-8670-c96e1bb7ffb9">
+                    <propertyInstance
+                      Id="d09a6e11-68b5-4984-932f-f57e8f37751f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="160181c7-3b6f-4257-a24b-e35c35c4096d">
+                    <propertyInstance
+                      Id="f0abbc60-c6d3-4dbf-a3ef-9b253a2a3ca7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4f805d21-38b2-4465-8e40-b615c6a884e0"
+                LastKnownName="Options"
+                LastKnownLocation="Package1_2015.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bb846255-0800-4555-9823-4e5baa20f832"
+            name="tempDisplayMode"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="65415600-7bb2-463e-8de9-5eb22c50a681"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=tempDisplayMode"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1eee69e0-34c3-41fb-859d-f76751bb50bc"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="408e8c30-5216-4073-bed0-7a877152532c">
+                    <propertyInstance
+                      Id="91e64b9c-908f-4fa2-97b4-5590e340a4bb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="748f8468-7c5a-4755-a09c-f964b9f99581">
+                    <propertyInstance
+                      Id="c881544d-1d0e-40fe-9866-b8647159e664"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ba996d1-acef-4792-b81a-5cf708376d11">
+                    <propertyInstance
+                      Id="24191767-f4d9-4b3a-8b97-6d7a06e07c62"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cff325c9-b516-410d-b1be-955e3217f81f">
+                    <propertyInstance
+                      Id="c2efb60c-8676-4e98-b05a-7328fbea5f08"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79fc4f58-51f5-4440-b777-06389751c6c6">
+                    <propertyInstance
+                      Id="affe6911-3fa4-4c1c-acad-f0b8c99a40ab"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="bf658303-bcd4-475f-9cdb-b8266210a653"
+                LastKnownName="DisplayMode"
+                LastKnownLocation="Package1_2015.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b7b839f5-141f-4663-bffa-3680677f804a"
+            name="tempRes"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c3bf1b24-459b-4ea9-aaa6-6fe53b4070f3"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=tempRes"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1933c6fb-dda1-4899-9f93-f39bb195fb61"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="266fd780-0c3c-488b-b181-324c892ab8a9">
+                    <propertyInstance
+                      Id="f3f0bfc6-afe5-4454-9842-0ab24e7b1ec6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f826e609-277d-497f-b1b4-f94aa45f4e01">
+                    <propertyInstance
+                      Id="8c9e14a5-686e-47c2-a31c-b9f6904b6c0a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6cd2bf60-bc3e-41c6-8ed3-a0f75933ce8c">
+                    <propertyInstance
+                      Id="0ba8a62b-674c-4a2d-a96b-1c8daa2e682a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7cfd9285-9eb3-44af-a007-5abc67487337">
+                    <propertyInstance
+                      Id="b801329b-b483-4147-b879-d2fcd7bc4a55"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="226c2e40-a720-4932-8489-7b9d4226cf2c">
+                    <propertyInstance
+                      Id="fb6771fe-b377-429f-8fc8-659f0064f170"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3566fa76-1015-49da-b02c-d5fe60488162"
+                LastKnownName="Resolution"
+                LastKnownLocation="Package1_2015.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7300af0d-965c-4ad3-b839-62d92ffb10d1"
+            name="GetOptionsString"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="853697da-f0dd-4606-b47f-5c6794dde713"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=(Name=GetOptionsString OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=(Name=OptionsMenuPositions ParentType=OptionsMenu)),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=OptionsID)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="351aa9a1-1e9b-4be0-8671-fa1aaa4e77cb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9db138c0-83ad-4325-be39-2364460a0c76">
+                    <propertyInstance
+                      Id="4a2a648f-43d7-44b1-a05f-1baf39854399"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a4e4f8c-01f7-4d68-b9ef-1e5dd6d8c4d8">
+                    <propertyInstance
+                      Id="69d5b3fb-49df-4cc3-addf-ecfc63d1bd26"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7eaa1512-1ced-46b6-be88-9d4a4caf9c35">
+                    <propertyInstance
+                      Id="1009f64a-1818-4b5d-9b3a-3d2c666b57a3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2617ae5-12a5-4ac9-b149-705ffbcc6b8a">
+                    <propertyInstance
+                      Id="bfd7229d-a2fb-4345-9f64-d25007c86f1d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6605fd2-49e7-4ba5-930a-433b3d0c0215">
+                    <propertyInstance
+                      Id="2f748858-424a-40b9-828a-eb959b16a0c9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="33be2a93-cbea-4e7c-bf82-ebfaa9a66e56"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Dokumentation.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c5849ef3-e3e4-4a74-abe2-98105bb289a2"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0e733b2c-2388-44f7-9232-4370d924c833"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=(Name=GetOptionsString OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=(Name=OptionsMenuPositions ParentType=OptionsMenu)),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=OptionsID)]) ParameterIdentifier=e"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="e695bb0b-7967-4c47-8943-0288ec95d3e8"
+                      LastKnownName="OptionsMenuPositions"
+                      LastKnownLocation="Package4_2049.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="691c58d5-e650-416f-bc8b-5f69475dbf2a"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="af4000c9-cfcd-48b7-a85c-5f9fc99e0761"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=(Name=GetOptionsString OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=(Name=OptionsMenuPositions ParentType=OptionsMenu)),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=OptionsID)]) ParameterIdentifier=id"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="d6811d0b-b272-4e91-8cab-fb847ff9c40d"
+                      LastKnownName="OptionsID"
+                      LastKnownLocation="Package1_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f044d356-5c98-484e-92ee-6a35a947a2be"
+            name="Update"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8b0f88f5-9a3f-4fda-bdf5-963bcc7e7584"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=(Name=Update OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Input Type=Inputhandler)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="44c9b415-10cc-4775-8063-9e15e2b34021"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e4996f1-ade6-4287-8725-5de59c198913">
+                    <propertyInstance
+                      Id="3ff90392-ab78-4818-90f9-6c9af04f5443"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d51ed72-2a01-4c03-8e51-df255be1336e">
+                    <propertyInstance
+                      Id="29340d66-d305-4b96-b8d4-7ded1c3a2e62"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6d41706-0b27-4371-9e63-6d1f9ea76c29">
+                    <propertyInstance
+                      Id="4facd310-cef9-4a4d-b136-0561a546118e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="699afe7c-1011-4c1a-b0ae-53efdaf77f6d">
+                    <propertyInstance
+                      Id="2c1053d5-2f61-4d78-b93c-c118d0275e61"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec5a1d8b-44a3-49a0-8187-0df947689357">
+                    <propertyInstance
+                      Id="217e3ccb-217e-4e7c-9b86-e7882d7b2912"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8f3cfa01-f426-473d-a891-d4ef92b9fcf2"
+                  direction="Return">
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="7b5ef8b4-8932-467d-95da-f6c654e08d0b"
+                      LastKnownName="CurrentMenu"
+                      LastKnownLocation="Package_2037.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="02f1d8d4-c74f-4560-8a87-71ff2426de1f"
+                  name="gametime"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="37c0e598-cc29-45a8-9dd0-3966f6dbe2f9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=(Name=Update OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Input Type=Inputhandler)]) ParameterIdentifier=gametime"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="16d6f0b3-e8b9-4cb0-8404-8a12fc5a1ae1"
+                      LastKnownName="GameTime"
+                      LastKnownLocation="Package5_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8c8d5130-a07f-4e0a-86c2-9b86ef54be4e"
+                  name="inputhandler"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cd5cb6ec-abcf-4b40-af4a-25b00f22aa4e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=(Name=Update OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft XNA/XNA Game Studio/v4.0/References/Windows/x86/Microsoft.Xna.Framework.Game.dll&quot; Namespace=Microsoft.Xna.Framework Type=GameTime),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Input Type=Inputhandler)]) ParameterIdentifier=inputhandler"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0d2cc7e7-e8cf-4e96-95eb-104a33dc3a9f"
+                      LastKnownName="Inputhandler"
+                      LastKnownLocation="Package7_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b7ff3c73-2d17-441f-afad-bc3ee1c8cb35"
+            name="options_DisplayModeChanged"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cde2c14c-7f2b-4e7a-bee9-9c6a6d7ba2ae"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=(Name=options_DisplayModeChanged OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Options),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=DisplayMode)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c2d2389c-5ab6-438b-ac72-f806af309439"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b2172d5-1e37-4153-bccb-86e063dfeb4c">
+                    <propertyInstance
+                      Id="6e397ce3-6ebb-4e04-b1ce-44cb507edada"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78bd9b8c-bf65-4e18-8672-7d8fe8f80b00">
+                    <propertyInstance
+                      Id="e8905f0b-4c94-4697-b43a-4039a8b0f3fe"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11a10b4f-0543-4b21-b575-e66d74491f98">
+                    <propertyInstance
+                      Id="3a3851b3-f964-4443-8388-57a3da395307"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a01314c-871e-4a9f-9e1a-9bd25c11748d">
+                    <propertyInstance
+                      Id="f411e0c6-4f17-4c06-afbe-eb4b55ae8a4d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26361b20-f26b-45a6-9c4e-a3e4dba07f55">
+                    <propertyInstance
+                      Id="676b724b-bbc3-44a3-abe0-e3457d4e2937"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6227408f-8b17-4569-a937-f832ddd5373f"
+                  name="options"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="550c43c7-0bba-41b0-9de8-caf72f44b57e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=(Name=options_DisplayModeChanged OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Options),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=DisplayMode)]) ParameterIdentifier=options"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4f805d21-38b2-4465-8e40-b615c6a884e0"
+                      LastKnownName="Options"
+                      LastKnownLocation="Package1_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1fb85d9f-f6f7-4433-89ee-67a3b1a56f97"
+                  name="mode"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4197cf32-0af0-4e50-b543-0ef090784e7c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=(Name=options_DisplayModeChanged OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Options),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=DisplayMode)]) ParameterIdentifier=mode"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="bf658303-bcd4-475f-9cdb-b8266210a653"
+                      LastKnownName="DisplayMode"
+                      LastKnownLocation="Package1_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3dbf2e7d-7805-46f1-bd73-8b8f5bdb951d"
+            name="options_ResolutionChanged"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3bd0d6ed-4a00-457a-8efd-a62d5341448c"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=(Name=options_ResolutionChanged OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Options),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Resolution)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f8a309cd-7547-437f-920a-f2a1bd58ff1a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a461d4dd-6a13-47bf-a72e-05daea8521f4">
+                    <propertyInstance
+                      Id="197c9f6e-a15b-4bae-a81d-ea2316793717"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89a73063-1283-413f-a4e6-db8207d3d9cf">
+                    <propertyInstance
+                      Id="9f56185e-9f53-442c-9843-6e4da25427ec"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23d07cc7-9deb-4aa9-b1bb-e849facd6a90">
+                    <propertyInstance
+                      Id="7bb8dec6-384f-432f-9957-550c164e9288"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69895199-609d-462d-975f-0732f6d19506">
+                    <propertyInstance
+                      Id="2b385eed-6ad3-4791-8232-d7dbf341f88c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e5708d3-1914-41e5-ad75-cd0e3def6714">
+                    <propertyInstance
+                      Id="1a4a08f1-5354-432b-8489-cc2744a96395"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="974f2890-822b-4544-ab72-bff7fa7c8209"
+                  name="options"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ea9c9264-5599-4de2-bc45-9cf3c02839e0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=(Name=options_ResolutionChanged OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Options),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Resolution)]) ParameterIdentifier=options"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4f805d21-38b2-4465-8e40-b615c6a884e0"
+                      LastKnownName="Options"
+                      LastKnownLocation="Package1_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="88b79e93-cdae-4774-9194-9155c5756054"
+                  name="resolution"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="dd98334e-b212-41e1-bed1-e8fcf6b5e2f1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=(Name=options_ResolutionChanged OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Options),(Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement Type=Resolution)]) ParameterIdentifier=resolution"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3566fa76-1015-49da-b02c-d5fe60488162"
+                      LastKnownName="Resolution"
+                      LastKnownLocation="Package1_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0d6e0d59-64c2-4789-8f16-dbb2a4c1b95c"
+            name="OptionsMenu"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="70847ca2-94c5-4f2d-ba4b-aa1d63224a93"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="34eff2dc-54d1-4ece-91f5-0a75d6f50633"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6dcff25c-c388-4c56-b74d-2119b5fbd5c3">
+                    <propertyInstance
+                      Id="1d907ec4-c8d0-4169-a656-4efa54ee7814"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b0ea6f0-e119-45a7-9afd-56e52f330aec">
+                    <propertyInstance
+                      Id="896020f5-1eb7-482d-9baa-97a677c0e97d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="190757ae-3c3e-450d-a069-8988ab93a702">
+                    <propertyInstance
+                      Id="8cd08d99-df8f-4d1b-87e5-a70076a27a21"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f7144a9-4438-4ca0-abca-20d7cb598969">
+                    <propertyInstance
+                      Id="b0af88bf-7a37-4c43-a408-38b89933ca07"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0dd34ad-d8e5-4d0b-94e2-7a5034f87210">
+                    <propertyInstance
+                      Id="96965395-4f63-49ff-b8fa-d390afdfc46d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="54bf387d-4fd9-484c-8dcd-4058b4acb9b1"
+            name="InitializeMenu"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f404f858-da89-4174-b7b2-1f85911c48d4"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=InitializeMenu"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c1e4a6ef-880a-40eb-9927-3502a0c0d1a2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afc3f415-d77b-4735-88da-0ee5afc9e5fd">
+                    <propertyInstance
+                      Id="0857c166-9699-413f-aabd-ccdb821f7f24"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf250343-a09c-4941-a28f-71206df0a04c">
+                    <propertyInstance
+                      Id="af002c24-8339-4aa2-b4ee-824f2dd44112"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce9f9a75-98e6-4719-abbc-d8cc3fa1c013">
+                    <propertyInstance
+                      Id="6c6e39c6-7bd3-4341-ad06-8d9615b73b5b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e1f6070-0d33-42d4-a01e-dd772cdc5ead">
+                    <propertyInstance
+                      Id="52762879-d045-4c1c-896e-63256f184940"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2d3841d-6d66-4a6c-8b5d-99f0b01cdb62">
+                    <propertyInstance
+                      Id="e09c41e2-edf5-4eb4-824c-bd9abbee62a5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="b28adafa-5210-42e9-b0e4-dd96ef078ad6"
+            name="RecreateStrings"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9592d7f7-715b-4504-9158-4afb185b146d"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=OptionsMenu Member=RecreateStrings"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6d4eb6a7-e532-4cc7-954c-78325360c94e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f186346-2823-4a85-a042-333a2f434cb8">
+                    <propertyInstance
+                      Id="d92d7aec-b9de-4e53-b88d-4f3341c621f3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="355b8c3f-edff-41f1-bfcb-3b67ff9f41b8">
+                    <propertyInstance
+                      Id="47df9932-6698-4c23-afdb-c4784faae2fc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a152c3d-7adf-47b7-b631-81650237a164">
+                    <propertyInstance
+                      Id="e794cb6d-2e45-4172-8e69-20d29baaf53a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4871a521-b44a-43a9-b1da-11db5a2747bd">
+                    <propertyInstance
+                      Id="7811a0e7-f137-4707-bf39-c245f88a42f1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48111ce4-d786-4035-9456-76a2c75acad2">
+                    <propertyInstance
+                      Id="5262ce40-e907-4252-ac58-4f88ae43eea9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="e695bb0b-7967-4c47-8943-0288ec95d3e8"
+        name="OptionsMenuPositions"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="fc58b337-54a0-45c1-9ae1-e19d6ef21c69"
+            handle="viewcode://./CodeSchema_Enum?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Menu.OptionsMenu Type=(Name=OptionsMenuPositions ParentType=OptionsMenu)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="915fe74e-c424-4a5f-ae3e-4188e137a873"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c3c1b2e0-d291-49da-8671-6d08bcdf3676">
+                <propertyInstance
+                  Id="4e21061f-e338-457c-ade9-bf3ce1d29d0e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c201983-d26e-4ccb-b438-b38a1b21124d">
+                <propertyInstance
+                  Id="8a7c437d-a9f7-4320-83bc-0d13d1e0d43c"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="65950b50-71fb-427c-a7c2-9e8120479d3a">
+                <propertyInstance
+                  Id="b3e494db-9280-46b7-92e8-31b3667fb1fd"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

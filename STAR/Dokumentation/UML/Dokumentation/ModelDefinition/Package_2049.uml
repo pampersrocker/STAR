@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8754840e-49ac-49e5-b87a-6f463cd33d20"
+  name="LoadingScreen"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="7cd0260f-641b-4b87-ae5f-74d848429c8b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Star.GameManagement.Gamestates.LoadingScreen"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="583677b3-4f31-42d6-b26a-139df05af722"
+        name="LoadingRotation"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="32df40d6-03df-447c-95f7-e4acf1b8e401"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement.Gamestates.LoadingScreen Type=LoadingRotation"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3b37ae94-28ad-4134-8ef1-f548fb0e9aa8"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5c226b99-7994-48c1-8bee-3afc4bdb952a">
+                <propertyInstance
+                  Id="c89d67f5-b587-4821-bff8-f8a97a1f1011"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c0ab3227-1c60-45ef-a9d3-111f702150b3">
+                <propertyInstance
+                  Id="d2d492c1-45d6-492e-ba00-e3c49b3beff9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c073acd-d560-401a-b6f0-11d857ca2c48">
+                <propertyInstance
+                  Id="1fb57dfb-7f5c-4e5f-8355-f3ccf2e63a3e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cb7f1740-82c1-4205-8aac-ab1eabf58a79">
+                <propertyInstance
+                  Id="6e18e891-d01b-4b17-a486-4891a91c1ff0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="122bbaf8-1688-4863-bb39-a7da70211553">
+                <propertyInstance
+                  Id="e5711a5e-291f-4602-8709-00bb7c3ab51f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="be134c65-bdb8-4638-a1aa-7f417bf21b31"
+        name="LoadingString"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0fb595c7-db8b-4c92-a1df-ffc107a9f8c5"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.GameManagement.Gamestates.LoadingScreen Type=LoadingString"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="08462366-50ad-4f40-afaf-840e7559241f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db147d4c-93f6-4a52-a0b6-1b74126d128a">
+                <propertyInstance
+                  Id="a4693f51-5815-4fd3-a025-b536d6e4305f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="23015665-db9e-453f-b98c-6133809a48bd">
+                <propertyInstance
+                  Id="7d098b9d-9c7d-40ff-b51b-b890d05d482a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c9c261d-7d97-4097-b48e-979cdc7f852d">
+                <propertyInstance
+                  Id="dee50226-5e68-40e9-9833-96d8b949bca9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="694538d9-ae41-4205-a79f-5ec614afb528">
+                <propertyInstance
+                  Id="b69d0aad-676f-4391-a372-61de2555faf8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e66d84c3-71d4-4b54-b486-f7b408a479bf">
+                <propertyInstance
+                  Id="ce682122-0f6b-47a3-82e2-3befa6498a55"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

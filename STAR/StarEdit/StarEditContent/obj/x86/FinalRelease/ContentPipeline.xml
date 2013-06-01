@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Arial.spritefont</Source>
+      <Name>Arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\Arial.xnb</Output>
+      <Time>2010-09-06T18:04:11+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Blank.bmp</Source>
+      <Name>Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\Blank.xnb</Output>
+      <Time>2010-10-14T20:44:15+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Play.png</Source>
+      <Name>Play</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\Play.xnb</Output>
+      <Time>2010-10-15T08:43:20+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stop.png</Source>
+      <Name>Stop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\Stop.xnb</Output>
+      <Time>2010-10-15T08:44:30+02:00</Time>
+    </Item>
+    <Item>
+      <Source>End.png</Source>
+      <Name>End</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\End.xnb</Output>
+      <Time>2010-10-15T08:50:57+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Pause.png</Source>
+      <Name>Pause</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\Pause.xnb</Output>
+      <Time>2010-10-17T12:52:29+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Start.png</Source>
+      <Name>Start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\Start.xnb</Output>
+      <Time>2010-10-15T08:52:07+02:00</Time>
+    </Item>
+    <Item>
+      <Source>StepBack.png</Source>
+      <Name>StepBack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\StepBack.xnb</Output>
+      <Time>2010-10-15T08:51:43+02:00</Time>
+    </Item>
+    <Item>
+      <Source>StepForward.png</Source>
+      <Name>StepForward</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\StepForward.xnb</Output>
+      <Time>2010-10-15T08:50:02+02:00</Time>
+    </Item>
+    <Item>
+      <Source>FastBack.png</Source>
+      <Name>FastBack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\FastBack.xnb</Output>
+      <Time>2010-10-17T12:43:27+02:00</Time>
+    </Item>
+    <Item>
+      <Source>FastForward.png</Source>
+      <Name>FastForward</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\FastForward.xnb</Output>
+      <Time>2010-10-17T12:44:03+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Slow.png</Source>
+      <Name>Slow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\Slow.xnb</Output>
+      <Time>2010-10-31T16:27:50+01:00</Time>
+    </Item>
+    <Item>
+      <Source>mousetile.png</Source>
+      <Name>mousetile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\mousetile.xnb</Output>
+      <Time>2011-03-17T19:46:33+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>FinalRelease</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\StarEdit\StarEditContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\StarEdit\StarEditContent\obj\x86\FinalRelease\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\StarEditData\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FbxImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-05-27T21:47:36.3486687+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

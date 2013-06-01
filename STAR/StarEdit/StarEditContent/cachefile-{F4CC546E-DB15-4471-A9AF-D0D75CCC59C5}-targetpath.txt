@@ -1,0 +1,13 @@
+StarEditData\Arial.xnb
+StarEditData\Blank.xnb
+StarEditData\Play.xnb
+StarEditData\Stop.xnb
+StarEditData\End.xnb
+StarEditData\Pause.xnb
+StarEditData\Start.xnb
+StarEditData\StepBack.xnb
+StarEditData\StepForward.xnb
+StarEditData\FastBack.xnb
+StarEditData\FastForward.xnb
+StarEditData\Slow.xnb
+StarEditData\mousetile.xnb

@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c15bd987-5e6c-4b2a-85e2-8e6c1a243927"
+  name="PostProcessEffects"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="b7d48090-826d-472d-9f7b-7e040588a651"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Star.Graphics.Effects.PostProcessEffects"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="0e87e1e8-09e0-4e25-a1ed-6632809e1298"
+        name="Colorize"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e885ced2-4b25-426e-a4e9-c731b876a7be"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Graphics.Effects.PostProcessEffects Type=Colorize"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d997deb4-7f7e-4689-a67b-3fb947b62b1e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b74c014-ecc9-4f9f-9372-a4a44c14b569">
+                <propertyInstance
+                  Id="f0c3f429-7804-43e5-9696-0f9e42e5637d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41b4cffa-a813-460d-82a3-b70c014e478d">
+                <propertyInstance
+                  Id="c8b9ef2d-3191-40be-a67c-1fe42489e520"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e3edded6-13f8-4092-b69c-2ad93d9a1a21">
+                <propertyInstance
+                  Id="8590acca-0b4f-4c65-bbe2-3dd40234a613"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="84ee3a21-1d0b-4190-84cd-02e43d675c75">
+                <propertyInstance
+                  Id="f2737b97-4a4d-4269-ace5-b52e2e6f179b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2bd60232-8f97-4732-9417-c041d8b23dda">
+                <propertyInstance
+                  Id="ef24732d-7939-41a2-822f-2e8edb3e20b4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e7b4e408-03aa-40f3-9886-e4582e05e183"
+        name="ToonShader"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1e7c4c80-3633-4847-8a19-c0ecf49c4398"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Graphics.Effects.PostProcessEffects Type=ToonShader"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1a93a65d-ae81-4266-9f60-e3d201522e13"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e70de5c6-190a-4db2-bab3-808b54b6c613">
+                <propertyInstance
+                  Id="b54be7c4-37da-4e93-9608-2e5329874e52"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="46dfe1d6-c49d-4bf2-a54d-b97de6979a19">
+                <propertyInstance
+                  Id="5a5f9ea2-8b16-4494-b2b8-7d62dfd40892"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="365af058-877d-4d79-a62b-9b5b7ce1f7ae">
+                <propertyInstance
+                  Id="5f834efa-e120-4d38-9cc5-80865b5dac5e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ba366dd9-4249-4c6d-8194-069bbb15e7ce">
+                <propertyInstance
+                  Id="75bfe947-0e2a-436e-9834-749c4dc2648a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="912f43b3-3516-46ba-ae2a-eac80f460775">
+                <propertyInstance
+                  Id="2173c810-aebd-4c57-b9e3-2d6f5058290a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f08912a0-7b0d-4b76-aa9f-b02ae2a534a4"
+        name="ColorizeLUT"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f06205f4-b73e-4e89-908c-c3004676a559"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Graphics.Effects.PostProcessEffects Type=ColorizeLUT"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="25328153-b3b1-45c8-8d57-1b3d8a74e835"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8aa70af6-e497-426b-a03d-f14b5fdf66a8">
+                <propertyInstance
+                  Id="0ee297af-acae-4887-b3b6-db97cbcde300"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1fff2560-5dd5-42d6-ba46-1ac2ac164927">
+                <propertyInstance
+                  Id="aedceaab-ff41-43ef-8a80-6823d26b6786"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6aefe816-cffa-4d1e-a831-77425de6c4f1">
+                <propertyInstance
+                  Id="d3dd5c03-90b7-4b17-bd15-cdcf62178810"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa1cce1c-d4ac-470a-80ef-92515fa573fa">
+                <propertyInstance
+                  Id="873beefb-58cb-41b1-a6fe-7a2dc3c2ed5b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4f8445b-cbf2-4929-a577-8c58177301cb">
+                <propertyInstance
+                  Id="99c0a19c-fd1f-411d-9476-5c180059f796"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="e6599492-9dec-4d7b-892c-05185affe042">
+            <interfaceMoniker
+              Id="259383fe-8683-4ac0-b9a8-359276e64bef"
+              LastKnownName="IGraphicsChange"
+              LastKnownLocation="Package3_2037.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d9851996-859c-4bad-8594-fc7da9f24a82"
+            name="GraphicsChanged"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b9418d19-8003-4fb2-b1ab-eebece5f072e"
+                  name="device"
+                  direction="In">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9a5c2b2a-426d-4cca-956e-974ecf9944ae"
+                      LastKnownName="GraphicsDevice"
+                      LastKnownLocation="Package6_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6ad2f55e-7c79-4c3e-b027-06210075028d"
+                  name="options"
+                  direction="In">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4f805d21-38b2-4465-8e40-b615c6a884e0"
+                      LastKnownName="Options"
+                      LastKnownLocation="Package1_2015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="73a27dee-ac3d-4fc5-b15e-d9f363128335"
+            name="UnloadGraphicsChanged"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5a6f62e8-6812-4556-a0d4-c7c5e1a9e083"
+        name="KillEffect"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5613e686-eb0b-4e37-ab06-20da97258e2a"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Graphics.Effects.PostProcessEffects Type=KillEffect"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6c5ba648-0a9e-4522-b822-1c2305c24c8e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6ad57d3f-bfb2-418e-983a-e6fbfee7bda9">
+                <propertyInstance
+                  Id="ebf22ab1-4a4d-4965-a10c-f9a37dacf75f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e356c6f2-b193-43dd-93c6-226989c325a3">
+                <propertyInstance
+                  Id="20d19b34-3f96-490d-a486-8e1db01454d1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8d3d99bb-29d5-4bf0-8959-a5d879b573fd">
+                <propertyInstance
+                  Id="f98f3e14-5944-44c8-b621-e00cdb6ffe5a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2294b66d-f436-4413-8a4e-f13f37becc21">
+                <propertyInstance
+                  Id="22cb52fc-4d2a-42b1-8117-a2ee4efc2abe"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8d42e594-54d3-46d0-868d-621a61e1efa8">
+                <propertyInstance
+                  Id="02c13f86-e06f-47fa-b333-2092dee4ceba"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d5008fc6-9916-4742-a6d6-49f5dc8ad42e"
+        name="Trace"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f6ace124-054b-4c33-967a-aeeb5bf3fa27"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Graphics.Effects.PostProcessEffects Type=Trace"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="935567ec-9ac0-424e-b3a2-bd539f25c3b8"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8fe48b67-975b-44a0-b684-2be4136659cd">
+                <propertyInstance
+                  Id="698ecaab-b94f-4ab9-9922-5ff9ae8ecfd0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="281d4ffe-2c8e-4831-b178-180e3c7fde34">
+                <propertyInstance
+                  Id="d5861290-305a-487f-b692-df20ccffa315"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="47cf47e5-263d-4069-9564-923ef0a33f5b">
+                <propertyInstance
+                  Id="18b1842d-8210-4af5-8970-1f35a9ead169"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="610464bc-c54a-4c56-b509-a06bccd14a3a">
+                <propertyInstance
+                  Id="3641b045-1fff-4563-9cb6-7d29480ae0d6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cdb81939-8a3e-4581-9d61-1d7296abdc56">
+                <propertyInstance
+                  Id="d6a1979d-5dfe-4a2f-9891-76936620ecf2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e1461049-4217-40fe-a2e0-4889d64453ec"
+        name="GrayScale"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="448b63b6-6152-4658-a039-92a96da5ab5f"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Graphics.Effects.PostProcessEffects Type=GrayScale"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1aae899a-1c65-4d89-984b-9eebc1d6361e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96105e33-07c6-43eb-8258-76ae5026e378">
+                <propertyInstance
+                  Id="7af6680e-05ab-4f18-af76-b046e2ae797c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1e49f781-91d2-4fe9-9674-f979a9125f7a">
+                <propertyInstance
+                  Id="27eda65f-cdcc-4a3f-aa62-a13b5b66118b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f87ea51-87e1-4ab1-9ef2-45cf73fabd6e">
+                <propertyInstance
+                  Id="ae1f0647-b799-4cb3-900a-2c41f7b03aae"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dfc5801e-878e-476c-8ee0-e79901e063ca">
+                <propertyInstance
+                  Id="0813c8f4-6f12-4879-8a2e-549c54e1b1f8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f8771e26-d79b-4c5a-b94a-5b6fba08655b">
+                <propertyInstance
+                  Id="cc7a7faf-a61b-45d3-89a3-00a2c1b64db9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="602f05bd-fbdf-40f2-b032-d243dc3fc143"
+        name="Wave"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="58cc83b2-f94c-415b-8c73-dec635a042ea"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Marvin/Tausch/Schule/Projekte/STAR VS 2010/STAR/bin/x86/Release/STAR.exe&quot; Namespace=Star.Graphics.Effects.PostProcessEffects Type=Wave"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cc71be77-d3c5-44e2-af3a-9f24c0d85b29"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cc3f9580-732a-4220-85ad-737cacf5bcb0">
+                <propertyInstance
+                  Id="250871ad-6901-4631-a3c1-65315a02760c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="14b1eaa8-0b5b-4ef6-a896-ec6f93595365">
+                <propertyInstance
+                  Id="cf5944d4-e369-430c-a622-605149763289"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b2676c9a-9121-4526-a2c2-74292d341cc1">
+                <propertyInstance
+                  Id="fc993b57-e042-4b98-9c2c-9046e471aeb8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b04bb42c-b2a3-4b2d-8f20-54f391a8a9bd">
+                <propertyInstance
+                  Id="501e7ca3-90f1-4c39-9c26-6d1646321458"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="45dc686f-349a-4410-b5aa-e74f42ac3d20">
+                <propertyInstance
+                  Id="488860e6-9a5a-4615-806c-13d247c1890a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

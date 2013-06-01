@@ -1,0 +1,6 @@
+AnimRectangles=Head,foot1,foot2;
+MaxSpeed=100;
+MovementType=0;
+EnemyCollision=1;
+StandardDirection=0;
+BoundingBox=-19,-23,42,54;

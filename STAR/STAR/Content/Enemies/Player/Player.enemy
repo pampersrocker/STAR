@@ -1,0 +1,7 @@
+AnimRectangles=Body,Head,UpperArmLeft,UnderArmLeft,UpperArmRight,UnderArmRight,UpperLegLeft,LowerLegLeft,LowerLegRight,UpperLegRight;
+BoundingBox=;
+MaxSpeed=;
+MovementType=;
+EnemyCollision=;
+StandardDirection=;
+PlayerTracking=;

@@ -1,0 +1,3 @@
+Data\Audio\Music.xgs
+Data\Audio\Music.xwb
+Data\Audio\Music.xsb

@@ -1,0 +1,12 @@
+Todo List STAR:
+
+-Sound
+-Lights
+-Laptop Bugs
+-Textures
+-Block Input verbessern
+-Score
+-Hud
+-Fehlermeldungen
+-UI Loading Screen überarbeiten.
+-Editor funktionalität erweitern

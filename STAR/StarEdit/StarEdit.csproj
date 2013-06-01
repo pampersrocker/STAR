@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8F463D4-05DB-47ED-987C-1447EC798192}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StarEdit</RootNamespace>
+    <AssemblyName>StarEdit</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>StarEdit.Program</StartupObject>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\STAR\bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\Star\bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <DebugSymbols>true</DebugSymbols>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'FinalRelease|AnyCPU' ">
+    <OutputPath>bin\Release No Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'FinalRelease|x86' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>..\STAR\bin\x86\Release No Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Build.Engine">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Build.Framework">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0" />
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EnemyEditor\AddRectangleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnemyEditor\AddRectangleForm.Designer.cs">
+      <DependentUpon>AddRectangleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnemyEditor\LinearInterpolationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnemyEditor\LinearInterpolationForm.Designer.cs">
+      <DependentUpon>LinearInterpolationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnemyEditor\NewEnemyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnemyEditor\NewEnemyForm.Designer.cs">
+      <DependentUpon>NewEnemyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnemyEditor\OffsetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnemyEditor\OffsetForm.Designer.cs">
+      <DependentUpon>OffsetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnemyEditor\ParentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnemyEditor\ParentForm.Designer.cs">
+      <DependentUpon>ParentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnemyEditor\PlayControl.cs" />
+    <Compile Include="EnemyEditor\PlayControlClickEvent.cs" />
+    <Compile Include="EnemyEditor\Structs.cs" />
+    <Compile Include="LevelEditor\LevelWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelEditor\LevelWorker.Designer.cs">
+      <DependentUpon>LevelWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelEditor\MapBoundsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelEditor\MapBoundsForm.Designer.cs">
+      <DependentUpon>MapBoundsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelEditor\NewMapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelEditor\NewMapForm.Designer.cs">
+      <DependentUpon>NewMapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnemyEditor\SingleEnemyManager.cs" />
+    <Compile Include="LevelEditor\StyleChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelEditor\StyleChangeForm.Designer.cs">
+      <DependentUpon>StyleChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\ToolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\ToolForm.Designer.cs">
+      <DependentUpon>ToolForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelEditor\LevelMDIChild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelEditor\LevelMDIChild.Designer.cs">
+      <DependentUpon>LevelMDIChild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelEditor\ToolManager.cs" />
+    <Compile Include="WinFormsContentLoading\ContentBuilder.cs" />
+    <Compile Include="EnemyEditor\EnemyControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EnemyEditor\EnemyEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnemyEditor\EnemyEditor.Designer.cs">
+      <DependentUpon>EnemyEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinFormsContentLoading\ErrorLogger.cs" />
+    <Compile Include="WinFormsGraphicsDevice\GraphicsDeviceControlMarvinPohl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LevelEditor\LevelControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Editor\StarEditWindows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\StarEditWindows.Designer.cs">
+      <DependentUpon>StarEditWindows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinFormsGraphicsDevice\GraphicsDeviceControlMicrosoft.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinFormsGraphicsDevice\GraphicsDeviceService.cs" />
+    <Compile Include="WinFormsGraphicsDevice\ServiceContainer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EnemyEditor\AddRectangleForm.resx">
+      <DependentUpon>AddRectangleForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnemyEditor\LinearInterpolationForm.resx">
+      <DependentUpon>LinearInterpolationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnemyEditor\NewEnemyForm.resx">
+      <DependentUpon>NewEnemyForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnemyEditor\OffsetForm.resx">
+      <DependentUpon>OffsetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnemyEditor\ParentForm.resx">
+      <DependentUpon>ParentForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelEditor\LevelWorker.resx">
+      <DependentUpon>LevelWorker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelEditor\MapBoundsForm.resx">
+      <DependentUpon>MapBoundsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelEditor\NewMapForm.resx">
+      <DependentUpon>NewMapForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelEditor\StyleChangeForm.resx">
+      <DependentUpon>StyleChangeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\ToolForm.resx">
+      <DependentUpon>ToolForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnemyEditor\EnemyEditor.resx">
+      <DependentUpon>EnemyEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelEditor\LevelMDIChild.resx">
+      <DependentUpon>LevelMDIChild.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\StarEditWindows.resx">
+      <DependentUpon>StarEditWindows.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hsvc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contrast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EditorDiagramm.cd" />
+    <None Include="Resources\brightness.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\STAR\Star.csproj">
+      <Project>{997F5954-086F-4E2E-8C3A-B688913F5DD5}</Project>
+      <Name>Star</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_UseGlobalSettings="False" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_BuildVersioningStyle="DeltaBaseYear.MonthAndDayStamp.TimeStamp.Increment" BuildVersion_StartDate="2010/7/21" BuildVersion_AssemblyInfoFilename="Properties\AssemblyInfo.cs" BuildVersion_UpdateFileVersion="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

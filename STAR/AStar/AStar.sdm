@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Von Visual Studio generierte SDM-basierte (System Definition Model) Datei.-->
+<!--Die manuelle Bearbeitung dieser Datei wird nicht empfohlen und kann zu Fehlern führen.-->
+<SystemDefinitionModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AStar" Version="1.0.0.0" Culture="de-DE" DocumentLanguage="de-DE" xmlns="http://schemas.microsoft.com/SystemDefinitionModel/2005/1">
+  <Import Alias="System" Name="System" Version="1.0.60130.0" />
+  <Import Alias="MicrosoftWindowsApplication" Name="Microsoft.WindowsApplication" Version="1.0.60130.0" />
+  <Import Alias="MicrosoftFileSystem" Name="Microsoft.FileSystem" Version="1.0.60130.0" />
+  <Import Alias="MicrosoftConfiguration" Name="Microsoft.Configuration" Version="1.0.60130.0" />
+  <DesignData>
+    <VisualStudio xmlns="http://schemas.microsoft.com/SystemDefinitionModel/2005/1/DesignData/VisualStudio">
+      <ModelElement Id="b43335cd4a3e42958c57286339d61258" Type="Microsoft.VisualStudio.EnterpriseTools.Application.Modeling.SoftwareComponentDocument">
+        <Property Name="Version" Value="1" />
+        <Property Name="VSProjectId" Value="011fbbbb-63ee-4def-bc25-ff5d6fed5151" />
+        <Relationship Id="d354c2dac2bb44ecac467c464d3d723c" Type="Microsoft.VisualStudio.EnterpriseTools.Application.Modeling.SoftwareComponentDocumentAffiliatedWithVSProject" Role1="@c346095734f646f9ac7e7dfa15cc9382" RoleType1="Microsoft.VisualStudio.EnterpriseTools.Application.Modeling.SoftwareComponentDocumentAffiliatedWithVSProject.VSProject" />
+        <ModelElement Id="c346095734f646f9ac7e7dfa15cc9382" Type="Microsoft.VisualStudio.EnterpriseTools.ArtifactModel.Project.VSProject">
+          <Property Name="Name" Value="AStar" />
+          <Property Name="Guid" Value="011fbbbb-63ee-4def-bc25-ff5d6fed5151" />
+          <Property Name="Location" Value="C:\Users\Marvin\Schule\Projekte\AStarold\AStar\" />
+          <Property Name="Language" Value="c#" />
+          <Property Name="IsImplemented" Value="true" />
+          <Property Name="BuildOutputPath" Value="bin\x86\Release\" />
+          <Property Name="ProjectType" Value="Executable" />
+          <ModelElement Id="a4b11d712d394fda98b76418ecb83e66" Type="Microsoft.VisualStudio.EnterpriseTools.ArtifactModel.Clr.ProjectClassModelRoot">
+            <ModelElement Id="76ae4e99d3a7412d917d10889ef3fb14" Type="Microsoft.VisualStudio.EnterpriseTools.ArtifactModel.Clr.RootNamespace">
+              <Property Name="CustomAttributes" Value="" />
+              <Property Name="LanguageType" Value="CSharp" />
+              <Relationship Id="e0d251af21664f3a9475f78520e8c5ac" Type="Microsoft.VisualStudio.EnterpriseTools.ArtifactModel.Clr.ProjectClassRootContainsNamespace" Role1="@a4b11d712d394fda98b76418ecb83e66" RoleType1="Microsoft.VisualStudio.EnterpriseTools.ArtifactModel.Clr.ProjectClassRootContainsNamespace.ProjectClassModelRoot" />
+            </ModelElement>
+            <Relationship Id="3430d68c161141979036cffbd0f15b4b" Type="Microsoft.VisualStudio.EnterpriseTools.ArtifactModel.Project.VSProjectContainsClassModelRoot" Role1="@c346095734f646f9ac7e7dfa15cc9382" RoleType1="Microsoft.VisualStudio.EnterpriseTools.ArtifactModel.Project.VSProjectContainsClassModelRoot.VSProject" />
+          </ModelElement>
+        </ModelElement>
+      </ModelElement>
+    </VisualStudio>
+  </DesignData>
+  <SystemDefinition Name="AStar" Extends="MicrosoftWindowsApplication:WindowsApplication" SimulationRoot="false">
+    <DesignData>
+      <VisualStudio xmlns="http://schemas.microsoft.com/SystemDefinitionModel/2005/1/DesignData/VisualStudio">
+        <ModelElement Type="Microsoft.VisualStudio.EnterpriseTools.Application.Modeling.PlugIns.WindowsComponentType">
+          <Property Name="State" Value="Implemented" />
+          <Property Name="Project" Value="AStar" />
+        </ModelElement>
+      </VisualStudio>
+    </DesignData>
+    <ResourceDefinition Name="Directory" Extends="MicrosoftFileSystem:Directory">
+      <ResourceDefinition Name="Configuration" Extends="MicrosoftConfiguration:Configuration">
+        <ResourceDefinition Name="TransactionsSectionGroup" Extends="MicrosoftConfiguration:TransactionsSectionGroup" />
+        <ResourceDefinition Name="SerializationSectionGroup" Extends="MicrosoftConfiguration:SerializationSectionGroup" />
+        <ResourceDefinition Name="SystemWebSectionGroup" Extends="MicrosoftConfiguration:SystemWebSectionGroup">
+          <ResourceDefinition Name="SystemWebCachingSectionGroup" Extends="MicrosoftConfiguration:SystemWebCachingSectionGroup" />
+          <Resource Name="SystemWebCachingSectionGroup" Definition="AStar.Directory.Configuration.SystemWebSectionGroup.SystemWebCachingSectionGroup" MinOccurs="1" MaxOccurs="1" Reference="false">
+            <DesignData>
+              <VisualStudio xmlns="http://schemas.microsoft.com/SystemDefinitionModel/2005/1/DesignData/VisualStudio">
+                <ModelElement>
+                  <Property Name="DisplayName" Value="SystemWebCachingSectionGroup" />
+                  <Property Name="CreatedByUser" Value="true" />
+                </ModelElement>
+              </VisualStudio>
+            </DesignData>
+          </Resource>
+          <Containment Name="SystemWebCachingSectionGroupContainment" Definition="MicrosoftConfiguration:SystemWebSectionGroupContainsSystemWebCachingSectionGroup" ChildMember="SystemWebCachingSectionGroup" />
+        </ResourceDefinition>
+        <ResourceDefinition Name="NetSectionGroup" Extends="MicrosoftConfiguration:NetSectionGroup">
+          <ResourceDefinition Name="MailSettingsSectionGroup" Extends="MicrosoftConfiguration:MailSettingsSectionGroup" />
+          <Resource Name="MailSettingsSectionGroup" Definition="AStar.Directory.Configuration.NetSectionGroup.MailSettingsSectionGroup" MinOccurs="1" MaxOccurs="1" Reference="false">
+            <DesignData>
+              <VisualStudio xmlns="http://schemas.microsoft.com/SystemDefinitionModel/2005/1/DesignData/VisualStudio">
+                <ModelElement>
+                  <Property Name="DisplayName" Value="MailSettingsSectionGroup" />
+                  <Property Name="CreatedByUser" Value="true" />
+                </ModelElement>
+              </VisualStudio>
+            </DesignData>
+          </Resource>
+          <Containment Name="MailSettingsSectionGroupContainment" Definition="MicrosoftConfiguration:NetSectionGroupContainsMailSettingsSectionGroup" ChildMember="MailSettingsSectionGroup" />
+        </ResourceDefinition>
+        <Resource Name="TransactionsSectionGroup" Definition="AStar.Directory.Configuration.TransactionsSectionGroup" MinOccurs="1" MaxOccurs="1" Reference="false">
+          <DesignData>
+            <VisualStudio xmlns="http://schemas.microsoft.com/SystemDefinitionModel/2005/1/DesignData/VisualStudio">
+              <ModelElement>
+                <Property Name="DisplayName" Value="TransactionsSectionGroup" />
+                <Property Name="CreatedByUser" Value="true" />
+              </ModelElement>
+            </VisualStudio>
+          </DesignData>
+        </Resource>
+        <Containment Name="TransactionsSectionGroupContainment" Definition="MicrosoftConfiguration:ConfigurationContainsTransactionsSectionGroup" ChildMember="TransactionsSectionGroup" />
+        <Resource Name="SerializationSectionGroup" Definition="AStar.Directory.Configuration.SerializationSectionGroup" MinOccurs="1" MaxOccurs="1" Reference="false">
+          <DesignData>
+            <VisualStudio xmlns="http://schemas.microsoft.com/SystemDefinitionModel/2005/1/DesignData/VisualStudio">
+              <ModelElement>
+                <Property Name="DisplayName" Value="SerializationSectionGroup" />
+                <Property Name="CreatedByUser" Value="true" />
+              </ModelElement>
+            </VisualStudio>
+          </DesignData>
+        </Resource>
+        <Containment Name="SerializationSectionGroupContainment" Definition="MicrosoftConfiguration:ConfigurationContainsSerializationSectionGroup" ChildMember="SerializationSectionGroup" />
+        <Resource Name="SystemWebSectionGroup" Definition="AStar.Directory.Configuration.SystemWebSectionGroup" MinOccurs="1" MaxOccurs="1" Reference="false">
+          <DesignData>
+            <VisualStudio xmlns="http://schemas.microsoft.com/SystemDefinitionModel/2005/1/DesignData/VisualStudio">
+              <ModelElement>
+                <Property Name="DisplayName" Value="SystemWebSectionGroup" />
+                <Property Name="CreatedByUser" Value="true" />
+              </ModelElement>
+            </VisualStudio>
+          </DesignData>
+        </Resource>
+        <Containment Name="SystemWebSectionGroupContainment" Definition="MicrosoftConfiguration:ConfigurationContainsSystemWebSectionGroup" ChildMember="SystemWebSectionGroup" />
+        <Hosting Name="SystemWebSectionGroupHostsSystemWebCachingSectionGroup" Definition="MicrosoftConfiguration:SystemWebSectionGroupHostsSystemWebCachingSectionGroup" GuestMember="SystemWebSectionGroup.SystemWebCachingSectionGroup" HostMember="SystemWebSectionGroup" />
+        <Resource Name="NetSectionGroup" Definition="AStar.Directory.Configuration.NetSectionGroup" MinOccurs="1" MaxOccurs="1" Reference="false">
+          <DesignData>
+            <VisualStudio xmlns="http://schemas.microsoft.com/SystemDefinitionModel/2005/1/DesignData/VisualStudio">
+              <ModelElement>
+                <Property Name="DisplayName" Value="NetSectionGroup" />
+                <Property Name="CreatedByUser" Value="true" />
+              </ModelElement>
+            </VisualStudio>
+          </DesignData>
+        </Resource>
+        <Containment Name="NetSectionGroupContainment" Definition="MicrosoftConfiguration:ConfigurationContainsNetSectionGroup" ChildMember="NetSectionGroup" />
+        <Hosting Name="NetSectionGroupHostsMailSettingsSectionGroup" Definition="MicrosoftConfiguration:NetSectionGroupHostsMailSettingsSectionGroup" GuestMember="NetSectionGroup.MailSettingsSectionGroup" HostMember="NetSectionGroup" />
+      </ResourceDefinition>
+      <Resource Name="Configuration" Definition="AStar.Directory.Configuration" MinOccurs="1" MaxOccurs="1" Reference="false">
+        <DesignData>
+          <VisualStudio xmlns="http://schemas.microsoft.com/SystemDefinitionModel/2005/1/DesignData/VisualStudio">
+            <ModelElement>
+              <Property Name="DisplayName" Value="Configuration" />
+            </ModelElement>
+          </VisualStudio>
+        </DesignData>
+      </Resource>
+      <Containment Name="ConfigurationContainment" Definition="MicrosoftFileSystem:DirectoryContainsFile" ChildMember="Configuration" />
+      <Hosting Name="ConfigurationHostsTransactionsSectionGroup" Definition="MicrosoftConfiguration:ConfigurationHostsTransactionsSectionGroup" GuestMember="Configuration.TransactionsSectionGroup" HostMember="Configuration" />
+      <Hosting Name="ConfigurationHostsSerializationSectionGroup" Definition="MicrosoftConfiguration:ConfigurationHostsSerializationSectionGroup" GuestMember="Configuration.SerializationSectionGroup" HostMember="Configuration" />
+      <Hosting Name="ConfigurationHostsSystemWebSectionGroup" Definition="MicrosoftConfiguration:ConfigurationHostsSystemWebSectionGroup" GuestMember="Configuration.SystemWebSectionGroup" HostMember="Configuration" />
+      <Hosting Name="ConfigurationHostsNetSectionGroup" Definition="MicrosoftConfiguration:ConfigurationHostsNetSectionGroup" GuestMember="Configuration.NetSectionGroup" HostMember="Configuration" />
+    </ResourceDefinition>
+    <Resource Name="Directory" Definition="AStar.Directory" MinOccurs="1" MaxOccurs="1" Reference="false" />
+    <Containment Name="DirectoryContainment" Definition="MicrosoftWindowsApplication:WindowsApplicationContainsDirectory" ChildMember="Directory" />
+    <Hosting Name="DirectoryHostsConfiguration" Definition="MicrosoftFileSystem:DirectoryHostsFile" GuestMember="Directory.Configuration" HostMember="Directory" />
+  </SystemDefinition>
+</SystemDefinitionModel>

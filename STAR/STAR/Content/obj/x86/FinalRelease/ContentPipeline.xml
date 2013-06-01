@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Img\Player\Player.png</Source>
+      <Name>Img\Player\Player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Img\Player\Player.xnb</Output>
+      <Time>2010-06-25T18:51:19+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Img\Player\Body.png</Source>
+      <Name>Img\Player\Body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Img\Player\Body.xnb</Output>
+      <Time>2011-05-20T20:02:15+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Img\Player\Foot.png</Source>
+      <Name>Img\Player\Foot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Img\Player\Foot.xnb</Output>
+      <Time>2011-05-20T20:14:13+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Img\Player\Hand.png</Source>
+      <Name>Img\Player\Hand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Img\Player\Hand.xnb</Output>
+      <Time>2010-08-03T12:25:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Img\Player\Head.png</Source>
+      <Name>Img\Player\Head</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Img\Player\Head.xnb</Output>
+      <Time>2011-05-20T19:29:10+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Level\Empty.png</Source>
+      <Name>GraphXPacks\Grassy\Level\Empty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Level\Empty.xnb</Output>
+      <Time>2010-06-26T19:56:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Level\Exit.png</Source>
+      <Name>GraphXPacks\Grassy\Level\Exit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Level\Exit.xnb</Output>
+      <Time>2010-06-26T19:57:16+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Level\Start.png</Source>
+      <Name>GraphXPacks\Grassy\Level\Start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Level\Start.xnb</Output>
+      <Time>2010-06-26T19:57:31+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Level\Wall.png</Source>
+      <Name>GraphXPacks\Grassy\Level\Wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Level\Wall.xnb</Output>
+      <Time>2010-10-05T19:09:41+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Level\Grass\Bottom.png</Source>
+      <Name>GraphXPacks\Grassy\Level\Grass\Bottom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Level\Grass\Bottom.xnb</Output>
+      <Time>2010-07-19T20:37:13+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Level\Grass\Left.png</Source>
+      <Name>GraphXPacks\Grassy\Level\Grass\Left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Level\Grass\Left.xnb</Output>
+      <Time>2010-07-19T20:37:32+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Level\Grass\Right.png</Source>
+      <Name>GraphXPacks\Grassy\Level\Grass\Right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Level\Grass\Right.xnb</Output>
+      <Time>2010-07-19T20:37:26+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Level\Grass\Top.png</Source>
+      <Name>GraphXPacks\Grassy\Level\Grass\Top</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Level\Grass\Top.xnb</Output>
+      <Time>2010-10-05T19:04:41+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Level\Platform.png</Source>
+      <Name>GraphXPacks\Grassy\Level\Platform</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Level\Platform.xnb</Output>
+      <Time>2010-08-02T14:04:06+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Backgrounds\Sky.png</Source>
+      <Name>GraphXPacks\Grassy\Backgrounds\Sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Backgrounds\Sky.xnb</Output>
+      <Time>2010-08-02T14:25:39+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Img\Menu\StdBG.png</Source>
+      <Name>Img\Menu\StdBG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Img\Menu\StdBG.xnb</Output>
+      <Time>2011-06-20T19:10:38+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Backgrounds\Layers\CloudLayer\Cloud0.png</Source>
+      <Name>GraphXPacks\Grassy\Backgrounds\Layers\CloudLayer\Cloud0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Backgrounds\Layers\CloudLayer\Cloud0.xnb</Output>
+      <Time>2010-08-18T15:01:11+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Backgrounds\Layers\CloudLayer\Cloud1.png</Source>
+      <Name>GraphXPacks\Grassy\Backgrounds\Layers\CloudLayer\Cloud1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Backgrounds\Layers\CloudLayer\Cloud1.xnb</Output>
+      <Time>2010-08-18T15:01:19+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Backgrounds\Layers\CloudLayer\Cloud2.png</Source>
+      <Name>GraphXPacks\Grassy\Backgrounds\Layers\CloudLayer\Cloud2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Backgrounds\Layers\CloudLayer\Cloud2.xnb</Output>
+      <Time>2010-08-18T15:59:04+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Backgrounds\Layers\CloudLayer\Cloud3.png</Source>
+      <Name>GraphXPacks\Grassy\Backgrounds\Layers\CloudLayer\Cloud3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Backgrounds\Layers\CloudLayer\Cloud3.xnb</Output>
+      <Time>2010-08-18T15:59:14+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Backgrounds\Layers\ParallaxLayer\Hills.png</Source>
+      <Name>GraphXPacks\Grassy\Backgrounds\Layers\ParallaxLayer\Hills</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Backgrounds\Layers\ParallaxLayer\Hills.xnb</Output>
+      <Time>2010-09-05T17:08:58+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Effects\Rain.png</Source>
+      <Name>Stuff\Effects\Rain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Effects\Rain.xnb</Output>
+      <Time>2010-09-09T19:45:50+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Blank.bmp</Source>
+      <Name>Stuff\Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Blank.xnb</Output>
+      <Time>2010-09-10T14:47:30+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Level\Error.png</Source>
+      <Name>GraphXPacks\Grassy\Level\Error</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Level\Error.xnb</Output>
+      <Time>2010-09-13T20:34:29+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Backgrounds\Layers\ParallaxLayer\HillsColored.png</Source>
+      <Name>GraphXPacks\Grassy\Backgrounds\Layers\ParallaxLayer\HillsColored</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Backgrounds\Layers\ParallaxLayer\HillsColored.xnb</Output>
+      <Time>2010-09-17T23:34:01+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Level\Spike.png</Source>
+      <Name>GraphXPacks\Grassy\Level\Spike</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Level\Spike.xnb</Output>
+      <Time>2010-09-18T15:58:41+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Error.png</Source>
+      <Name>Stuff\Error</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Error.xnb</Output>
+      <Time>2010-11-07T00:04:02+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Img\Game\LSIC.png</Source>
+      <Name>Img\Game\LSIC</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Img\Game\LSIC.xnb</Output>
+      <Time>2010-12-12T21:01:58+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Img\Game\LSOC.png</Source>
+      <Name>Img\Game\LSOC</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Img\Game\LSOC.xnb</Output>
+      <Time>2010-12-12T21:02:07+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Node.png</Source>
+      <Name>Stuff\Node</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Node.xnb</Output>
+      <Time>2011-01-16T13:40:22+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Img\Game\blood.png</Source>
+      <Name>Img\Game\blood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Img\Game\blood.xnb</Output>
+      <Time>2011-01-23T20:56:07+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Backgrounds\Layers\DecorationsLayer\Grasbüschel1.png</Source>
+      <Name>GraphXPacks\Grassy\Backgrounds\Layers\DecorationsLayer\Grasbüschel1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Backgrounds\Layers\DecorationsLayer\Grasbüschel1.xnb</Output>
+      <Time>2011-02-19T12:40:37+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Backgrounds\Layers\DecorationsLayer\tussock1.png</Source>
+      <Name>GraphXPacks\Grassy\Backgrounds\Layers\DecorationsLayer\tussock1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Backgrounds\Layers\DecorationsLayer\tussock1.xnb</Output>
+      <Time>2011-03-09T12:27:19+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Backgrounds\Layers\ParallaxLayer\empty.png</Source>
+      <Name>GraphXPacks\Grassy\Backgrounds\Layers\ParallaxLayer\empty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Backgrounds\Layers\ParallaxLayer\empty.xnb</Output>
+      <Time>2011-03-09T12:58:16+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Backgrounds\Layers\ParallaxLayer\Default.png</Source>
+      <Name>GraphXPacks\Grassy\Backgrounds\Layers\ParallaxLayer\Default</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Backgrounds\Layers\ParallaxLayer\Default.xnb</Output>
+      <Time>2011-03-17T19:16:58+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Font.png</Source>
+      <Name>Stuff\Font</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Font.xnb</Output>
+      <Time>2011-03-29T16:47:33+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Grassy\Level\InteractiveObjects\JumpPad.png</Source>
+      <Name>GraphXPacks\Grassy\Level\InteractiveObjects\JumpPad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Grassy\Level\InteractiveObjects\JumpPad.xnb</Output>
+      <Time>2011-04-29T19:47:11+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Mummy\ArmFront.png</Source>
+      <Name>Enemies\Mummy\ArmFront</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Enemies\Mummy\ArmFront.xnb</Output>
+      <Time>2011-01-23T15:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Mummy\ArmBehind.png</Source>
+      <Name>Enemies\Mummy\ArmBehind</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Enemies\Mummy\ArmBehind.xnb</Output>
+      <Time>2011-01-23T15:30:31+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Mummy\body.png</Source>
+      <Name>Enemies\Mummy\body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Enemies\Mummy\body.xnb</Output>
+      <Time>2011-01-23T15:27:12+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Mummy\FootFrontLowerLeg.png</Source>
+      <Name>Enemies\Mummy\FootFrontLowerLeg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Enemies\Mummy\FootFrontLowerLeg.xnb</Output>
+      <Time>2011-01-23T15:25:59+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Mummy\FootFrontUpperLeg.png</Source>
+      <Name>Enemies\Mummy\FootFrontUpperLeg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Enemies\Mummy\FootFrontUpperLeg.xnb</Output>
+      <Time>2011-01-23T15:32:13+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Mummy\FootBehindLowerLeg.png</Source>
+      <Name>Enemies\Mummy\FootBehindLowerLeg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Enemies\Mummy\FootBehindLowerLeg.xnb</Output>
+      <Time>2011-01-23T15:29:48+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Mummy\FootBehindUpperLeg.png</Source>
+      <Name>Enemies\Mummy\FootBehindUpperLeg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Enemies\Mummy\FootBehindUpperLeg.xnb</Output>
+      <Time>2011-01-23T15:28:03+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Mummy\head.png</Source>
+      <Name>Enemies\Mummy\head</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Enemies\Mummy\head.xnb</Output>
+      <Time>2011-01-23T15:26:47+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Spike\foot1.png</Source>
+      <Name>Enemies\Spike\foot1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Enemies\Spike\foot1.xnb</Output>
+      <Time>2010-10-31T15:19:16+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Spike\foot2.png</Source>
+      <Name>Enemies\Spike\foot2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Enemies\Spike\foot2.xnb</Output>
+      <Time>2010-10-31T15:19:16+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Spike\Head.png</Source>
+      <Name>Enemies\Spike\Head</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Enemies\Spike\Head.xnb</Output>
+      <Time>2010-10-31T15:17:20+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\STAR.png</Source>
+      <Name>Stuff\STAR</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\STAR.xnb</Output>
+      <Time>2011-06-05T14:45:33+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Backgrounds\Layers\CloudLayer\Cloud0.png</Source>
+      <Name>GraphXPacks\Factory\Backgrounds\Layers\CloudLayer\Cloud0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Backgrounds\Layers\CloudLayer\Cloud0.xnb</Output>
+      <Time>2011-06-07T13:02:27+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Backgrounds\Layers\CloudLayer\Cloud1.png</Source>
+      <Name>GraphXPacks\Factory\Backgrounds\Layers\CloudLayer\Cloud1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Backgrounds\Layers\CloudLayer\Cloud1.xnb</Output>
+      <Time>2011-06-07T13:02:27+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Backgrounds\Layers\CloudLayer\Cloud2.png</Source>
+      <Name>GraphXPacks\Factory\Backgrounds\Layers\CloudLayer\Cloud2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Backgrounds\Layers\CloudLayer\Cloud2.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Backgrounds\Layers\CloudLayer\Cloud3.png</Source>
+      <Name>GraphXPacks\Factory\Backgrounds\Layers\CloudLayer\Cloud3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Backgrounds\Layers\CloudLayer\Cloud3.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Backgrounds\Layers\DecorationsLayer\Grasbüschel1.png</Source>
+      <Name>GraphXPacks\Factory\Backgrounds\Layers\DecorationsLayer\Grasbüschel1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Backgrounds\Layers\DecorationsLayer\Grasbüschel1.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Backgrounds\Layers\DecorationsLayer\tussock1.png</Source>
+      <Name>GraphXPacks\Factory\Backgrounds\Layers\DecorationsLayer\tussock1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Backgrounds\Layers\DecorationsLayer\tussock1.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Backgrounds\Layers\ParallaxLayer\Default.png</Source>
+      <Name>GraphXPacks\Factory\Backgrounds\Layers\ParallaxLayer\Default</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Backgrounds\Layers\ParallaxLayer\Default.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Backgrounds\Layers\ParallaxLayer\empty.png</Source>
+      <Name>GraphXPacks\Factory\Backgrounds\Layers\ParallaxLayer\empty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Backgrounds\Layers\ParallaxLayer\empty.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Backgrounds\Sky.png</Source>
+      <Name>GraphXPacks\Factory\Backgrounds\Sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Backgrounds\Sky.xnb</Output>
+      <Time>2011-06-07T13:35:11+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Level\Empty.png</Source>
+      <Name>GraphXPacks\Factory\Level\Empty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Level\Empty.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Level\Error.png</Source>
+      <Name>GraphXPacks\Factory\Level\Error</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Level\Error.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Level\Exit.png</Source>
+      <Name>GraphXPacks\Factory\Level\Exit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Level\Exit.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Level\Grass\Bottom.png</Source>
+      <Name>GraphXPacks\Factory\Level\Grass\Bottom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Level\Grass\Bottom.xnb</Output>
+      <Time>2011-06-07T13:07:27+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Level\Grass\Left.png</Source>
+      <Name>GraphXPacks\Factory\Level\Grass\Left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Level\Grass\Left.xnb</Output>
+      <Time>2011-06-07T13:07:27+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Level\Grass\Right.png</Source>
+      <Name>GraphXPacks\Factory\Level\Grass\Right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Level\Grass\Right.xnb</Output>
+      <Time>2011-06-07T13:07:27+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Level\Grass\Top.png</Source>
+      <Name>GraphXPacks\Factory\Level\Grass\Top</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Level\Grass\Top.xnb</Output>
+      <Time>2011-06-07T13:07:27+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Level\InteractiveObjects\JumpPad.png</Source>
+      <Name>GraphXPacks\Factory\Level\InteractiveObjects\JumpPad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Level\InteractiveObjects\JumpPad.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Level\Platform.png</Source>
+      <Name>GraphXPacks\Factory\Level\Platform</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Level\Platform.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Level\Spike.png</Source>
+      <Name>GraphXPacks\Factory\Level\Spike</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Level\Spike.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Level\Start.png</Source>
+      <Name>GraphXPacks\Factory\Level\Start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Level\Start.xnb</Output>
+      <Time>2011-06-07T13:02:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Level\Wall.png</Source>
+      <Name>GraphXPacks\Factory\Level\Wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Level\Wall.xnb</Output>
+      <Time>2011-06-07T13:18:58+02:00</Time>
+    </Item>
+    <Item>
+      <Source>GraphXPacks\Factory\Backgrounds\Layers\ParallaxLayer\Factory1.png</Source>
+      <Name>GraphXPacks\Factory\Backgrounds\Layers\ParallaxLayer\Factory1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\GraphXPacks\Factory\Backgrounds\Layers\ParallaxLayer\Factory1.xnb</Output>
+      <Time>2011-06-07T14:14:36+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\popUpBG.png</Source>
+      <Name>Stuff\popUpBG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\popUpBG.xnb</Output>
+      <Time>2011-06-13T18:39:40+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Img\Game\Exit.png</Source>
+      <Name>Img\Game\Exit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Img\Game\Exit.xnb</Output>
+      <Time>2011-06-20T18:21:16+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Img\Menu\Player\PlayerComplete.png</Source>
+      <Name>Img\Menu\Player\PlayerComplete</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Img\Menu\Player\PlayerComplete.xnb</Output>
+      <Time>2011-08-12T20:16:44+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Effects\Effect1.fx</Source>
+      <Name>Stuff\Effects\Effect1</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Effects\Effect1.xnb</Output>
+      <Time>2011-06-01T20:33:53+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Effects\ColorizeLUT.fx</Source>
+      <Name>Stuff\Effects\ColorizeLUT</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Effects\ColorizeLUT.xnb</Output>
+      <Time>2011-06-12T13:16:40+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Effects\Colorize.fx</Source>
+      <Name>Stuff\Effects\Colorize</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Effects\Colorize.xnb</Output>
+      <Time>2011-06-03T11:36:40+02:00</Time>
+      <Dependency>
+        <Key>Stuff\Effects\NvidiaShaderLibrary\color_spaces.fxh</Key>
+        <Value>2010-12-19T13:52:21+01:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>Stuff\Effects\NvidiaShaderLibrary\Quad.fxh</Key>
+        <Value>2011-06-03T11:36:20+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Stuff\Effects\Grayscale.fx</Source>
+      <Name>Stuff\Effects\Grayscale</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Effects\Grayscale.xnb</Output>
+      <Time>2011-06-06T13:56:30+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Effects\KillEffect.fx</Source>
+      <Name>Stuff\Effects\KillEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Effects\KillEffect.xnb</Output>
+      <Time>2011-05-27T16:37:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Effects\Wave.fx</Source>
+      <Name>Stuff\Effects\Wave</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Effects\Wave.xnb</Output>
+      <Time>2011-06-10T10:35:22+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Effects\AlphaBlur.fx</Source>
+      <Name>Stuff\Effects\AlphaBlur</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Effects\AlphaBlur.xnb</Output>
+      <Time>2010-09-18T12:36:52+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Effects\Blur.fx</Source>
+      <Name>Stuff\Effects\Blur</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Effects\Blur.xnb</Output>
+      <Time>2010-09-18T09:28:56+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Effects\MotionBlur.fx</Source>
+      <Name>Stuff\Effects\MotionBlur</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Effects\MotionBlur.xnb</Output>
+      <Time>2011-06-07T13:29:20+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Effects\Weather.fx</Source>
+      <Name>Stuff\Effects\Weather</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Effects\Weather.xnb</Output>
+      <Time>2010-09-09T20:23:23+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Effects\toonShader.fx</Source>
+      <Name>Stuff\Effects\toonShader</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Effects\toonShader.xnb</Output>
+      <Time>2011-06-01T21:14:08+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Stuff\Arial.spritefont</Source>
+      <Name>Stuff\Arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\Stuff\Arial.xnb</Output>
+      <Time>2010-10-31T17:20:12+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>FinalRelease</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\Content\obj\x86\FinalRelease\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Data\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-05-27T21:47:36.3486687+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

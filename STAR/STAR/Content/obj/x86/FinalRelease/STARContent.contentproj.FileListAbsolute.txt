@@ -1,0 +1,2 @@
+C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\Content\obj\x86\FinalRelease\STARContent.contentprojResolveAssemblyReference.cache
+C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\Content\obj\x86\FinalRelease\Audio\Music.xml

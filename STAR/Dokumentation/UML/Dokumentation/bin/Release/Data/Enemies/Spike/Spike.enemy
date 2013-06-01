@@ -1,0 +1,7 @@
+AnimRectangles=Head,foot1,foot2;
+MaxSpeed=200;
+MovementType=0;
+EnemyCollision=1;
+StandardDirection=0;
+PlayerTracking=Tracking;
+BoundingBox=-19,-23,42,54;

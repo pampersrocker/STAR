@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Blank.bmp</Source>
+      <Name>Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Content\Blank.xnb</Output>
+      <Time>2010-10-05T22:43:50+02:00</Time>
+    </Item>
+    <Item>
+      <Source>arrow.png</Source>
+      <Name>arrow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Content\arrow.xnb</Output>
+      <Time>2011-01-18T22:36:14+01:00</Time>
+    </Item>
+    <Item>
+      <Source>blood.png</Source>
+      <Name>blood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Content\blood.xnb</Output>
+      <Time>2010-10-06T21:21:29+02:00</Time>
+    </Item>
+    <Item>
+      <Source>a2.png</Source>
+      <Name>a2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Content\a2.xnb</Output>
+      <Time>2011-01-18T22:40:09+01:00</Time>
+    </Item>
+    <Item>
+      <Source>biene.png</Source>
+      <Name>biene</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Content\biene.xnb</Output>
+      <Time>2011-02-15T12:25:55+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Arial.spritefont</Source>
+      <Name>Arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Content\Arial.xnb</Output>
+      <Time>2010-10-09T18:57:30+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>FinalRelease</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\XNAParticleSystem\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\XNAParticleSystem\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\XNAParticleSystem\Content\obj\x86\FinalRelease\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\STAR\bin\x86\Release No Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-05-27T21:47:36.3486687+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

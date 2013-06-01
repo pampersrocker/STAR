@@ -1,0 +1,47 @@
+﻿Der Buildvorgang wurde am 30.05.2011 23:34:20 gestartet.
+     1>Projekt "C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\cudaParticleEngine3_2\cudaParticleEngine3_2.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         Aktualisieren des Timestamps von "Debug\cudaParticleEngine3_2.unsuccessfulbuild".
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\include" /I. /FIcuda_runtime.h /c C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\cudaParticleEngine3_2\kernel.cu 
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Marvin\AppData\Local\Temp\b19db488071d46e29055689234ada935.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2008 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\include"  -G0  --keep-dir "Debug" -maxrregcount=32  --machine 32 --compile  -D_NEXUS_DEBUG -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd " -o "Debug\kernel.cu.obj" "C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\cudaParticleEngine3_2\kernel.cu"
+         
+         C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\cudaParticleEngine3_2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2008 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\include"  -G0  --keep-dir "Debug" -maxrregcount=32  --machine 32 --compile  -D_NEXUS_DEBUG -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd " -o "Debug\kernel.cu.obj" "C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\cudaParticleEngine3_2\kernel.cu" 
+         kernel.cu
+         tmpxft_000022cc_00000000-0_kernel.cudafe1.gpu
+         tmpxft_000022cc_00000000-5_kernel.cudafe2.gpu
+         kernel.cu
+         tmpxft_000022cc_00000000-0_kernel.cudafe1.cpp
+         tmpxft_000022cc_00000000-11_kernel.ii
+         Die Datei "tmpxft_000022cc_00000000-6_kernel.cpp3.o" wird gelöscht.
+       ManifestResourceCompile:
+         Alle Ausgaben sind aktuell.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\Debug\cudaParticleEngine3_2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cudaParticleEngine3_2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\Debug\cudaParticleEngine3_2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\Debug\cudaParticleEngine3_2.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         Debug\cudaParticleEngine3_2.exe.embed.manifest.res
+            Bibliothek "C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\Debug\cudaParticleEngine3_2.lib" und Objekt "C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\Debug\cudaParticleEngine3_2.exp" werden erstellt.
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\mt.exe /nologo /verbose /out:"Debug\cudaParticleEngine3_2.exe.embed.manifest" /manifest Debug\cudaParticleEngine3_2.exe.intermediate.manifest
+         Alle Ausgaben sind aktuell.
+       LinkEmbedManifest:
+         Alle Ausgaben sind aktuell.
+         cudaParticleEngine3_2.vcxproj -> C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\Debug\cudaParticleEngine3_2.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\bin\cudart*.dll" "C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\bin\cudart*.dll" "C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\bin\cudart*.dll" "C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\bin\cudart32_32_16.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\bin\cudart64_32_16.dll
+                 2 Datei(en) kopiert.
+       FinalizeBuildStatus:
+         Die Datei "Debug\cudaParticleEngine3_2.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "Debug\cudaParticleEngine3_2.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\Marvin\Tausch\Schule\Projekte\CUDA\cudaParticleEngine3_2\cudaParticleEngine3_2\cudaParticleEngine3_2.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:04.15

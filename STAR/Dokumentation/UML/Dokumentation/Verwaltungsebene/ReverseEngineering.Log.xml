@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Marvin/AppData/Local/Microsoft/VisualStudio/10.0/Extensions/Microsoft/Visualization and Modeling Feature Pack/1.0/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log">
+  <Message Timestamp="2011-06-12T17:10:57" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Microsoft' -  (Package)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Microsoft::Xna' -  (Package)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Microsoft::Xna::Framework' -  (Package)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Microsoft::Xna::Framework::GameTime' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Microsoft::Xna::Framework::Graphics' -  (Package)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Microsoft::Xna::Framework::Graphics::SpriteBatch' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Microsoft::Xna::Framework::GraphicsDeviceManager' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star' -  (Package)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::EGameState' -  (Enumeration)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::GameManagement' -  (Package)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::GameManagement::Options' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::Graphics' -  (Package)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::Graphics::IGraphicsChange' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Medium" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState' -  (Interface)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState::Draw' -  (Operation)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState::Draw::gametime' -  (Parameter)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState::Draw::graphics' -  (Parameter)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState::Draw::spritebatch' -  (Parameter)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState::Initialize' -  (Operation)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState::Initialize::graphics' -  (Parameter)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState::Initialize::options' -  (Parameter)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState::Unload' -  (Operation)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState::Update' -  (Operation)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState::Update::gameTime' -  (Parameter)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState::Update::inputhandler' -  (Parameter)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::IGameState::Update::options' -  (Parameter)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::Input' -  (Package)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::Star::Input::Inputhandler' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::System' -  (Package)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Dokumentation::System::IDisposable' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Dokumentation::Star::IGameState to Dokumentation::System::IDisposable (Generalization)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Dokumentation::Star::IGameState to Dokumentation::Star::Graphics::IGraphicsChange (Generalization)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Dokumentation::Microsoft::Xna::Framework::GraphicsDeviceManager to Dokumentation::System::IDisposable (InterfaceRealization)" />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="High" Text="(8) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2011-06-12T17:10:59" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

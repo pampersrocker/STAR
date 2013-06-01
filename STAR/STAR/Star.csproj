@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectGuid>{997F5954-086F-4E2E-8C3A-B688913F5DD5}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Star</RootNamespace>
+    <AssemblyName>STAR</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaCrossPlatformGroupID>c348946d-822a-42e0-8755-6384ecff071a</XnaCrossPlatformGroupID>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <Thumbnail>logo.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <StartupObject>Star.Program</StartupObject>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <XnaUpgrade>
+    </XnaUpgrade>
+    <XnaOutputType>Game</XnaOutputType>
+    <XnaProfile>HiDef</XnaProfile>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>True</XnaCompressContent>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS GEC</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>True</XnaCompressContent>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'FinalRelease|x86' ">
+    <OutputPath>bin\x86\Release No Debug\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS GEC</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <XnaCompressContent>True</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Audio\Music.cs" />
+    <Compile Include="Components\Text.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="GameManagement\DataHolder.cs" />
+    <Compile Include="GameManagement\GameConstants.cs" />
+    <Compile Include="GameManagement\Gamestates\LoadingScreen\Circle.cs" />
+    <Compile Include="GameManagement\Gamestates\LoadingScreen\LoadingRotation.cs" />
+    <Compile Include="GameManagement\Gamestates\LoadingScreen\LoadingString.cs" />
+    <Compile Include="GameManagement\Gamestates\SCredits.cs" />
+    <Compile Include="GameManagement\GraphicsManager.cs" />
+    <Compile Include="GameManagement\IIinitalizeable.cs" />
+    <Compile Include="GameManagement\ParticleThreadManager.cs" />
+    <Compile Include="Game\Camera.cs" />
+    <Compile Include="Game\DebugScreen.cs" />
+    <Compile Include="GameManagement\GameManager.cs" />
+    <Compile Include="GameManagement\IGameState.cs" />
+    <Compile Include="GameManagement\Options.cs" />
+    <Compile Include="GameManagement\Gamestates\SGame.cs" />
+    <Compile Include="GameManagement\Gamestates\SMenu.cs" />
+    <Compile Include="Game\Debug\DebugForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\Debug\DebugForm.Designer.cs">
+      <DependentUpon>DebugForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game\Debug\DebugManager.cs" />
+    <Compile Include="Game\Enemy\Animation\Animation.cs" />
+    <Compile Include="Game\Enemy\Animation\AnimationManager.cs" />
+    <Compile Include="Game\Enemy\Enemy.Collision.cs" />
+    <Compile Include="Game\Enemy\Enemy.cs" />
+    <Compile Include="Game\Enemy\Enemy.Enums.cs" />
+    <Compile Include="Game\Enemy\Enemy.KI.cs" />
+    <Compile Include="Game\Enemy\EnemyManager.cs" />
+    <Compile Include="Game\Enemy\Animation\FrameRectangle.cs" />
+    <Compile Include="Game\Enemy\Animation\Keyframe.cs" />
+    <Compile Include="Game\Enemy\SpecialRect.cs" />
+    <Compile Include="Game\FileManager.cs" />
+    <Compile Include="Game\GameEvents\ExitGameEvent.cs" />
+    <Compile Include="Game\GameEvents\GameEvent.cs" />
+    <Compile Include="Game\GameEvents\KillEvent.cs" />
+    <Compile Include="Game\GameEvents\StartLevelCountdown.cs" />
+    <Compile Include="Game\GameLogic.cs" />
+    <Compile Include="Game\Level\AStarMapExtensions.cs" />
+    <Compile Include="Game\Level\GameParameters.cs" />
+    <Compile Include="Game\Level\InteractiveObjects\InteractiveObject.cs" />
+    <Compile Include="Game\Level\InteractiveObjects\InteractiveObjectManager.cs" />
+    <Compile Include="Game\Level\InteractiveObjects\InteractiveObjectsEnum.cs" />
+    <Compile Include="Game\Level\InteractiveObjects\JumpPad.cs" />
+    <Compile Include="Game\Level\Layer\CloudLayer.cs" />
+    <Compile Include="Game\Level\Layer\DataStorage.cs" />
+    <Compile Include="Game\Level\Layer\DecoLayer.cs" />
+    <Compile Include="Game\Level\Layer\ExtendedRectangle.cs" />
+    <Compile Include="Game\Level\Layer\ILayer.cs" />
+    <Compile Include="Game\Level\Layer\Layer.cs" />
+    <Compile Include="Game\Level\Layer\LayerObject.cs" />
+    <Compile Include="Game\Level\LevelVariables.cs" />
+    <Compile Include="Game\Level\Layer\ParallaxLayer.cs" />
+    <Compile Include="Game\Level\Quadtree.cs" />
+    <Compile Include="Game\Level\QuadTreeNode.cs" />
+    <Compile Include="Game\Level\Layer\LayerFXData.cs" />
+    <Compile Include="Game\RectangleFunctions.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Graphics\Effects\GraphicEffect.cs" />
+    <Compile Include="Graphics\Effects\PostProcessEffects\ColorizeLUT.cs" />
+    <Compile Include="Graphics\Effects\PostProcessEffects\GaussianBlur.cs" />
+    <Compile Include="Graphics\Effects\PostProcessEffects\Colorize.cs" />
+    <Compile Include="Graphics\Effects\PostProcessEffects\FlaggedEnumExtensions.cs" />
+    <Compile Include="Graphics\Effects\PostProcessEffects\GrayScale.cs" />
+    <Compile Include="Graphics\Effects\PostProcessEffects\KillEffect.cs" />
+    <Compile Include="Graphics\Effects\PostProcessEffects\ToonShader.cs" />
+    <Compile Include="Graphics\Effects\PostProcessEffects\Trace.cs" />
+    <Compile Include="Graphics\Effects\PostProcessEffects\Wave.cs" />
+    <Compile Include="Graphics\IGraphicsChange.cs" />
+    <Compile Include="Input\Gamepadhandler.cs" />
+    <Compile Include="Input\IGameController.cs" />
+    <Compile Include="Input\Inputhandler.cs" />
+    <Compile Include="Input\KeyboardHandler.cs" />
+    <Compile Include="Game\Level\Level.cs" />
+    <Compile Include="Menu\CustMapMenu.cs" />
+    <Compile Include="GameManagement\Gamestates\SLoadingScreen.cs" />
+    <Compile Include="Menu\MainMenu.cs" />
+    <Compile Include="Menu\Menu.cs" />
+    <Compile Include="Menu\MenuStuff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Game\Player.cs" />
+    <Compile Include="Menu\MenuButton.cs" />
+    <Compile Include="Menu\MenuList.cs" />
+    <Compile Include="Menu\OptionsMenu\OptionsMenu.cs" />
+    <Compile Include="Menu\PlayerBackground.cs" />
+    <Compile Include="Menu\TransitionEffect.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Game\Level\Tile.cs" />
+    <Compile Include="Vector2Extensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+    <Content Include="logo.ico" />
+    <Content Include="logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <NestedContentProject Include="Content\Content.contentproj">
+      <Project>80e2191b-6f95-4f75-bee3-215725b4121e</Project>
+      <Visible>False</Visible>
+    </NestedContentProject>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.3.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AStar\AStar.csproj">
+      <Project>{011FBBBB-63EE-4DEF-BC25-FF5D6FED5151}</Project>
+      <Name>AStar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StarEdit\StarEditContent\StarEditContent.contentproj">
+      <Project>{F4CC546E-DB15-4471-A9AF-D0D75CCC59C5}</Project>
+      <Name>StarEditContent %28StarEditData%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+    <ProjectReference Include="..\XNAParticleSystem\XNAParticleSystem.csproj">
+      <Project>{DD54DC38-8EEE-4C55-AA33-234F6B5B21A5}</Project>
+      <Name>XNAParticleSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Content\STARContent.contentproj">
+      <Project>{80E2191B-6F95-4F75-BEE3-215725B4121E}</Project>
+      <Name>STARContent %28Data%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\Debug\DebugForm.resx">
+      <DependentUpon>DebugForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_ConfigurationName="FinalRelease" BuildVersion_AssemblyInfoFilename="" BuildVersion_UseGlobalSettings="False" BuildVersion_UpdateFileVersion="True" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_StartDate="2010/7/21" BuildVersion_BuildVersioningStyle="DeltaBaseYear.MonthAndDayStamp.TimeStamp.Increment" BuildVersion_ReplaceNonNumerics="True" BuildVersion_IncrementBeforeBuild="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

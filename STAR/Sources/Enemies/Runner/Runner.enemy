@@ -1,0 +1,7 @@
+AnimRectangles=Körper,Auge,Schuh1,Schuh2;
+BoundingBox=-102,-2,206,104;
+MaxSpeed=;
+MovementType=;
+EnemyCollision=;
+StandardDirection=;
+PlayerTracking=;

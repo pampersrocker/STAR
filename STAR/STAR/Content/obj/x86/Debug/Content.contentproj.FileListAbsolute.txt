@@ -1,0 +1,3 @@
+C:\Users\Marvin\Schule\Projekte\Running Jumper\Running Jumper\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Marvin\Schule\Projekte\Running Jumper\STAR\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Marvin\Schule\Projekte\STAR\STAR\Content\obj\x86\Debug\ResolveAssemblyReference.cache

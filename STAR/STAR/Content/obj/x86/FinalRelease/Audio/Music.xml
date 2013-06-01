@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Music">Wave Bank
+{
+    Name = Music;
+    Xbox File = Xbox\Music.xwb;
+    Windows File = Win\Music.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = Compression Preset;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 0;
+    PC Bank Last Modified High = 0;
+    Header Last Modified Low = 0;
+    Header Last Modified High = 0;
+    Bank Last Revised Low = 1862246924;
+    Bank Last Revised High = 30188059;
+
+    Wave
+    {
+        Name = Industrial;
+        File = Music\Industrial.wav;
+        Build Settings Last Modified Low = 1232230889;
+        Build Settings Last Modified High = 30188059;
+        Compression Preset Name = Compression Preset;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 18877952;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 386200380;
+            Last Modified High = 30157093;
+        }
+    }
+
+    Wave
+    {
+        Name = Bafana - Rock-tronic;
+        File = Music\Bafana - Rock-tronic.wav;
+        Build Settings Last Modified Low = 1232240889;
+        Build Settings Last Modified High = 30188059;
+        Compression Preset Name = Compression Preset;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 30094848;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3897722435;
+            Last Modified High = 30157135;
+        }
+    }
+
+    Wave
+    {
+        Name = DJ-Delinquent - Halcyonic Falcon X;
+        File = Music\DJ-Delinquent - Halcyonic Falcon X.wav;
+        Build Settings Last Modified Low = 1232240889;
+        Build Settings Last Modified High = 30188059;
+        Compression Preset Name = Compression Preset;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 36518400;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3763494758;
+            Last Modified High = 30157135;
+        }
+    }
+
+    Wave
+    {
+        Name = robothair - Serious Business;
+        File = Music\robothair - Serious Business.wav;
+        Build Settings Last Modified Low = 1232240889;
+        Build Settings Last Modified High = 30188059;
+        Compression Preset Name = Compression Preset;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 34463232;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3571303765;
+            Last Modified High = 30157135;
+        }
+    }
+
+    Wave
+    {
+        Name = SoundReaper - The Jungle;
+        File = Music\SoundReaper - The Jungle.wav;
+        Build Settings Last Modified Low = 1232250890;
+        Build Settings Last Modified High = 30188059;
+        Compression Preset Name = Compression Preset;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 31274496;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3349451076;
+            Last Modified High = 30157135;
+        }
+    }
+
+    Wave
+    {
+        Name = SquattingDog88101 - Shave While I Rave;
+        File = Music\SquattingDog88101 - Shave While I Rave.wav;
+        Build Settings Last Modified Low = 1232250890;
+        Build Settings Last Modified High = 30188059;
+        Compression Preset Name = Compression Preset;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 35076096;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3214053332;
+            Last Modified High = 30157135;
+        }
+    }
+
+    Wave
+    {
+        Name = NoTime;
+        File = Music\NoTime.wav;
+        Build Settings Last Modified Low = 1232250890;
+        Build Settings Last Modified High = 30188059;
+        Compression Preset Name = Compression Preset;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 52268544;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1280545852;
+            Last Modified High = 30157285;
+        }
+    }
+
+    Wave
+    {
+        Name = Poison;
+        File = Music\Poison.wav;
+        Build Settings Last Modified Low = 1232250890;
+        Build Settings Last Modified High = 30188059;
+        Compression Preset Name = Compression Preset;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 52936704;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1433844620;
+            Last Modified High = 30157285;
+        }
+    }
+
+    Wave
+    {
+        Name = Space;
+        File = Music\Space.wav;
+        Build Settings Last Modified Low = 1232260891;
+        Build Settings Last Modified High = 30188059;
+        Compression Preset Name = Compression Preset;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 27320832;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1822826868;
+            Last Modified High = 30157285;
+        }
+    }
+
+    Wave
+    {
+        Name = Tetris;
+        File = Music\Tetris.wav;
+        Build Settings Last Modified Low = 1232260891;
+        Build Settings Last Modified High = 30188059;
+        Compression Preset Name = Compression Preset;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 32707584;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1572632558;
+            Last Modified High = 30157285;
+        }
+    }
+
+    Wave
+    {
+        Name = Thundersocks;
+        File = Music\Thundersocks.wav;
+        Build Settings Last Modified Low = 1232260891;
+        Build Settings Last Modified High = 30188059;
+        Compression Preset Name = Compression Preset;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 30044160;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1701679939;
+            Last Modified High = 30157285;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

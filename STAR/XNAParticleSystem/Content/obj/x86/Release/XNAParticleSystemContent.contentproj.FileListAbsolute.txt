@@ -1,0 +1,2 @@
+C:\Users\Marvin\Tausch\Schule\Projekte\STAR VS 2010\XNAParticleSystem\Content\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Marvin\Tausch\Programming\C#\STAR VS 2010\XNAParticleSystem\Content\obj\x86\Release\XNAParticleSystemContent.contentprojResolveAssemblyReference.cache
